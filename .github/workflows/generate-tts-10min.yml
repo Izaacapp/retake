@@ -26,7 +26,7 @@ jobs:
         git checkout main
         
         # Patch: Skip warmup to avoid blocking server startup
-        sed -i 's/self.warm_up(self.tts_inference_engine)/# self.warm_up(self.tts_inference_engine) # Skipped for GitHub Actions/' tools/server/model_manager.py
+        sed -i 's/self\.warm_up(self\.tts_inference_engine)/pass  # self.warm_up(self.tts_inference_engine) - Skipped for GitHub Actions/' tools/server/model_manager.py
     
     - name: Set up Python 3.12
       uses: actions/setup-python@v5
