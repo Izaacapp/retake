@@ -99,10 +99,10 @@ def generate_all_tts_simple():
             
             f.write(f"# Segment {item['segment']}: {item['section']}\n")
             f.write(f"echo 'Generating {audio_file}...'\n")
-            f.write(f"python fish-speech/tools/api_client.py \\\n")
-            f.write(f"  --text \"$(cat output/tts/10min/{text_file})\" \\\n")
+            f.write(f"python ../../../fish-speech/tools/api_client.py \\\n")
+            f.write(f"  --text \"$(cat {text_file})\" \\\n")
             f.write(f"  --reference_id {reference_id} \\\n")
-            f.write(f"  --output output/tts/10min/{audio_file.replace('.wav', '')} \\\n")
+            f.write(f"  --output {audio_file.replace('.wav', '')} \\\n")
             f.write(f"  --format wav \\\n")
             f.write(f"  --no-play\n\n")
     
