@@ -82,17 +82,21 @@ jobs:
         API_PID=$!
         echo "API_PID=$API_PID" >> $GITHUB_ENV
         echo "API server PID: $API_PID"
-        echo "Waiting for API server to start..."
-        sleep 30
+        echo "Waiting for API server to be ready..."
         
-        # Check if server is running
-        if ps -p $API_PID > /dev/null; then
-          echo "✅ API server is running"
-        else
-          echo "❌ API server failed to start"
-          cat ../api_server.log
-          exit 1
-        fi
+        # Wait for server to be ready (check health endpoint)
+        for i in {1..60}; do
+          if curl -s http://127.0.0.1:8080/v1/health > /dev/null 2>&1; then
+            echo "✅ API server is ready after ${i} seconds"
+            break
+          fi
+          if [ $i -eq 60 ]; then
+            echo "❌ API server failed to become ready"
+            cat ../api_server.log
+            exit 1
+          fi
+          sleep 1
+        done
     
     - name: Generate TTS audio
       run: |
