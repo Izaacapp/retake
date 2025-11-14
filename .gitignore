@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Output files
+output/
+*.mp4
+*.m4a
+*.wav
+*.vtt
+*.txt
+!requirements.txt
+!TALKING_POINTS.md
+!STATUS.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+fish-speech/
+data/source/*.mp4
+data/source/*.m4a
+data/source/*.wav
+
+# Keep structure
+!data/.gitkeep
+!output/.gitkeep
