@@ -7,9 +7,10 @@
 
 **Root Cause**: The `generate_tts_10min.py` script was incorrectly passing `models/{speaker}_voice_embedding.npy` files to the API client, but the Fish Speech `api_client.py` expects actual audio files (WAV, MP3, FLAC, M4A).
 
-**Fix**: Updated the script to use actual audio files:
-- Izaac, Ken: Use original Zoom recordings from `data/source/`
-- Jules, Aaron, Jared: Use extracted voice samples from `output/speakers/*/voice_samples/`
+**Fix**: Use Fish Speech's **reference_id** system instead:
+1. Created `scripts/setup_fish_references.py` to setup reference voices
+2. Updated TTS generation to use `--reference_id {speaker}` instead of `--reference_audio`
+3. References are pre-loaded into `fish-speech/references/{speaker}/` with audio + text pairs
 
 ### 2. API Server Log Path
 **Problem**: The workflow was looking for logs at `fish-speech/api_server.log` but the file didn't exist.
@@ -29,24 +30,44 @@
 
 ## Changes Made
 
+### NEW: scripts/setup_fish_references.py
+```python
+# Creates Fish Speech reference directories for all speakers
+# Structure: fish-speech/references/{speaker}/
+#   - sample.{wav|m4a}  (audio file)
+#   - sample.lab         (reference text)
+
+speaker_samples = {
+    'izaac': 'data/source/GMT20251114-035710_Recording.m4a',
+    'ken': 'data/source/GMT20251114-025308_Recording.m4a',
+    'jules': 'output/speakers/jules/voice_samples/jules_000.wav',
+    'aaron': 'output/speakers/aaron/voice_samples/aaron_000.wav',
+    'jared': 'output/speakers/jared/voice_samples/jared_000.wav',
+}
+```
+
 ### scripts/generate_tts_10min.py
 ```python
-# Added speaker-to-audio mapping
-speaker_audio_map = {
-    'Izaac': 'data/source/GMT20251114-035710_Recording.m4a',
-    'Ken': 'data/source/GMT20251114-025308_Recording.m4a',
-    'Jules': 'output/speakers/jules/voice_samples/jules_000.wav',
-    'Aaron': 'output/speakers/aaron/voice_samples/aaron_000.wav',
-    'Jared': 'output/speakers/jared/voice_samples/jared_000.wav',
+# Changed from reference_audio to reference_id
+speaker_ref_map = {
+    'Izaac': 'izaac',
+    'Ken': 'ken',
+    'Jules': 'jules',
+    'Aaron': 'aaron',
+    'Jared': 'jared',
 }
 
-# Updated manifest to use reference_audio instead of voice_model
-# Updated bash script to use --reference_audio with actual audio files
+# Updated manifest to use reference_id instead of voice_model/reference_audio
+# Updated bash script to use --reference_id {speaker}
 # Changed --play False to --no-play (correct argparse syntax)
 ```
 
 ### .github/workflows/generate-tts-10min.yml
 ```yaml
+# Added setup step:
+- Run scripts/setup_fish_references.py before TTS generation
+- Creates reference directories in fish-speech/references/
+
 # Updated API server startup:
 - Log to ../api_server.log instead of api_server.log
 - Capture process ID with API_PID=$!
@@ -61,13 +82,16 @@ speaker_audio_map = {
 
 ### Local Testing
 ```bash
-# 1. Regenerate the TTS scripts
+# 1. Setup Fish Speech reference voices
+python scripts/setup_fish_references.py
+
+# 2. Regenerate the TTS scripts (optional, already done)
 python scripts/generate_tts_10min.py
 
-# 2. Start Fish Speech server
+# 3. Start Fish Speech server
 cd fish-speech && python tools/api_server.py --device cpu
 
-# 3. In another terminal, run the generation
+# 4. In another terminal, run the generation
 bash output/tts/10min/generate_with_fish_speech.sh
 ```
 
@@ -83,20 +107,52 @@ The workflow should now:
 1. ✅ Clone Fish Speech successfully
 2. ✅ Install dependencies
 3. ✅ Download models
-4. ✅ Generate TTS preparation files with correct audio references
-5. ✅ Start API server and verify it's running
-6. ✅ Generate TTS audio using actual audio files as reference
-7. ✅ Upload generated WAV files as artifacts
-8. ✅ Show proper logs if anything fails
+4. ✅ Setup reference voices in `fish-speech/references/`
+5. ✅ Generate TTS preparation files with reference_id mappings
+6. ✅ Start API server and verify it's running
+7. ✅ Generate TTS audio using reference_id (pre-loaded voice clones)
+8. ✅ Upload generated WAV files as artifacts
+9. ✅ Show proper logs if anything fails
 
-## Voice Reference Files Used
+## Voice Reference System
 
-| Speaker | Reference Audio File |
-|---------|---------------------|
-| Izaac   | `data/source/GMT20251114-035710_Recording.m4a` |
-| Ken     | `data/source/GMT20251114-025308_Recording.m4a` |
-| Jules   | `output/speakers/jules/voice_samples/jules_000.wav` |
-| Aaron   | `output/speakers/aaron/voice_samples/aaron_000.wav` |
-| Jared   | `output/speakers/jared/voice_samples/jared_000.wav` |
+Fish Speech uses a **reference_id** system where you upload voice samples to the server:
 
-Note: The original Zoom recordings are used for Izaac and Ken since they don't have extracted voice samples yet.
+### Reference Structure
+```
+fish-speech/references/
+├── izaac/
+│   ├── sample.m4a       (voice audio)
+│   └── sample.lab       (reference text)
+├── ken/
+│   ├── sample.m4a
+│   └── sample.lab
+├── jules/
+│   ├── sample.wav
+│   └── sample.lab
+├── aaron/
+│   ├── sample.wav
+│   └── sample.lab
+└── jared/
+    ├── sample.wav
+    └── sample.lab
+```
+
+### Reference Sources
+
+| Speaker | Reference Audio File | Usage |
+|---------|---------------------|-------|
+| Izaac   | `data/source/GMT20251114-035710_Recording.m4a` | Your voice from Zoom |
+| Ken     | `data/source/GMT20251114-025308_Recording.m4a` | Ken's voice from Zoom |
+| Jules   | `output/speakers/jules/voice_samples/jules_000.wav` | Extracted sample |
+| Aaron   | `output/speakers/aaron/voice_samples/aaron_000.wav` | Extracted sample |
+| Jared   | `output/speakers/jared/voice_samples/jared_000.wav` | Extracted sample |
+
+### Why This Works Better
+
+1. **Pre-encoding**: Fish Speech encodes the voice once when loading reference_id
+2. **Caching**: Encoded voice embeddings are cached in memory (faster generation)
+3. **API efficiency**: Use `--reference_id izaac` instead of passing audio every time
+4. **Clean separation**: Voice clones are stored separately from scripts
+
+Note: The `.npy` voice embeddings are NOT directly used by Fish Speech. They are for other TTS systems. Fish Speech creates its own embeddings from the audio files.

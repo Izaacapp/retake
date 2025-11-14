@@ -56,10 +56,13 @@ jobs:
           echo "Models already cached"
         fi
     
-    - name: Verify voice embeddings
+    - name: Setup Fish Speech references
       run: |
-        echo "✅ Voice Models:"
-        ls -lh models/*.npy
+        echo "📁 Setting up Fish Speech reference voices..."
+        python scripts/setup_fish_references.py
+        echo ""
+        echo "✅ References created:"
+        ls -la fish-speech/references/
     
     - name: Prepare TTS generation
       run: |

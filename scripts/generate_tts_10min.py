@@ -39,13 +39,13 @@ def generate_all_tts_simple():
         print(f"[{i:02d}/{len(segments)}] {seg['speaker']}: {seg['section']} ({seg['duration']})")
         print(f"    ✅ Created: {text_file.name}")
     
-    # Map speakers to their reference audio files
-    speaker_audio_map = {
-        'Izaac': 'data/source/GMT20251114-035710_Recording.m4a',  # Use original recording
-        'Ken': 'data/source/GMT20251114-025308_Recording.m4a',     # Use original recording
-        'Jules': 'output/speakers/jules/voice_samples/jules_000.wav',
-        'Aaron': 'output/speakers/aaron/voice_samples/aaron_000.wav',
-        'Jared': 'output/speakers/jared/voice_samples/jared_000.wav',
+    # Map speakers to their reference IDs
+    speaker_ref_map = {
+        'Izaac': 'izaac',
+        'Ken': 'ken',
+        'Jules': 'jules',
+        'Aaron': 'aaron',
+        'Jared': 'jared',
     }
     
     # Create manifest
@@ -55,7 +55,7 @@ def generate_all_tts_simple():
         section_safe = seg['section'].replace(' ', '_').replace(':', '')
         text_file = f"{i:02d}_{seg['speaker']}_{section_safe}.txt"
         audio_file = f"{i:02d}_{seg['speaker']}_{section_safe}.wav"
-        reference_audio = speaker_audio_map.get(seg['speaker'], speaker_audio_map['Izaac'])
+        reference_id = speaker_ref_map.get(seg['speaker'], 'izaac')
         
         manifest.append({
             'segment': i,
@@ -67,7 +67,7 @@ def generate_all_tts_simple():
             'text_file': text_file,
             'audio_file': audio_file,
             'script': seg['script'],
-            'reference_audio': reference_audio
+            'reference_id': reference_id
         })
     
     with open(manifest_file, 'w') as f:
@@ -78,38 +78,30 @@ def generate_all_tts_simple():
     print(f"   📝 Text files: {len(segments)}")
     print(f"   📄 Manifest: {manifest_file}")
     print(f"\n💡 Next Steps:")
-    print(f"   1. Use the text files in {output_dir}/")
-    print(f"   2. Generate audio using Fish Speech web UI or API")
-    print(f"   3. Or use the GitHub Actions workflow for automated generation")
+    print(f"   1. Setup references: python scripts/setup_fish_references.py")
+    print(f"   2. Use the text files in {output_dir}/")
+    print(f"   3. Generate audio using Fish Speech API or GitHub Actions")
     
     # Create a bash script for batch generation using Fish Speech API
     bash_script = output_dir / 'generate_with_fish_speech.sh'
     with open(bash_script, 'w') as f:
         f.write("#!/bin/bash\n")
         f.write("# Batch TTS generation using Fish Speech API\n")
-        f.write("# Make sure Fish Speech server is running: python tools/api_server.py\n\n")
+        f.write("# Prerequisites:\n")
+        f.write("#   1. Setup references: python scripts/setup_fish_references.py\n")
+        f.write("#   2. Start API server: cd fish-speech && python tools/api_server.py --device cpu\n\n")
         f.write("set -e\n\n")
         
-        # Map speakers to their reference audio files
-        speaker_audio_map = {
-            'Izaac': 'data/source/GMT20251114-035710_Recording.m4a',  # Use original recording
-            'Ken': 'data/source/GMT20251114-025308_Recording.m4a',     # Use original recording
-            'Jules': 'output/speakers/jules/voice_samples/jules_000.wav',
-            'Aaron': 'output/speakers/aaron/voice_samples/aaron_000.wav',
-            'Jared': 'output/speakers/jared/voice_samples/jared_000.wav',
-        }
-        
         for item in manifest:
-            speaker = item['speaker']
+            reference_id = item['reference_id']
             text_file = item['text_file']
             audio_file = item['audio_file']
-            reference_audio = speaker_audio_map.get(speaker, speaker_audio_map['Izaac'])
             
             f.write(f"# Segment {item['segment']}: {item['section']}\n")
             f.write(f"echo 'Generating {audio_file}...'\n")
             f.write(f"python fish-speech/tools/api_client.py \\\n")
             f.write(f"  --text \"$(cat output/tts/10min/{text_file})\" \\\n")
-            f.write(f"  --reference_audio {reference_audio} \\\n")
+            f.write(f"  --reference_id {reference_id} \\\n")
             f.write(f"  --output output/tts/10min/{audio_file.replace('.wav', '')} \\\n")
             f.write(f"  --format wav \\\n")
             f.write(f"  --no-play\n\n")
@@ -117,9 +109,11 @@ def generate_all_tts_simple():
     bash_script.chmod(0o755)
     print(f"   📜 Bash script: {bash_script}")
     print(f"\n📌 To generate all audio:")
-    print(f"   1. Start Fish Speech API server:")
-    print(f"      cd fish-speech && python tools/api_server.py")
-    print(f"   2. Run the generation script:")
+    print(f"   1. Setup Fish Speech references:")
+    print(f"      python scripts/setup_fish_references.py")
+    print(f"   2. Start Fish Speech API server:")
+    print(f"      cd fish-speech && python tools/api_server.py --device cpu")
+    print(f"   3. Run the generation script:")
     print(f"      {bash_script}")
     
     return 0
