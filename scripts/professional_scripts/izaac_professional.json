@@ -1,0 +1,92 @@
+[
+  {
+    "id": 25,
+    "start": "00:03:02.480",
+    "end": "00:03:11.959",
+    "original": "So, this is the first thing the user would see when they, enter our platform, so\u2026",
+    "corrected": "So, this is the first thing the user would see when they, enter our platform, so\u2026",
+    "professional": ", this is the first thing the user would see when they, enter our platform, so.",
+    "improvements": []
+  },
+  {
+    "id": 26,
+    "start": "00:03:12.070",
+    "end": "00:03:21.229",
+    "original": "I'm gonna first show you how we create an account. User comes, obviously agrees to our terms, they'll generate an account.",
+    "corrected": "I'm going to first show you how we create an account. User comes, obviously agrees to our terms, they'll generate an account.",
+    "professional": "I'm going to first demonstrate how we create an account. User comes, agrees to our terms, they'll generate an account.",
+    "improvements": []
+  },
+  {
+    "id": 27,
+    "start": "00:03:33.220",
+    "end": "00:03:40.859",
+    "original": "So, these credentials that are generated, the user would essentially save these down, and download the key to, enter the platform.",
+    "corrected": "So, these credentials that are generated, the user would essentially save these down, and download the key to, enter the platform.",
+    "professional": ", these credentials that are generated, the user would essentially save these down, and download the key to, enter the platform.",
+    "improvements": []
+  },
+  {
+    "id": 28,
+    "start": "00:03:41.350",
+    "end": "00:03:43.300",
+    "original": "So, now go to login.",
+    "corrected": "So, now go to login.",
+    "professional": ", now go to login.",
+    "improvements": []
+  },
+  {
+    "id": 29,
+    "start": "00:03:43.590",
+    "end": "00:03:46.050",
+    "original": "So, those same credentials that you just saw there.",
+    "corrected": "So, those same credentials that you just saw there.",
+    "professional": ", those same credentials that you saw there.",
+    "improvements": []
+  },
+  {
+    "id": 30,
+    "start": "00:04:10.720",
+    "end": "00:04:19.579",
+    "original": "So\u2026 After user enters, this would be essentially, The dashboard? So\u2026",
+    "corrected": "So\u2026 After user enters, this would be essentially, The dashboard? So\u2026",
+    "professional": ". After user enters, this would be essentially, the dashboard? So.",
+    "improvements": []
+  },
+  {
+    "id": 31,
+    "start": "00:04:20.250",
+    "end": "00:04:25.930",
+    "original": "We have the big main key features of The mail service, of course.",
+    "corrected": "We have the big main key features of The mail service, of course.",
+    "professional": "We have the big main key features of the mail service, of course.",
+    "improvements": []
+  },
+  {
+    "id": 32,
+    "start": "00:04:26.570",
+    "end": "00:04:33.779",
+    "original": "would be the external accounts. This is the first thing a user would have to do when they enter a platform, is to aggregate their email services.",
+    "corrected": "Would be the external accounts. This is the first thing a user would have to do when they enter a platform, is to aggregate their email services.",
+    "professional": "Would be the external accounts. This is the first thing a user would have to do when they enter a platform, is to aggregate their email services.",
+    "improvements": []
+  },
+  {
+    "id": 33,
+    "start": "00:04:34.050",
+    "end": "00:04:41.730",
+    "original": "So, we offer support across multiple different, email providers, so users could aggregate all of them to one location.",
+    "corrected": "So, we offer support across multiple different, email providers, so users could aggregate all of them to one location.",
+    "professional": ", we offer support across multiple different, email providers, so users could aggregate all of them to one location.",
+    "improvements": []
+  },
+  {
+    "id": 34,
+    "start": "00:04:42.170",
+    "end": "00:04:45.440",
+    "original": "So I'll enter my Gmail right now.",
+    "corrected": "So I'll enter my Gmail right now.",
+    "professional": "I'll enter my gmail right now.",
+    "improvements": []
+  }
+]
