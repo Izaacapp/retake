@@ -19,6 +19,12 @@ jobs:
       with:
         lfs: true
     
+    - name: Clone Fish Speech
+      run: |
+        git clone https://github.com/fishaudio/fish-speech.git
+        cd fish-speech
+        git checkout main
+    
     - name: Set up Python 3.12
       uses: actions/setup-python@v5
       with:
@@ -30,7 +36,7 @@ jobs:
         path: |
           ~/.cache/pip
           fish-speech/checkpoints
-        key: ${{ runner.os }}-fish-speech-v2-${{ hashFiles('fish-speech/requirements.txt') }}
+        key: ${{ runner.os }}-fish-speech-v3-${{ hashFiles('fish-speech/pyproject.toml') }}
     
     - name: Install Fish Speech
       run: |
