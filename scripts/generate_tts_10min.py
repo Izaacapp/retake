@@ -39,6 +39,15 @@ def generate_all_tts_simple():
         print(f"[{i:02d}/{len(segments)}] {seg['speaker']}: {seg['section']} ({seg['duration']})")
         print(f"    ✅ Created: {text_file.name}")
     
+    # Map speakers to their reference audio files
+    speaker_audio_map = {
+        'Izaac': 'data/source/GMT20251114-035710_Recording.m4a',  # Use original recording
+        'Ken': 'data/source/GMT20251114-025308_Recording.m4a',     # Use original recording
+        'Jules': 'output/speakers/jules/voice_samples/jules_000.wav',
+        'Aaron': 'output/speakers/aaron/voice_samples/aaron_000.wav',
+        'Jared': 'output/speakers/jared/voice_samples/jared_000.wav',
+    }
+    
     # Create manifest
     manifest_file = output_dir / 'manifest.json'
     manifest = []
@@ -46,6 +55,7 @@ def generate_all_tts_simple():
         section_safe = seg['section'].replace(' ', '_').replace(':', '')
         text_file = f"{i:02d}_{seg['speaker']}_{section_safe}.txt"
         audio_file = f"{i:02d}_{seg['speaker']}_{section_safe}.wav"
+        reference_audio = speaker_audio_map.get(seg['speaker'], speaker_audio_map['Izaac'])
         
         manifest.append({
             'segment': i,
@@ -57,7 +67,7 @@ def generate_all_tts_simple():
             'text_file': text_file,
             'audio_file': audio_file,
             'script': seg['script'],
-            'voice_model': f"models/{seg['speaker'].lower()}_voice_embedding.npy"
+            'reference_audio': reference_audio
         })
     
     with open(manifest_file, 'w') as f:
@@ -80,19 +90,29 @@ def generate_all_tts_simple():
         f.write("# Make sure Fish Speech server is running: python tools/api_server.py\n\n")
         f.write("set -e\n\n")
         
+        # Map speakers to their reference audio files
+        speaker_audio_map = {
+            'Izaac': 'data/source/GMT20251114-035710_Recording.m4a',  # Use original recording
+            'Ken': 'data/source/GMT20251114-025308_Recording.m4a',     # Use original recording
+            'Jules': 'output/speakers/jules/voice_samples/jules_000.wav',
+            'Aaron': 'output/speakers/aaron/voice_samples/aaron_000.wav',
+            'Jared': 'output/speakers/jared/voice_samples/jared_000.wav',
+        }
+        
         for item in manifest:
-            voice_model = item['voice_model']
+            speaker = item['speaker']
             text_file = item['text_file']
             audio_file = item['audio_file']
+            reference_audio = speaker_audio_map.get(speaker, speaker_audio_map['Izaac'])
             
             f.write(f"# Segment {item['segment']}: {item['section']}\n")
             f.write(f"echo 'Generating {audio_file}...'\n")
             f.write(f"python fish-speech/tools/api_client.py \\\n")
             f.write(f"  --text \"$(cat output/tts/10min/{text_file})\" \\\n")
-            f.write(f"  --reference_audio {voice_model} \\\n")
+            f.write(f"  --reference_audio {reference_audio} \\\n")
             f.write(f"  --output output/tts/10min/{audio_file.replace('.wav', '')} \\\n")
             f.write(f"  --format wav \\\n")
-            f.write(f"  --play False\n\n")
+            f.write(f"  --no-play\n\n")
     
     bash_script.chmod(0o755)
     print(f"   📜 Bash script: {bash_script}")

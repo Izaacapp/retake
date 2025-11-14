@@ -68,10 +68,21 @@ jobs:
     - name: Start Fish Speech API Server
       run: |
         cd fish-speech
-        nohup python tools/api_server.py --device cpu > api_server.log 2>&1 &
+        nohup python tools/api_server.py --device cpu > ../api_server.log 2>&1 &
+        API_PID=$!
+        echo "API_PID=$API_PID" >> $GITHUB_ENV
+        echo "API server PID: $API_PID"
         echo "Waiting for API server to start..."
         sleep 30
-        echo "API server started"
+        
+        # Check if server is running
+        if ps -p $API_PID > /dev/null; then
+          echo "✅ API server is running"
+        else
+          echo "❌ API server failed to start"
+          cat ../api_server.log
+          exit 1
+        fi
     
     - name: Generate TTS audio
       run: |
@@ -89,7 +100,7 @@ jobs:
       if: always()
       run: |
         echo "=== API Server Logs ==="
-        cat fish-speech/api_server.log || echo "No logs found"
+        cat api_server.log || echo "No logs found"
     
     - name: Upload generated audio
       uses: actions/upload-artifact@v4
