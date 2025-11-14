@@ -46,8 +46,10 @@ jobs:
     - name: Install Fish Speech
       run: |
         cd fish-speech
+        # Install compatible torch versions first
+        pip install 'torch>=2.5.1,<2.9.0' 'torchaudio>=2.5.1,<2.9.0' --index-url https://download.pytorch.org/whl/cpu
+        # Then install fish-speech
         pip install -e .
-        pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
     
     - name: Download Fish Speech models
       env:
