@@ -13,13 +13,15 @@ help:
 	@echo "  make setup          - Initial setup (create venv, install deps)"
 	@echo "  make fish-setup     - Setup Fish Speech TTS"
 	@echo ""
-	@echo "Pipeline:"
-	@echo "  make status         - Check pipeline status"
-	@echo "  make extract-audio  - Extract audio from source video"
-	@echo "  make process-text   - Process transcript with grammar fixes"
-	@echo "  make analyze        - Analyze speakers"
-	@echo "  make voice-samples  - Extract voice samples"
-	@echo "  make tts-prep       - Prepare TTS scripts"
+	@echo "Commands:"
+	@echo "  make status            - Show project status"
+	@echo "  make extract-embeddings - Extract voice embeddings for all speakers"
+	@echo ""
+	@echo "Scripts:"
+	@echo "  make create-scripts    - Create highly professional scripts from transcripts"
+	@echo "  make compare           - Compare original vs professional scripts"
+	@echo "  make compare-izaac     - Show Izaac's script improvements"
+	@echo "  make compare-ken       - Show Ken's script improvements"
 	@echo ""
 	@echo "Testing:"
 	@echo "  make test           - Run all tests"
@@ -41,40 +43,44 @@ fish-setup:
 	./scripts/setup_fish_speech.sh
 
 status:
-	@$(PYTHON) scripts/run_pipeline.py
+	@echo "📊 Project Status"
+	@echo ""
+	@echo "Voice Embeddings:"
+	@ls -lh models/*.npy 2>/dev/null || echo "  No models found"
+	@echo ""
+	@echo "Speakers:"
+	@ls -d output/speakers/*/ 2>/dev/null | xargs -n1 basename || echo "  No speakers"
 
-extract-audio:
-	@$(PYTHON) scripts/test_extract.py
+extract-embeddings:
+	@./scripts/setup/extract_all_voice_embeddings.sh
 
-process-text:
-	@$(PYTHON) scripts/test_transcript.py
+generate-tts:
+	@echo "🎙️ Generating TTS for 10-minute script..."
+	@./scripts/batch_generate_tts_10min.sh cpu
 
-analyze:
-	@$(PYTHON) scripts/analyze_speakers.py
-
-voice-samples:
-	@$(PYTHON) scripts/extract_speaker_audio.py
-
-tts-prep:
-	@$(PYTHON) scripts/prepare_tts_script.py
+generate-tts-gpu:
+	@echo "🎙️ Generating TTS for 10-minute script (GPU)..."
+	@./scripts/batch_generate_tts_10min.sh cuda
 
 test:
-	@echo "🧪 Running tests..."
-	@$(PYTHON) scripts/test_extract.py
-	@$(PYTHON) scripts/test_video_cut.py
-	@echo "✅ All tests passed!"
+	@echo "🧪 No tests configured yet"
 
 test-audio:
-	@$(PYTHON) scripts/test_extract.py
+	@echo "🧪 No audio tests configured yet"
 
 test-video:
-	@$(PYTHON) scripts/test_video_cut.py
+	@echo "🧪 No video tests configured yet"
 
 clean:
-	@echo "🧹 Cleaning output directory..."
-	rm -rf output/audio/*.wav
-	rm -rf output/video/*.mp4
-	rm -rf output/tts_scripts/*.txt
+	@echo "🧹 Cleaning generated outputs..."
+	@echo "Cleaning speaker audio segments..."
+	rm -f output/speakers/*/audio/*.wav
+	@echo "Cleaning speaker video segments..."
+	rm -f output/speakers/*/video/*.mp4
+	@echo "Cleaning concatenated voice samples..."
+	rm -f output/speakers/*/voice_samples/*_concat.wav
+	@echo "Cleaning temp files..."
+	rm -f fish-speech/temp/*.wav fish-speech/temp/*.npy
 	@echo "✅ Output cleaned!"
 
 clean-all: clean
@@ -84,5 +90,41 @@ clean-all: clean
 	@echo "✅ Everything cleaned!"
 
 # Quick shortcuts
-all: extract-audio process-text analyze voice-samples tts-prep
-	@echo "✅ All preprocessing complete!"
+all: status
+	@echo "✅ Use 'make extract-embeddings' to generate voice models"
+
+# Create highly professional scripts
+create-scripts:
+	@echo "📝 Creating highly professional scripts..."
+	@$(PYTHON) scripts/create_highly_professional_rewrites.py
+	@echo "✅ Professional transcript created: output/original/professional_transcript.json"
+
+# Create 10-minute organized script
+create-10min:
+	@echo "📝 Creating 10-minute professional script..."
+	@$(PYTHON) scripts/create_10min_speaker_scripts.py
+	@echo "✅ 10-minute script created: output/scripts/10min/"
+	@echo ""
+	@echo "📁 Files created:"
+	@ls -lh output/scripts/10min/
+
+# Compare original vs professional
+compare:
+	@$(PYTHON) scripts/show_improvements.py all 5
+
+compare-izaac:
+	@$(PYTHON) scripts/show_improvements.py izaac 10
+
+compare-ken:
+	@$(PYTHON) scripts/show_improvements.py ken 10
+
+compare-aaron:
+	@$(PYTHON) scripts/show_improvements.py aaron 10
+
+compare-all:
+	@$(PYTHON) scripts/show_improvements.py all 20
+
+
+generate-tts-gpu:
+	@echo "🎙️ Generating TTS for 10-minute script (GPU)..."
+	@./scripts/batch_generate_tts_10min.sh cuda

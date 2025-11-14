@@ -1,0 +1,1658 @@
+[
+  {
+    "id": 0,
+    "start": "00:00:02.640",
+    "end": "00:00:16.710",
+    "speaker": "Zoom user",
+    "original": "Hello, everyone. We're gonna start off with who we are. We are Deeply Profound. Deeply Profound is a research security group found with a singular mission. It's to solve a critical pervasive problem in cybersecurity today.",
+    "corrected": "Hello, everyone. We're going to start off with who we are. We are Deeply Profound. Deeply Profound is a research security group found with a singular mission. It's to solve a critical pervasive problem in cybersecurity today.",
+    "highly_professional": "Good morning. We are Deeply Profound, a research security group founded with a singular mission: to solve one of the most critical and pervasive problems in cybersecurity today."
+  },
+  {
+    "id": 1,
+    "start": "00:00:17.100",
+    "end": "00:00:25.980",
+    "speaker": "Zoom user",
+    "original": "We begin by asking ourselves, how do we remedy security breaches across multiple services and credentials that are compromised?",
+    "corrected": "We begin by asking ourselves, how do we remedy security breaches across multiple services and credentials that are compromised?",
+    "highly_professional": "Our work began with a fundamental question: How can we effectively remediate security breaches when user credentials are compromised across dozens of different services?"
+  },
+  {
+    "id": 2,
+    "start": "00:00:27.270",
+    "end": "00:00:33.120",
+    "speaker": "Zoom user",
+    "original": "The problem… so the main problem we're solving is the credential breach crisis.",
+    "corrected": "The problem… so the main problem we're solving is the credential breach crisis.",
+    "highly_professional": "The core problem we're addressing is the credential breach crisis."
+  },
+  {
+    "id": 3,
+    "start": "00:00:33.220",
+    "end": "00:00:44.570",
+    "speaker": "Zoom user",
+    "original": "When your credentials are compromised in a data breach, you face a cascade of problems. Multiple services, multiple passwords, one breach exposes you across dozens of platforms.",
+    "corrected": "When your credentials are compromised in a data breach, you face a cascade of problems. Multiple services, multiple passwords, one breach exposes you across dozens of platforms.",
+    "highly_professional": "The core issue is that a single data breach can trigger a cascade of security risks. When people reuse passwords, one compromised credential can expose their accounts across dozens of unrelated platforms."
+  },
+  {
+    "id": 4,
+    "start": "00:00:45.010",
+    "end": "00:00:51.909",
+    "speaker": "Zoom user",
+    "original": "Manual password rotation is obviously a headache. You must visit each site individually to reset passwords.",
+    "corrected": "Manual password rotation is obviously a headache. You must visit each site individually to reset passwords.",
+    "highly_professional": "Manual password rotation is time-consuming and error-prone. Users must visit each website individually to reset their passwords."
+  },
+  {
+    "id": 5,
+    "start": "00:00:51.920",
+    "end": "00:01:05.899",
+    "speaker": "Zoom user",
+    "original": "Verification code chaos. Each service sends codes via email requiring constant inbox checking. No privacy. Email providers scan your messages, expose your sensitive verification codes.",
+    "corrected": "Verification code chaos. Each service sends codes via email requiring constant inbox checking. No privacy. Email providers scan your messages, expose your sensitive verification codes.",
+    "highly_professional": "This creates verification code chaos. Each service sends reset codes via email, requiring constant inbox monitoring. Email providers also scan your messages, exposing sensitive verification codes and compromising your privacy."
+  },
+  {
+    "id": 6,
+    "start": "00:01:06.090",
+    "end": "00:01:12.450",
+    "speaker": "Zoom user",
+    "original": "Cross-platform exposure, breach credentials on web platform, Compromise others.",
+    "corrected": "Cross-platform exposure, breach credentials on web platform, Compromise others.",
+    "highly_professional": "When credentials are breached on one platform, password reuse means the breach compromises accounts across multiple unrelated services."
+  },
+  {
+    "id": 7,
+    "start": "00:01:12.570",
+    "end": "00:01:19.520",
+    "speaker": "Zoom user",
+    "original": "The reality is, most people don't rotate passwords after breaches because it's too difficult and it's too time-consuming.",
+    "corrected": "The reality is, most people do not rotate passwords after breaches because it's too difficult and it's too time-consuming.",
+    "highly_professional": "The reality is that most people do not rotate their passwords after breaches because the process is too difficult and time-consuming."
+  },
+  {
+    "id": 8,
+    "start": "00:01:19.840",
+    "end": "00:01:26.849",
+    "speaker": "Zoom user",
+    "original": "So, one of the solutions we came up with was, an aggregated email service, and that is EtherMail.",
+    "corrected": "So, one of the solutions we came up with was, an aggregated email service, and that is Aether Mail.",
+    "highly_professional": "Our solution is a two-part platform. The first component is Aether Mail, an aggregated and private email service."
+  },
+  {
+    "id": 9,
+    "start": "00:01:28.180",
+    "end": "00:01:34.630",
+    "speaker": "Zoom user",
+    "original": "And, the other component of the platform is, the password, vault.",
+    "corrected": "And, the other component of the platform is, the password, vault.",
+    "highly_professional": "The second component is a secure password vault, which works in tandem with Aether Mail to fully automate security remediation."
+  },
+  {
+    "id": 10,
+    "start": "00:01:35.440",
+    "end": "00:01:36.450",
+    "speaker": "Zoom user",
+    "original": "And…",
+    "corrected": "And…",
+    "highly_professional": "And…"
+  },
+  {
+    "id": 11,
+    "start": "00:01:39.140",
+    "end": "00:01:46.869",
+    "speaker": "Zoom user",
+    "original": "So we'll be transitioning over to the vault and showing the first key features of what we have so far.",
+    "corrected": "So we will be transitioning over to the vault and showing the first key features of what we have so far.",
+    "highly_professional": "Let's now transition to a live demonstration of the platform, starting with the password vault."
+  },
+  {
+    "id": 12,
+    "start": "00:02:02.730",
+    "end": "00:02:03.720",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "You're muted.",
+    "corrected": "You're muted.",
+    "highly_professional": "You're muted."
+  },
+  {
+    "id": 13,
+    "start": "00:02:03.720",
+    "end": "00:02:05.290",
+    "speaker": "Kenith Philip",
+    "original": "Sure, good. Okay.",
+    "corrected": "Sure, good. Okay.",
+    "highly_professional": "Sure, good. Okay."
+  },
+  {
+    "id": 14,
+    "start": "00:02:05.430",
+    "end": "00:02:09.080",
+    "speaker": "Devon Villalona",
+    "original": "Right now, I shall be demonstrating the desktop features with Electron.",
+    "corrected": "Right now, I shall be demonstrating the desktop features with Electron.",
+    "highly_professional": "I will now demonstrate the desktop features built with Electron."
+  },
+  {
+    "id": 15,
+    "start": "00:02:10.039",
+    "end": "00:02:11.670",
+    "speaker": "Devon Villalona",
+    "original": "I will now demonstrate.",
+    "corrected": "I will now demonstrate.",
+    "highly_professional": "I will now demonstrate."
+  },
+  {
+    "id": 16,
+    "start": "00:02:12.160",
+    "end": "00:02:13.689",
+    "speaker": "Devon Villalona",
+    "original": "The login with it?",
+    "corrected": "The login with it?",
+    "highly_professional": "The login with it?"
+  },
+  {
+    "id": 17,
+    "start": "00:02:17.330",
+    "end": "00:02:19.429",
+    "speaker": "Devon Villalona",
+    "original": "With our… within the application…",
+    "corrected": "With our… within the application…",
+    "highly_professional": "With our… within the application…"
+  },
+  {
+    "id": 18,
+    "start": "00:02:21.350",
+    "end": "00:02:28.959",
+    "speaker": "Devon Villalona",
+    "original": "Alright, we shall see… we shall now see the breach report. We are using an API called I've Been Pwned to…",
+    "corrected": "Alright, we shall see… we shall now see the breach report. We are using an API called I've Been Pwned to…",
+    "highly_professional": "Let me show you the breach report feature. We use the Have I Been Pwned API"
+  },
+  {
+    "id": 19,
+    "start": "00:02:30.270",
+    "end": "00:02:33.870",
+    "speaker": "Devon Villalona",
+    "original": "search up breach reports. Right now, we'll just do my email for now.",
+    "corrected": "Search up breach reports. Right now, we will just do my email for now.",
+    "highly_professional": "to search for breach reports. I'll demonstrate using my own email."
+  },
+  {
+    "id": 20,
+    "start": "00:02:35.700",
+    "end": "00:02:37.460",
+    "speaker": "Devon Villalona",
+    "original": "Go ahead and hurry that off.",
+    "corrected": "Go ahead and hurry that off.",
+    "highly_professional": "Go ahead and hurry that off."
+  },
+  {
+    "id": 21,
+    "start": "00:02:39.310",
+    "end": "00:02:41.250",
+    "speaker": "Devon Villalona",
+    "original": "As you can see,",
+    "corrected": "As you can see,",
+    "highly_professional": "As you can see,"
+  },
+  {
+    "id": 22,
+    "start": "00:02:41.410",
+    "end": "00:02:54.380",
+    "speaker": "Devon Villalona",
+    "original": "The breach report shows many different compromises in the millions of accounts that have been compromises, and even mine, with article links and everything, to show the user that there are many, breaches within the email.",
+    "corrected": "The breach report shows many different compromises in the millions of accounts that have been compromises, and even mine, with article links and everything, to show the user that there are many, breaches within the email.",
+    "highly_professional": "The breach report displays comprehensive data on compromised accounts, including millions of affected users. It provides article links and detailed information, showing users the full scope of breaches associated with their email address."
+  },
+  {
+    "id": 23,
+    "start": "00:02:57.080",
+    "end": "00:02:59.380",
+    "speaker": "Devon Villalona",
+    "original": "And then I can return a dashboard right here.",
+    "corrected": "And then I can return a dashboard right here.",
+    "highly_professional": "From here, I can return to the dashboard."
+  },
+  {
+    "id": 24,
+    "start": "00:02:59.660",
+    "end": "00:03:01.460",
+    "speaker": "Devon Villalona",
+    "original": "And we'll talk about the Ether Mail.",
+    "corrected": "And we will talk about the Aether Mail.",
+    "highly_professional": "Now let's discuss Aether Mail."
+  },
+  {
+    "id": 25,
+    "start": "00:03:02.480",
+    "end": "00:03:11.959",
+    "speaker": "Zoom user",
+    "original": "So, this is the first thing the user would see when they, enter our platform, so…",
+    "corrected": "So, this is the first thing the user would see when they, enter our platform, so…",
+    "highly_professional": "This is the first screen users see when entering our platform."
+  },
+  {
+    "id": 26,
+    "start": "00:03:12.070",
+    "end": "00:03:21.229",
+    "speaker": "Zoom user",
+    "original": "I'm gonna first show you how we create an account. User comes, obviously agrees to our terms, they'll generate an account.",
+    "corrected": "I'm going to first show you how we create an account. User comes, obviously agrees to our terms, they'll generate an account.",
+    "highly_professional": "Let me show you the account creation process. Users review our terms of service and generate their credentials."
+  },
+  {
+    "id": 27,
+    "start": "00:03:33.220",
+    "end": "00:03:40.859",
+    "speaker": "Zoom user",
+    "original": "So, these credentials that are generated, the user would essentially save these down, and download the key to, enter the platform.",
+    "corrected": "So, these credentials that are generated, the user would essentially save these down, and download the key to, enter the platform.",
+    "highly_professional": "The system generates secure credentials that users save locally. They download the key file needed to access the platform."
+  },
+  {
+    "id": 28,
+    "start": "00:03:41.350",
+    "end": "00:03:43.300",
+    "speaker": "Zoom user",
+    "original": "So, now go to login.",
+    "corrected": "So, now go to login.",
+    "highly_professional": "Now I'll demonstrate the login process."
+  },
+  {
+    "id": 29,
+    "start": "00:03:43.590",
+    "end": "00:03:46.050",
+    "speaker": "Zoom user",
+    "original": "So, those same credentials that you just saw there.",
+    "corrected": "So, those same credentials that you just saw there.",
+    "highly_professional": "I'll use the credentials we just generated."
+  },
+  {
+    "id": 30,
+    "start": "00:04:10.720",
+    "end": "00:04:19.579",
+    "speaker": "Zoom user",
+    "original": "So… After user enters, this would be essentially, The dashboard? So…",
+    "corrected": "So… After user enters, this would be essentially, The dashboard? So…",
+    "highly_professional": "After successful authentication, users arrive at the main dashboard."
+  },
+  {
+    "id": 31,
+    "start": "00:04:20.250",
+    "end": "00:04:25.930",
+    "speaker": "Zoom user",
+    "original": "We have the big main key features of The mail service, of course.",
+    "corrected": "We have the big main key features of The mail service, of course.",
+    "highly_professional": "The dashboard provides access to the platform's key features, including the mail service."
+  },
+  {
+    "id": 32,
+    "start": "00:04:26.570",
+    "end": "00:04:33.779",
+    "speaker": "Zoom user",
+    "original": "would be the external accounts. This is the first thing a user would have to do when they enter a platform, is to aggregate their email services.",
+    "corrected": "Would be the external accounts. This is the first thing a user would have to do when they enter a platform, is to aggregate their email services.",
+    "highly_professional": "The first step for any user is to aggregate their existing email accounts. This centralizes their digital identity and allows our system to function."
+  },
+  {
+    "id": 33,
+    "start": "00:04:34.050",
+    "end": "00:04:41.730",
+    "speaker": "Zoom user",
+    "original": "So, we offer support across multiple different, email providers, so users could aggregate all of them to one location.",
+    "corrected": "So, we offer support across multiple different, email providers, so users could aggregate all of them to one location.",
+    "highly_professional": "We support multiple email providers, allowing users to aggregate all their accounts into one centralized location."
+  },
+  {
+    "id": 34,
+    "start": "00:04:42.170",
+    "end": "00:04:45.440",
+    "speaker": "Zoom user",
+    "original": "So I'll enter my Gmail right now.",
+    "corrected": "So I'll enter my Gmail right now.",
+    "highly_professional": "I'll demonstrate by connecting my Gmail account."
+  },
+  {
+    "id": 35,
+    "start": "00:05:21.340",
+    "end": "00:05:26.360",
+    "speaker": "Zoom user",
+    "original": "So, user… for most, services, they have to add.",
+    "corrected": "So, user… for most, services, they have to add.",
+    "highly_professional": "So, user… for most, services, they have to add."
+  },
+  {
+    "id": 36,
+    "start": "00:05:26.440",
+    "end": "00:05:44.080",
+    "speaker": "Zoom user",
+    "original": "They unfortunately have to get an app password, and most, email providers, they go out their way to make this very obscure. Lucky for you guys, we've added the links that could take the user straight there, so they could generate their app password. Once you do that, user enters their credentials, this is me, for example.",
+    "corrected": "They unfortunately have to get an app password, and most, email providers, they go out their way to make this very obscure. Lucky for you guys, we've added the links that could take the user straight there, so they could generate their app password. Once you do that, user enters their credentials, this is me, for example.",
+    "highly_professional": "This requires an app password from the email provider, a process that is often unnecessarily complex. To streamline this, we provide direct links to the exact settings page for each provider. Once the app password is generated, users simply enter their credentials, as I'm demonstrating now with my Gmail account."
+  },
+  {
+    "id": 37,
+    "start": "00:05:44.080",
+    "end": "00:05:55.709",
+    "speaker": "Zoom user",
+    "original": "I'm doing this with the IMAP protocol. We also offer support for the Pope Protocol, which essentially means you could pull, all your logs out, said server, and…",
+    "corrected": "I'm doing this with the IMAP protocol. We also offer support for the Pope Protocol, which essentially means you could pull, all your logs out, said server, and…",
+    "highly_professional": "We are connecting via the IMAP protocol. For users who prefer it, we also support POP3, giving you flexibility in how you access and control your email data."
+  },
+  {
+    "id": 38,
+    "start": "00:05:56.040",
+    "end": "00:06:02.810",
+    "speaker": "Zoom user",
+    "original": "take control of your data, but fast forward, we'll be using the IMAP protocol. I'll add the count right here.",
+    "corrected": "Take control of your data, but fast forward, we will be using the IMAP protocol. I'll add the count right here.",
+    "highly_professional": "This gives you complete control over your data. For this demonstration, I'll use the IMAP protocol and add my account here."
+  },
+  {
+    "id": 39,
+    "start": "00:06:12.790",
+    "end": "00:06:15.650",
+    "speaker": "Zoom user",
+    "original": "So, this just verifies,",
+    "corrected": "So, this just verifies,",
+    "highly_professional": "The system is now verifying the connection."
+  },
+  {
+    "id": 40,
+    "start": "00:06:15.840",
+    "end": "00:06:28.109",
+    "speaker": "Zoom user",
+    "original": "That it went through. Did… even use the IMAP protocol, I had to use DevCot. DevCot is an email, requirement to send mails.",
+    "corrected": "That it went through. Did… even use the IMAP protocol, I had to use DevCot. DevCot is an email, requirement to send mails.",
+    "highly_professional": "The verification confirms a successful connection. For the IMAP protocol, we use Dovecot, which is an email server requirement."
+  },
+  {
+    "id": 41,
+    "start": "00:06:28.290",
+    "end": "00:06:34.269",
+    "speaker": "Zoom user",
+    "original": "And then I also had to use postfix, but this essentially verifies that it went through, so now I'm synced.",
+    "corrected": "And then I also had to use postfix, but this essentially verifies that it went through, so now I'm synced.",
+    "highly_professional": "We also use Postfix for mail handling. The verification confirms the connection was successful, and my account is now synced."
+  },
+  {
+    "id": 42,
+    "start": "00:06:34.510",
+    "end": "00:06:42.860",
+    "speaker": "Zoom user",
+    "original": "So then I would go over to pass rotation. So now, my inbox is synced, of course. So now I'm fetching from my actual email.",
+    "corrected": "So then I would go over to pass rotation. So now, my inbox is synced, of course. So now I'm fetching from my actual email.",
+    "highly_professional": "With the account successfully connected and syncing, I'll now navigate to the password rotation module. The system is now actively monitoring the connected inbox for relevant emails."
+  },
+  {
+    "id": 43,
+    "start": "00:06:44.450",
+    "end": "00:06:46.219",
+    "speaker": "Zoom user",
+    "original": "That I just connected.",
+    "corrected": "That I just connected.",
+    "highly_professional": "This pulls emails from the account I just connected."
+  },
+  {
+    "id": 44,
+    "start": "00:07:00.270",
+    "end": "00:07:06.349",
+    "speaker": "Zoom user",
+    "original": "And then boom. So the verification code came in, so this essentially would be for a targeted website.",
+    "corrected": "And then boom. So the verification code came in, so this essentially would be for a targeted website.",
+    "highly_professional": "As you can see, a verification code has arrived. This demonstrates the targeted website integration."
+  },
+  {
+    "id": 45,
+    "start": "00:07:13.280",
+    "end": "00:07:17.049",
+    "speaker": "Zoom user",
+    "original": "And then, yeah, so now I'll be showing you the demo website.",
+    "corrected": "And then, yes, so now I'll be showing you the demo website.",
+    "highly_professional": "Now I'll show you the demonstration website."
+  },
+  {
+    "id": 46,
+    "start": "00:07:24.940",
+    "end": "00:07:27.540",
+    "speaker": "Zoom user",
+    "original": "Or Ken will be showing you the demo website.",
+    "corrected": "Or Ken will be showing you the demo website.",
+    "highly_professional": "Actually, Ken will demonstrate the testing website."
+  },
+  {
+    "id": 47,
+    "start": "00:07:27.980",
+    "end": "00:07:30.530",
+    "speaker": "Kenith Philip",
+    "original": "Okay. So, having a…",
+    "corrected": "Okay. So, having a…",
+    "highly_professional": "Building complex applications presents unique challenges."
+  },
+  {
+    "id": 48,
+    "start": "00:07:31.040",
+    "end": "00:07:47.170",
+    "speaker": "Kenith Philip",
+    "original": "Applications are complex, also comes with a lot of challenges. One of them is testing. Testing it on a mainstream website or application is obviously going to get us banned real quick. So, which is why we came up with a dummy website, a testing website here, so I will be showing you",
+    "corrected": "Applications are complex, also comes with a lot of challenges. One of them is testing. Testing it on a mainstream website or application is obviously going to get us banned real quick. So, which is why we came up with a dummy website, a testing website here, so I will be showing you",
+    "highly_professional": "One significant challenge is testing. Testing our automation on mainstream platforms would result in immediate account suspension. For this reason, we developed a dedicated testing environment - a dummy website that replicates real-world password reset flows. Let me demonstrate how this works."
+  },
+  {
+    "id": 49,
+    "start": "00:07:47.450",
+    "end": "00:07:52.529",
+    "speaker": "Kenith Philip",
+    "original": "how we have that set up. So, I have an account set up right here.",
+    "corrected": "How we have that set up. So, I have an account set up right here.",
+    "highly_professional": "I have a test account configured here that I will use for the demonstration."
+  },
+  {
+    "id": 50,
+    "start": "00:07:52.920",
+    "end": "00:07:55.099",
+    "speaker": "Kenith Philip",
+    "original": "which I'll be logging into.",
+    "corrected": "Which I'll be logging into.",
+    "highly_professional": "I will now log in to show you the interface."
+  },
+  {
+    "id": 51,
+    "start": "00:08:01.990",
+    "end": "00:08:15.949",
+    "speaker": "Kenith Philip",
+    "original": "So as you can see, once I log in, it's a real simple website, which basically shows your username and your email, and some very basic information. Another feature of EtherMail that I'd like to show you",
+    "corrected": "So as you can see, once I log in, it's a real simple website, which shows your username and your email, and some very basic information. Another feature of Aether Mail that I'd to show you",
+    "highly_professional": "As you can see, once logged in, we have a clean interface displaying basic account information: username, email, and profile details. Another key feature I want to highlight is our password generator."
+  },
+  {
+    "id": 52,
+    "start": "00:08:16.020",
+    "end": "00:08:39.270",
+    "speaker": "Kenith Philip",
+    "original": "is the password generator, which basically lets users generate passwords, securely, and also gives them a choice on how they want to do it. They can either choose a random password, which mixes up letters, characters, and all that, or they could have a memorable one, which is easier to memorize. We also have a slider where you can choose the size of the password you want to set.",
+    "corrected": "Is the password generator, which lets users generate passwords, securely, and also gives them a choice on how they want to do it. They can either choose a random password, which mixes up letters, characters, and all that, or they could have a memorable one, which is easier to memorize. We also have a slider where you can choose the size of the password you want to set.",
+    "highly_professional": "The password generator creates strong, secure passwords while giving users full control over the format. Users can choose between random passwords that mix letters, numbers, and special characters for maximum security, or memorable passphrases that are easier to remember. A slider allows customization of password length to meet different security requirements."
+  },
+  {
+    "id": 53,
+    "start": "00:08:39.510",
+    "end": "00:08:56.480",
+    "speaker": "Kenith Philip",
+    "original": "And yeah, so this could be used… the password rotation, which we'll be talking next, automatically does it, but we also give the user the choice to manually override it and choose a password of their own, if they wish to do so. I'll be handing it over back to Isaac.",
+    "corrected": "And yes, so this could be used… the password rotation, which we will be talking next, automatically does it, but we also give the user the choice to manually override it and choose a password of their own, if they wish to do so. I'll be handing it over back to Isaac.",
+    "highly_professional": "While our automated password rotation handles this process automatically, we also give users the choice to manually override the system and select their own password if they prefer. I will now hand it back to Izaac."
+  },
+  {
+    "id": 54,
+    "start": "00:08:59.430",
+    "end": "00:09:07.169",
+    "speaker": "Zoom user",
+    "original": "So As you just went over the password generator, I'll be showing you how the email inbox looks like.",
+    "corrected": "So As you just went over the password generator, I'll be showing you how the email inbox looks.",
+    "highly_professional": "Thank you, Ken. Now that you've seen the password generator, I'll show you how the email inbox works."
+  },
+  {
+    "id": 55,
+    "start": "00:10:33.480",
+    "end": "00:10:53.139",
+    "speaker": "Zoom user",
+    "original": "Alright, we'll be doing the severity scoring algorithm as this loads. Oh, actually, that's crazy. So, this is essentially what the user would see in the inbox. This is one, email, obviously, that I attached. You could attach multiple emails, and essentially, it'd be pulling in all your email from here.",
+    "corrected": "Alright, we will be doing the severity scoring algorithm as this loads. Oh,, that's crazy. So, this is essentially what the user would see in the inbox. This is one, email, obviously, that I attached. You could attach multiple emails, and essentially, it'd be pulling in all your email from here.",
+    "highly_professional": "This is the unified inbox interface. Here, users see a consolidated view of all emails from their connected accounts. In this demonstration, you're seeing one connected account, but users can integrate multiple providers into this single, manageable dashboard."
+  },
+  {
+    "id": 56,
+    "start": "00:10:53.380",
+    "end": "00:11:00.059",
+    "speaker": "Zoom user",
+    "original": "We parse through this to get the verification codes, and the verification codes, essentially, how we're able to…",
+    "corrected": "We parse through this to get the verification codes, and the verification codes, essentially, how we're able to…",
+    "highly_professional": "Our system intelligently parses these emails to automatically detect and extract verification codes. This is the key that enables the automation of the password reset process."
+  },
+  {
+    "id": 57,
+    "start": "00:11:00.810",
+    "end": "00:11:10.570",
+    "speaker": "Zoom user",
+    "original": "like, automate the whole process of the password rotation so the user doesn't have to go to each website one by one manually to, essentially",
+    "corrected": ", automate the whole process of the password rotation so the user does not have to go to each website one by one manually to, essentially",
+    "highly_professional": "This automation completely eliminates the need for users to manually visit dozens of websites to change their passwords after a breach."
+  },
+  {
+    "id": 58,
+    "start": "00:11:11.300",
+    "end": "00:11:16.300",
+    "speaker": "Zoom user",
+    "original": "Spent hours at end to do multiple breaches across multiple services.",
+    "corrected": "Spent hours at end to do multiple breaches across multiple services.",
+    "highly_professional": "Instead of spending hours addressing breaches across multiple services, the system handles everything automatically."
+  },
+  {
+    "id": 59,
+    "start": "00:11:16.880",
+    "end": "00:11:19.939",
+    "speaker": "Zoom user",
+    "original": "And yeah, this is the meal platform.",
+    "corrected": "And yes, this is the meal platform.",
+    "highly_professional": "That's an overview of the email platform."
+  },
+  {
+    "id": 60,
+    "start": "00:11:55.370",
+    "end": "00:11:59.300",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "Hello, I'm Jewel. I work on, security and API.",
+    "corrected": "Hello, I'm Jewel. I work on, security and API.",
+    "highly_professional": "Hello, I'm Jules. I work on security and API architecture."
+  },
+  {
+    "id": 61,
+    "start": "00:11:59.640",
+    "end": "00:12:00.900",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "Architecture.",
+    "corrected": "Architecture.",
+    "highly_professional": "Architecture."
+  },
+  {
+    "id": 62,
+    "start": "00:12:01.490",
+    "end": "00:12:10.470",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "And I just want to go over some… In terms of… use for our… Platform.",
+    "corrected": "And I just want to go over some… In terms of… use for our… Platform.",
+    "highly_professional": "I want to discuss our platform's terms of use and security approach."
+  },
+  {
+    "id": 63,
+    "start": "00:12:11.220",
+    "end": "00:12:14.890",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "when you… Sign up to use our service.",
+    "corrected": "When you… Sign up to use our service.",
+    "highly_professional": "When you sign up to use our service,"
+  },
+  {
+    "id": 64,
+    "start": "00:12:15.810",
+    "end": "00:12:23.479",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "We ask that you, sign the terms of use, and with that, For you to understand that.",
+    "corrected": "We ask that you, sign the terms of use, and with that, For you to understand that.",
+    "highly_professional": "we ask that you agree to our terms of use. This ensures you understand"
+  },
+  {
+    "id": 65,
+    "start": "00:12:23.580",
+    "end": "00:12:31.400",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "You are consenting to use our application, and we do require that you provide us with… You're…",
+    "corrected": "You are consenting to use our application, and we do require that you provide us with… You're…",
+    "highly_professional": "that by using our application, you consent to providing us with"
+  },
+  {
+    "id": 66,
+    "start": "00:12:32.100",
+    "end": "00:12:35.780",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "Credentials from your emails in order to access them.",
+    "corrected": "Credentials from your emails in order to access them.",
+    "highly_professional": "your email credentials so we can access them on your behalf."
+  },
+  {
+    "id": 67,
+    "start": "00:12:35.910",
+    "end": "00:12:43.919",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "Additionally, we have a very privacy-oriented setup, so we do not keep track of",
+    "corrected": "Additionally, we have a very privacy-oriented setup, so we do not keep track of",
+    "highly_professional": "We have a privacy-focused architecture. We do not track"
+  },
+  {
+    "id": 68,
+    "start": "00:12:44.150",
+    "end": "00:12:47.839",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "Any of your information, and everything is end-to-end encrypted.",
+    "corrected": "Any of your information, and everything is end-to-end encrypted.",
+    "highly_professional": "any of your personal information. Everything is end-to-end encrypted."
+  },
+  {
+    "id": 69,
+    "start": "00:12:54.130",
+    "end": "00:13:02.930",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "So you want to make sure… so we want to make sure that you are… getting security, from…",
+    "corrected": "So you want to make sure… so we want to make sure that you are… getting security, from…",
+    "highly_professional": "We want to ensure that you receive comprehensive security"
+  },
+  {
+    "id": 70,
+    "start": "00:13:03.290",
+    "end": "00:13:04.670",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "Top to bottom.",
+    "corrected": "Top to bottom.",
+    "highly_professional": "from top to bottom."
+  },
+  {
+    "id": 71,
+    "start": "00:13:20.790",
+    "end": "00:13:22.409",
+    "speaker": "Devon Villalona",
+    "original": "That would be fair internal.",
+    "corrected": "That would be fair internal.",
+    "highly_professional": "That would be fair internal."
+  },
+  {
+    "id": 72,
+    "start": "00:13:25.480",
+    "end": "00:13:26.550",
+    "speaker": "Devon Villalona",
+    "original": "I guess…",
+    "corrected": "I guess…",
+    "highly_professional": "I guess…"
+  },
+  {
+    "id": 73,
+    "start": "00:13:28.100",
+    "end": "00:13:32.169",
+    "speaker": "Devon Villalona",
+    "original": "Oh, he's gonna make the… he has to make a cut anyways. The Jules… Jules, are you done?",
+    "corrected": "Oh, he's going to make the… he has to make a cut anyways. The Jules… Jules, are you done?",
+    "highly_professional": "Oh, he's going to make the… he has to make a cut anyways. The Jules… Jules, are you done?"
+  },
+  {
+    "id": 74,
+    "start": "00:13:34.790",
+    "end": "00:13:35.300",
+    "speaker": "Devon Villalona",
+    "original": "There is…",
+    "corrected": "There is…",
+    "highly_professional": "There is…"
+  },
+  {
+    "id": 75,
+    "start": "00:13:35.300",
+    "end": "00:13:37.430",
+    "speaker": "Zoom user",
+    "original": "Yeah, he's done, just keep on, just keep on.",
+    "corrected": "Yes, he's done, just keep on, just keep on.",
+    "highly_professional": "Yes, he's done, just keep on, just keep on."
+  },
+  {
+    "id": 76,
+    "start": "00:13:39.580",
+    "end": "00:13:46.450",
+    "speaker": "Devon Villalona",
+    "original": "Back to the Electron app on desktop, I shall be showing you guys the password vault and how you access it.",
+    "corrected": "Back to the Electron app on desktop, I shall be showing you guys the password vault and how you access it.",
+    "highly_professional": "Returning to the Electron desktop application, I'll show you the password vault and how to access it."
+  },
+  {
+    "id": 77,
+    "start": "00:13:46.770",
+    "end": "00:14:01.270",
+    "speaker": "Devon Villalona",
+    "original": "There's two ways to do it. On the screen, you can see there's a biometric fingerprint reader for Apple, or you can use your master user password that is offered when you register for our application. So let's go ahead and get inside the vault.",
+    "corrected": "There's two ways to do it. On the screen, you can see there's a biometric fingerprint reader for Apple, or you can use your master user password that is offered when you register for our application. So let's go ahead and get inside the vault.",
+    "highly_professional": "There are two authentication methods. You can see the biometric fingerprint reader for Apple devices, or use your master password that you received during registration. Let me access the vault now."
+  },
+  {
+    "id": 78,
+    "start": "00:14:01.320",
+    "end": "00:14:23.239",
+    "speaker": "Devon Villalona",
+    "original": "Here, you can see, where you can import all the different types of, emails and password into the vault in different formats. As you can see, here's the import, we have a manual one, there's one for last, past CSV, all in four different formats, but supported by 45 different, password,",
+    "corrected": "Here, you can see, where you can import all the different types of, emails and password into the vault in different formats. As you can see, here's the import, we have a manual one, there's one for last, past CSV, all in four different formats, but supported by 45 different, password,",
+    "highly_professional": "Here, you can import emails and passwords into the vault using various formats. We support manual entry, LastPass CSV, and 45 different password manager formats across four standard export types."
+  },
+  {
+    "id": 79,
+    "start": "00:14:23.760",
+    "end": "00:14:26.699",
+    "speaker": "Devon Villalona",
+    "original": "Formats, in companies.",
+    "corrected": "Formats, in companies.",
+    "highly_professional": "Formats, in companies."
+  },
+  {
+    "id": 80,
+    "start": "00:14:27.020",
+    "end": "00:14:31.549",
+    "speaker": "Devon Villalona",
+    "original": "So we're gonna go ahead and, show you an example here.",
+    "corrected": "So we're going to go ahead and, show you an example here.",
+    "highly_professional": "Let me show you an example import."
+  },
+  {
+    "id": 81,
+    "start": "00:14:32.310",
+    "end": "00:14:33.530",
+    "speaker": "Devon Villalona",
+    "original": "LastPass.",
+    "corrected": "LastPass.",
+    "highly_professional": "LastPass."
+  },
+  {
+    "id": 82,
+    "start": "00:14:33.740",
+    "end": "00:14:35.599",
+    "speaker": "Devon Villalona",
+    "original": "There we go, 6 imports.",
+    "corrected": "There we go, 6 imports.",
+    "highly_professional": "Successfully imported six entries."
+  },
+  {
+    "id": 83,
+    "start": "00:14:36.150",
+    "end": "00:14:50.159",
+    "speaker": "Devon Villalona",
+    "original": "So, obviously, it imported in the vault, and as I import it into the vault, it's going to sync with mobile. Everything in the entire electron application is in sync with mobile, with,",
+    "corrected": "So, obviously, it imported in the vault, and as I import it into the vault, it's going to sync with mobile. Everything in the entire electron application is in sync with mobile, with,",
+    "highly_professional": "The passwords are now stored in the vault. Everything in the Electron application automatically syncs with mobile,"
+  },
+  {
+    "id": 84,
+    "start": "00:14:50.210",
+    "end": "00:14:59.440",
+    "speaker": "Devon Villalona",
+    "original": "the same features. So, obviously, if user were to go to the dashboard right now and go back in, obviously it locks itself.",
+    "corrected": "The same features. So, obviously, if user were to go to the dashboard right now and go back in, obviously it locks itself.",
+    "highly_professional": "ensuring feature parity across all platforms. The vault automatically locks when you navigate away for security."
+  },
+  {
+    "id": 85,
+    "start": "00:14:59.950",
+    "end": "00:15:01.269",
+    "speaker": "Devon Villalona",
+    "original": "And it's there.",
+    "corrected": "And it's there.",
+    "highly_professional": "Your data remains protected."
+  },
+  {
+    "id": 86,
+    "start": "00:15:01.640",
+    "end": "00:15:06.980",
+    "speaker": "Devon Villalona",
+    "original": "And obviously, if you go here to lock it, it's still there. So let's go ahead and talk about…",
+    "corrected": "And obviously, if you go here to lock it, it's still there. So let's go ahead and talk about…",
+    "highly_professional": "The vault stays locked until you authenticate again. Now let me discuss"
+  },
+  {
+    "id": 87,
+    "start": "00:15:07.120",
+    "end": "00:15:22.089",
+    "speaker": "Devon Villalona",
+    "original": "the CV Security Alerts. So, CV Security Alerts is an API we're using with, conjunction with a breach report. This is for, like, if you want to, search up your breach reports, from, our, Have Been Pwned database.",
+    "corrected": "The CV Security Alerts. So, CV Security Alerts is an API we're using with, conjunction with a breach report. This is for,, if you want to, search up your breach reports, from, our, Have Been Pwned database.",
+    "highly_professional": "the CVE Security Alerts. This feature uses an API in conjunction with the breach report. It allows you to search detailed breach reports from the Have I Been Pwned database."
+  },
+  {
+    "id": 88,
+    "start": "00:15:22.100",
+    "end": "00:15:28.349",
+    "speaker": "Devon Villalona",
+    "original": "to get more of a detailed report. Let's say if, like, you were reported on a breach with Walmart.",
+    "corrected": "To get more of a detailed report. Let's say if,, you were reported on a breach with Walmart.",
+    "highly_professional": "This provides comprehensive details about specific breaches. For example, if you were affected by a Walmart breach,"
+  },
+  {
+    "id": 89,
+    "start": "00:15:29.350",
+    "end": "00:15:30.180",
+    "speaker": "Devon Villalona",
+    "original": "What the hell?",
+    "corrected": "What the hell?",
+    "highly_professional": "What the hell?"
+  },
+  {
+    "id": 90,
+    "start": "00:15:33.250",
+    "end": "00:15:35.169",
+    "speaker": "Devon Villalona",
+    "original": "That's weird, it just worked before.",
+    "corrected": "That's weird, it just worked before.",
+    "highly_professional": "That's weird, it just worked before."
+  },
+  {
+    "id": 91,
+    "start": "00:15:36.600",
+    "end": "00:15:46.320",
+    "speaker": "Devon Villalona",
+    "original": "There it is. Alright, so as you can see, Walmart, it shows you the, more information on the report and what happened, the severity of it.",
+    "corrected": "There it is. Alright, so as you can see, Walmart, it shows you the, more information on the report and what happened, the severity of it.",
+    "highly_professional": "you can see the full details here. The report shows comprehensive information about what happened and the severity of the breach."
+  },
+  {
+    "id": 92,
+    "start": "00:15:46.850",
+    "end": "00:15:55.240",
+    "speaker": "Devon Villalona",
+    "original": "And… Now we shall be showing you our mobile, sync and implementations and features.",
+    "corrected": "And… Now we shall be showing you our mobile, sync and implementations and features.",
+    "highly_professional": "Next, I'll demonstrate our mobile sync, implementation, and features."
+  },
+  {
+    "id": 93,
+    "start": "00:15:56.480",
+    "end": "00:15:57.470",
+    "speaker": "Devon Villalona",
+    "original": "could.",
+    "corrected": "Could.",
+    "highly_professional": "Could."
+  },
+  {
+    "id": 94,
+    "start": "00:15:58.580",
+    "end": "00:16:09.919",
+    "speaker": "Devon Villalona",
+    "original": "And then that's it, but he does have to do editing. I gotta… now I gotta do the mobile thing. Yeah. Well, you want me to do it on the… the… just… you wanna do it? Or do… am I gonna do a voiceover?",
+    "corrected": "And then that's it, but he does have to do editing. I have to… now I have to do the mobile thing. yes. Well, you want me to do it on the… the… just… you want to do it? Or do… am I going to do a voiceover?",
+    "highly_professional": "And then that's it, but he does have to do editing. I have to… now I have to do the mobile thing. yes. Well, you want me to do it on the… the… just… you want to do it? Or do… am I going to do a voiceover?"
+  },
+  {
+    "id": 95,
+    "start": "00:16:11.820",
+    "end": "00:16:19.029",
+    "speaker": "Devon Villalona",
+    "original": "You're gonna, you're gonna do it, like, you're gonna put it in after, right? Yeah. Okay, cool. The screen recording probably would do it, right? You haven't joined David.",
+    "corrected": "You're going to, you're going to do it,, you're going to put it in after, right? yes. Okay, cool. The screen recording probably would do it, right? You haven't joined David.",
+    "highly_professional": "You're going to, you're going to do it,, you're going to put it in after, right? yes. Okay, cool. The screen recording probably would do it, right? You haven't joined David."
+  },
+  {
+    "id": 96,
+    "start": "00:16:19.210",
+    "end": "00:16:25.520",
+    "speaker": "Devon Villalona",
+    "original": "No, no, he wants me to screen… you want to be screen recorded, right? Right. Or you want me to do the Zoom recording?",
+    "corrected": "No, no, he wants me to screen… you want to be screen recorded, right? Right. Or you want me to do the Zoom recording?",
+    "highly_professional": "No, no, he wants me to screen… you want to be screen recorded, right? Right. Or you want me to do the Zoom recording?"
+  },
+  {
+    "id": 97,
+    "start": "00:16:25.670",
+    "end": "00:16:29.770",
+    "speaker": "Devon Villalona",
+    "original": "I could do one either.",
+    "corrected": "I could do one either.",
+    "highly_professional": "I could do one either."
+  },
+  {
+    "id": 98,
+    "start": "00:16:31.020",
+    "end": "00:16:33.419",
+    "speaker": "Devon Villalona",
+    "original": "On… on the Zoom? Yeah, alright.",
+    "corrected": "On… on the Zoom? yes, alright.",
+    "highly_professional": "On… on the Zoom? yes, alright."
+  },
+  {
+    "id": 99,
+    "start": "00:16:35.010",
+    "end": "00:16:37.030",
+    "speaker": "Devon Villalona",
+    "original": "Alright, I'm gonna join back.",
+    "corrected": "Alright, I'm going to join back.",
+    "highly_professional": "Alright, I'm going to join back."
+  },
+  {
+    "id": 100,
+    "start": "00:16:37.770",
+    "end": "00:16:40.600",
+    "speaker": "Devon Villalona",
+    "original": "It's probably easier for the reporting route, I do.",
+    "corrected": "It's probably easier for the reporting route, I do.",
+    "highly_professional": "It's probably easier for the reporting route, I do."
+  },
+  {
+    "id": 101,
+    "start": "00:16:40.600",
+    "end": "00:16:43.039",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "By the way, we're at, like, 15 minutes.",
+    "corrected": "By the way, we're at,, 15 minutes.",
+    "highly_professional": "By the way, we're at,, 15 minutes."
+  },
+  {
+    "id": 102,
+    "start": "00:16:43.400",
+    "end": "00:16:48.950",
+    "speaker": "Devon Villalona",
+    "original": "Yeah, it's fine. Got it. So, major caught taking out. Yeah, he's gonna have to do that.",
+    "corrected": "Yes, it's fine. Got it. So, major caught taking out. yes, he's going to have to do that.",
+    "highly_professional": "Yes, it's fine. Got it. So, major caught taking out. yes, he's going to have to do that."
+  },
+  {
+    "id": 103,
+    "start": "00:16:49.250",
+    "end": "00:16:52.200",
+    "speaker": "Zoom user",
+    "original": "There's, like, 5 minutes he's cutting. It doesn't matter.",
+    "corrected": "There's,, 5 minutes he's cutting. It does not matter.",
+    "highly_professional": "There's,, 5 minutes he's cutting. It does not matter."
+  },
+  {
+    "id": 104,
+    "start": "00:16:55.470",
+    "end": "00:16:58.230",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "Cut my whole session out.",
+    "corrected": "Cut my whole session out.",
+    "highly_professional": "Cut my whole session out."
+  },
+  {
+    "id": 105,
+    "start": "00:16:59.710",
+    "end": "00:17:01.979",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "Honestly, I don't think that's even needed.",
+    "corrected": "Honestly, I do not think that's even needed.",
+    "highly_professional": "Honestly, I do not think that's even needed."
+  },
+  {
+    "id": 106,
+    "start": "00:17:02.620",
+    "end": "00:17:06.349",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "You could take my whole section out, I don't… it's whatever.",
+    "corrected": "You could take my whole section out, I do not… it's whatever.",
+    "highly_professional": "You could take my whole section out, I do not… it's whatever."
+  },
+  {
+    "id": 107,
+    "start": "00:17:06.359",
+    "end": "00:17:11.459",
+    "speaker": "Zoom user",
+    "original": "Yeah, I mean, you could do that, but… That's low-key a red flag.",
+    "corrected": "Yes,, you could do that, but… That's low-key a red flag.",
+    "highly_professional": "Yes,, you could do that, but… That's low-key a red flag."
+  },
+  {
+    "id": 108,
+    "start": "00:17:17.119",
+    "end": "00:17:18.400",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "I mean, it's not like…",
+    "corrected": ", it's not …",
+    "highly_professional": ", it's not …"
+  },
+  {
+    "id": 109,
+    "start": "00:17:19.470",
+    "end": "00:17:19.839",
+    "speaker": "Zoom user",
+    "original": "Yes.",
+    "corrected": "Yes.",
+    "highly_professional": "Yes."
+  },
+  {
+    "id": 110,
+    "start": "00:17:19.849",
+    "end": "00:17:22.339",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "So as long as we explain the project.",
+    "corrected": "So as long as we explain the project.",
+    "highly_professional": "So as long as we explain the project."
+  },
+  {
+    "id": 111,
+    "start": "00:17:23.410",
+    "end": "00:17:27.759",
+    "speaker": "Devon Villalona",
+    "original": "There's a limit, though, it can't be past, like, it's gotta be, like, the most, like, 11 minutes.",
+    "corrected": "There's a limit, though, it cannot be past,, it's have to be,, the most,, 11 minutes.",
+    "highly_professional": "There's a limit, though, it cannot be past,, it's have to be,, the most,, 11 minutes."
+  },
+  {
+    "id": 112,
+    "start": "00:17:28.990",
+    "end": "00:17:32.110",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "No, like, yeah, 11 minutes max.",
+    "corrected": "No,, yes, 11 minutes max.",
+    "highly_professional": "No,, yes, 11 minutes max."
+  },
+  {
+    "id": 113,
+    "start": "00:17:32.870",
+    "end": "00:17:39.989",
+    "speaker": "Devon Villalona",
+    "original": "No, everything… there's no loading screens in our video, right? Oh, yeah, we were running on a loading screen, too, so if you cut that out, like…",
+    "corrected": "No, everything… there's no loading screens in our video, right? Oh, yes, we were running on a loading screen, too, so if you cut that out, …",
+    "highly_professional": "No, everything… there's no loading screens in our video, right? Oh, yes, we were running on a loading screen, too, so if you cut that out, …"
+  },
+  {
+    "id": 114,
+    "start": "00:17:40.780",
+    "end": "00:17:43.380",
+    "speaker": "Zoom user",
+    "original": "It's literally cutting, like, 5 minutes out.",
+    "corrected": "It's literally cutting,, 5 minutes out.",
+    "highly_professional": "It's literally cutting,, 5 minutes out."
+  },
+  {
+    "id": 115,
+    "start": "00:17:43.380",
+    "end": "00:17:44.550",
+    "speaker": "Devon Villalona",
+    "original": "Yeah.",
+    "corrected": "Yes.",
+    "highly_professional": "Yes."
+  },
+  {
+    "id": 116,
+    "start": "00:17:45.210",
+    "end": "00:17:54.480",
+    "speaker": "Devon Villalona",
+    "original": "Alright, I'm gonna join a mobile just to give him more ammo. If he needs to cut more shit, he at least he has the mobile, okay guys? Alright, are we still recording on the Zoom? Yeah. Alright, cool. I'm gonna join a mobile.",
+    "corrected": "Alright, I'm going to join a mobile just to give him more ammo. If he needs to cut more shit, he at least he has the mobile, okay guys? Alright, are we still recording on the Zoom? yes. Alright, cool. I'm going to join a mobile.",
+    "highly_professional": "Alright, I'm going to join a mobile just to give him more ammo. If he needs to cut more shit, he at least he has the mobile, okay guys? Alright, are we still recording on the Zoom? yes. Alright, cool. I'm going to join a mobile."
+  },
+  {
+    "id": 117,
+    "start": "00:17:55.950",
+    "end": "00:18:01.929",
+    "speaker": "Devon Villalona",
+    "original": "Let me, get the link. Where's the link? Right here? In this form.",
+    "corrected": "Let me, get the link. Where's the link? Right here? In this form.",
+    "highly_professional": "Let me, get the link. Where's the link? Right here? In this form."
+  },
+  {
+    "id": 118,
+    "start": "00:18:07.030",
+    "end": "00:18:14.420",
+    "speaker": "Devon Villalona",
+    "original": "You can't use the same account you're logged into? Yeah, yeah, no, it's the… I look crazy.",
+    "corrected": "You cannot use the same account you're logged into? yes, yes, no, it's the… I look crazy.",
+    "highly_professional": "You cannot use the same account you're logged into? yes, yes, no, it's the… I look crazy."
+  },
+  {
+    "id": 119,
+    "start": "00:18:15.670",
+    "end": "00:18:19.020",
+    "speaker": "Devon Villalona",
+    "original": "I'm like, fucking God, dude, damn. That shit's a lot as hell.",
+    "corrected": "I'm, fucking God, dude, damn. That shit's a lot as hell.",
+    "highly_professional": "I'm, fucking God, dude, damn. That shit's a lot as hell."
+  },
+  {
+    "id": 120,
+    "start": "00:18:19.300",
+    "end": "00:18:21.220",
+    "speaker": "Devon Villalona",
+    "original": "Oh, we should not click on that.",
+    "corrected": "Oh, we should not click on that.",
+    "highly_professional": "Oh, we should not click on that."
+  },
+  {
+    "id": 121,
+    "start": "00:18:21.870",
+    "end": "00:18:26.560",
+    "speaker": "Devon Villalona",
+    "original": "Now's the timer going out. It's, like, way too much. Alright.",
+    "corrected": "Now's the timer going out. It's,, way too much. Alright.",
+    "highly_professional": "Now's the timer going out. It's,, way too much. Alright."
+  },
+  {
+    "id": 122,
+    "start": "00:18:35.070",
+    "end": "00:18:38.610",
+    "speaker": "Devon Villalona",
+    "original": "Alright. Can everyone hear me in the call? I muted and deafened it.",
+    "corrected": "Alright. Can everyone hear me in the call? I muted and deafened it.",
+    "highly_professional": "Alright. Can everyone hear me in the call? I muted and deafened it."
+  },
+  {
+    "id": 123,
+    "start": "00:18:39.400",
+    "end": "00:18:41.839",
+    "speaker": "Devon Villalona",
+    "original": "I don't know.",
+    "corrected": "I do not know.",
+    "highly_professional": "I do not know."
+  },
+  {
+    "id": 124,
+    "start": "00:18:42.380",
+    "end": "00:18:47.609",
+    "speaker": "Devon Villalona",
+    "original": "And you can put it up, I deafened everything. Alright, cool. Alright.",
+    "corrected": "And you can put it up, I deafened everything. Alright, cool. Alright.",
+    "highly_professional": "And you can put it up, I deafened everything. Alright, cool. Alright."
+  },
+  {
+    "id": 125,
+    "start": "00:18:47.870",
+    "end": "00:18:50.040",
+    "speaker": "Devon Villalona",
+    "original": "Go ahead and unmute it here.",
+    "corrected": "Go ahead and unmute it here.",
+    "highly_professional": "Go ahead and unmute it here."
+  },
+  {
+    "id": 126,
+    "start": "00:18:50.700",
+    "end": "00:18:55.350",
+    "speaker": "Devon Villalona",
+    "original": "Alright, still recording. Awesome. I'm gonna go ahead and share the mobile now.",
+    "corrected": "Alright, still recording. Awesome. I'm going to go ahead and share the mobile now.",
+    "highly_professional": "Alright, still recording. Awesome. I'm going to go ahead and share the mobile now."
+  },
+  {
+    "id": 127,
+    "start": "00:18:58.390",
+    "end": "00:19:00.410",
+    "speaker": "Devon Villalona",
+    "original": "Where the fuck is the shirt? There it is?",
+    "corrected": "Where the fuck is the shirt? There it is?",
+    "highly_professional": "Where the fuck is the shirt? There it is?"
+  },
+  {
+    "id": 128,
+    "start": "00:19:01.310",
+    "end": "00:19:02.430",
+    "speaker": "Devon Villalona",
+    "original": "Screen.",
+    "corrected": "Screen.",
+    "highly_professional": "Screen."
+  },
+  {
+    "id": 129,
+    "start": "00:19:04.010",
+    "end": "00:19:05.709",
+    "speaker": "Devon Villalona",
+    "original": "Almost so I can go, bro.",
+    "corrected": "Almost so I can go, bro.",
+    "highly_professional": "Almost so I can go, bro."
+  },
+  {
+    "id": 130,
+    "start": "00:19:08.320",
+    "end": "00:19:09.740",
+    "speaker": "Devon Villalona",
+    "original": "Share at the bottom.",
+    "corrected": "Share at the bottom.",
+    "highly_professional": "Share at the bottom."
+  },
+  {
+    "id": 131,
+    "start": "00:19:13.990",
+    "end": "00:19:15.039",
+    "speaker": "Devon Villalona",
+    "original": "Is it showing?",
+    "corrected": "Is it showing?",
+    "highly_professional": "Is it showing?"
+  },
+  {
+    "id": 132,
+    "start": "00:19:15.260",
+    "end": "00:19:16.959",
+    "speaker": "Devon Villalona",
+    "original": "A lot of snow.",
+    "corrected": "A lot of snow.",
+    "highly_professional": "A lot of snow."
+  },
+  {
+    "id": 133,
+    "start": "00:19:19.800",
+    "end": "00:19:22.750",
+    "speaker": "Devon Villalona",
+    "original": "the only person… last person I can see who…",
+    "corrected": "The only person… last person I can see who…",
+    "highly_professional": "The only person… last person I can see who…"
+  },
+  {
+    "id": 134,
+    "start": "00:19:26.050",
+    "end": "00:19:26.770",
+    "speaker": "Devon Villalona",
+    "original": "Oh.",
+    "corrected": "Oh.",
+    "highly_professional": "Oh."
+  },
+  {
+    "id": 135,
+    "start": "00:19:30.450",
+    "end": "00:19:33.600",
+    "speaker": "Devon Villalona",
+    "original": "That doesn't even give me an optional shit, it's stupid broke-ass shit.",
+    "corrected": "That does not even give me an optional shit, it's stupid broke-ass shit.",
+    "highly_professional": "That does not even give me an optional shit, it's stupid broke-ass shit."
+  },
+  {
+    "id": 136,
+    "start": "00:19:34.160",
+    "end": "00:19:36.310",
+    "speaker": "Devon Villalona",
+    "original": "Where's the Zoom? It's right here.",
+    "corrected": "Where's the Zoom? It's right here.",
+    "highly_professional": "Where's the Zoom? It's right here."
+  },
+  {
+    "id": 137,
+    "start": "00:19:36.630",
+    "end": "00:19:46.549",
+    "speaker": "Devon Villalona",
+    "original": "Oh, share right here. Yeah, no. Up here. Yeah, I know, bro, look at the options, check it out. Zoom, sorry, broccoli, and…",
+    "corrected": "Oh, share right here. yes, no. Up here. yes, I know, bro, look at the options, check it out. Zoom, sorry, broccoli, and…",
+    "highly_professional": "Oh, share right here. yes, no. Up here. yes, I know, bro, look at the options, check it out. Zoom, sorry, broccoli, and…"
+  },
+  {
+    "id": 138,
+    "start": "00:19:46.890",
+    "end": "00:19:51.750",
+    "speaker": "Devon Villalona",
+    "original": "Including everything, receiving, enabled, to do not…",
+    "corrected": "Including everything, receiving, enabled, to do not…",
+    "highly_professional": "Including everything, receiving, enabled, to do not…"
+  },
+  {
+    "id": 139,
+    "start": "00:19:54.230",
+    "end": "00:20:00.299",
+    "speaker": "Devon Villalona",
+    "original": "Okay. Does it… do you see it now? Yeah. Do you see the password? Yes. Okay, cool. Alright.",
+    "corrected": "Okay. Does it… do you see it now? yes. Do you see the password? Yes. Okay, cool. Alright.",
+    "highly_professional": "Okay. Does it… do you see it now? yes. Do you see the password? Yes. Okay, cool. Alright."
+  },
+  {
+    "id": 140,
+    "start": "00:20:01.870",
+    "end": "00:20:05.280",
+    "speaker": "Devon Villalona",
+    "original": "Here's our, passwords, cut.",
+    "corrected": "Here's our, passwords, cut.",
+    "highly_professional": "Here's our, passwords, cut."
+  },
+  {
+    "id": 141,
+    "start": "00:20:05.460",
+    "end": "00:20:14.729",
+    "speaker": "Devon Villalona",
+    "original": "Here's our, our mobile implementation using Flutter. We're gonna go ahead and log in, and you'll see that we have a Face ID for biometric unlock, and see all their features.",
+    "corrected": "Here's our, our mobile implementation using Flutter. We're going to go ahead and log in, and you'll see that we have a Face ID for biometric unlock, and see all their features.",
+    "highly_professional": "Here is our mobile implementation built with Flutter. I'll log in now. You'll see we have Face ID for biometric authentication, providing access to all the platform's features."
+  },
+  {
+    "id": 142,
+    "start": "00:20:15.840",
+    "end": "00:20:18.959",
+    "speaker": "Devon Villalona",
+    "original": "So we go in there, right? We're gonna check breach report.",
+    "corrected": "So we go in there, right? We're going to check breach report.",
+    "highly_professional": "Let me navigate to the breach report."
+  },
+  {
+    "id": 143,
+    "start": "00:20:23.210",
+    "end": "00:20:25.689",
+    "speaker": "Devon Villalona",
+    "original": "shared email, right? Yeah.",
+    "corrected": "Shared email, right? yes.",
+    "highly_professional": "Shared email, right? yes."
+  },
+  {
+    "id": 144,
+    "start": "00:20:26.180",
+    "end": "00:20:27.829",
+    "speaker": "Devon Villalona",
+    "original": "We'll use Jared's email.",
+    "corrected": "we will use Jared's email.",
+    "highly_professional": "I'll use Jared's email for this demonstration."
+  },
+  {
+    "id": 145,
+    "start": "00:20:31.750",
+    "end": "00:20:35.080",
+    "speaker": "Devon Villalona",
+    "original": "We're gonna show Jared's email here right here.",
+    "corrected": "We're going to show Jared's email here right here.",
+    "highly_professional": "Let me show you Jared's breach report."
+  },
+  {
+    "id": 146,
+    "start": "00:20:49.060",
+    "end": "00:20:55.409",
+    "speaker": "Devon Villalona",
+    "original": "As you can see, Jared is severely exposed to our, to everything, actually.",
+    "corrected": "As you can see, Jared is severely exposed to our, to everything,.",
+    "highly_professional": "As you can see, Jared's email has significant exposure across multiple breaches."
+  },
+  {
+    "id": 147,
+    "start": "00:20:57.870",
+    "end": "00:21:10.020",
+    "speaker": "Devon Villalona",
+    "original": "And, we'll go ahead and check the password vault. As always, the password vault is, using our, Face ID instead of fingerprint, and as you can see, it's in sync with the passwords we just, imported.",
+    "corrected": "And, we will go ahead and check the password vault. As always, the password vault is, using our, Face ID instead of fingerprint, and as you can see, it's in sync with the passwords we just, imported.",
+    "highly_professional": "Now I'll show the password vault. The vault uses Face ID instead of fingerprint authentication on iOS. As you can see, it's automatically synced with the passwords we imported on desktop."
+  },
+  {
+    "id": 148,
+    "start": "00:21:12.140",
+    "end": "00:21:14.479",
+    "speaker": "Devon Villalona",
+    "original": "And of course, CVE works here, too.",
+    "corrected": "And of course, CVE works here, too.",
+    "highly_professional": "The CVE feature works identically on mobile."
+  },
+  {
+    "id": 149,
+    "start": "00:21:19.580",
+    "end": "00:21:20.820",
+    "speaker": "Devon Villalona",
+    "original": "There you go.",
+    "corrected": "There you go.",
+    "highly_professional": "There you go."
+  },
+  {
+    "id": 150,
+    "start": "00:21:21.600",
+    "end": "00:21:24.710",
+    "speaker": "Devon Villalona",
+    "original": "And this will be the mobile implementation for,",
+    "corrected": "And this will be the mobile implementation for,",
+    "highly_professional": "This demonstrates the mobile implementation"
+  },
+  {
+    "id": 151,
+    "start": "00:21:25.210",
+    "end": "00:21:28.220",
+    "speaker": "Devon Villalona",
+    "original": "That is in sync with our desktop app, Electron.",
+    "corrected": "That is in sync with our desktop app, Electron.",
+    "highly_professional": "that stays in perfect sync with our Electron desktop application."
+  },
+  {
+    "id": 152,
+    "start": "00:21:29.070",
+    "end": "00:21:29.856",
+    "speaker": "Devon Villalona",
+    "original": "Go ahead.",
+    "corrected": "Go ahead.",
+    "highly_professional": "Go ahead."
+  },
+  {
+    "id": 153,
+    "start": "00:21:30.910",
+    "end": "00:21:32.749",
+    "speaker": "Devon Villalona",
+    "original": "Can I throw in units?",
+    "corrected": "Can I throw in units?",
+    "highly_professional": "Can I throw in units?"
+  },
+  {
+    "id": 154,
+    "start": "00:21:33.960",
+    "end": "00:21:36.089",
+    "speaker": "Devon Villalona",
+    "original": "And then the outro, if you want one.",
+    "corrected": "And then the outro, if you want one.",
+    "highly_professional": "And then the outro, if you want one."
+  },
+  {
+    "id": 155,
+    "start": "00:21:36.840",
+    "end": "00:21:37.550",
+    "speaker": "Devon Villalona",
+    "original": "I mean…",
+    "corrected": "…",
+    "highly_professional": "…"
+  },
+  {
+    "id": 156,
+    "start": "00:21:37.740",
+    "end": "00:21:53.860",
+    "speaker": "Devon Villalona",
+    "original": "What do you think? You think he's freaking down to 11? Unless you wanna… you wanna do your take on it now? So you just have ammo or some shit, because you gotta talk? No, we're definitely over, we just need someone to do the ending, like… Oh, Jared, perfect, Jared, Jared does ending.",
+    "corrected": "What do you think? You think he's freaking down to 11? Unless you want to… you want to do your take on it now? So you just have ammo or some shit, because you have to talk? No, we're definitely over, we just need someone to do the ending, … Oh, Jared, perfect, Jared, Jared does ending.",
+    "highly_professional": "What do you think? You think he's freaking down to 11? Unless you want to… you want to do your take on it now? So you just have ammo or some shit, because you have to talk? No, we're definitely over, we just need someone to do the ending, … Oh, Jared, perfect, Jared, Jared does ending."
+  },
+  {
+    "id": 157,
+    "start": "00:21:54.030",
+    "end": "00:21:56.220",
+    "speaker": "Devon Villalona",
+    "original": "Real quick. He's the last one.",
+    "corrected": "Real quick. He's the last one.",
+    "highly_professional": "Real quick. He's the last one."
+  },
+  {
+    "id": 158,
+    "start": "00:21:57.640",
+    "end": "00:22:02.150",
+    "speaker": "Jared Zayas",
+    "original": "How should I end it? Oh, wait, you might have to turn it on.",
+    "corrected": "How should I end it? Oh, wait, you might have to turn it on.",
+    "highly_professional": "How should I end it? Oh, wait, you might have to turn it on."
+  },
+  {
+    "id": 159,
+    "start": "00:22:02.150",
+    "end": "00:22:03.949",
+    "speaker": "Devon Villalona",
+    "original": "Go ahead and exit, I'm sorry.",
+    "corrected": "Go ahead and exit, I'm sorry.",
+    "highly_professional": "Go ahead and exit, I'm sorry."
+  },
+  {
+    "id": 160,
+    "start": "00:22:05.840",
+    "end": "00:22:07.760",
+    "speaker": "Jared Zayas",
+    "original": "You should probably leave from your phone, too.",
+    "corrected": "You should probably leave from your phone, too.",
+    "highly_professional": "You should probably leave from your phone, too."
+  },
+  {
+    "id": 161,
+    "start": "00:22:07.760",
+    "end": "00:22:08.629",
+    "speaker": "Devon Villalona",
+    "original": "Yeah, I am.",
+    "corrected": "Yes, I am.",
+    "highly_professional": "Yes, I am."
+  },
+  {
+    "id": 162,
+    "start": "00:22:15.170",
+    "end": "00:22:21.210",
+    "speaker": "Jared Zayas",
+    "original": "So… God, I don't even know how to end this.",
+    "corrected": "So… God, I do not even know how to end this.",
+    "highly_professional": "So… God, I do not even know how to end this."
+  },
+  {
+    "id": 163,
+    "start": "00:22:21.790",
+    "end": "00:22:26.650",
+    "speaker": "Jared Zayas",
+    "original": "So that concludes… Fucking…",
+    "corrected": "So that concludes… Fucking…",
+    "highly_professional": "So that concludes… Fucking…"
+  },
+  {
+    "id": 164,
+    "start": "00:22:26.800",
+    "end": "00:22:28.280",
+    "speaker": "Zoom user",
+    "original": "Jesus Christ.",
+    "corrected": "Jesus Christ.",
+    "highly_professional": "Jesus Christ."
+  },
+  {
+    "id": 165,
+    "start": "00:22:28.440",
+    "end": "00:22:29.040",
+    "speaker": "Zoom user",
+    "original": "Well, hold up.",
+    "corrected": "Well, hold up.",
+    "highly_professional": "Well, hold up."
+  },
+  {
+    "id": 166,
+    "start": "00:22:29.040",
+    "end": "00:22:32.110",
+    "speaker": "Jared Zayas",
+    "original": "It's like I'm performing in front of a live audience right now.",
+    "corrected": "It's I'm performing in front of a live audience right now.",
+    "highly_professional": "It's I'm performing in front of a live audience right now."
+  },
+  {
+    "id": 167,
+    "start": "00:22:32.110",
+    "end": "00:22:34.419",
+    "speaker": "Zoom user",
+    "original": "Yeah, you're perform… you're performing good.",
+    "corrected": "Yes, you're perform… you're performing good.",
+    "highly_professional": "Yes, you're perform… you're performing good."
+  },
+  {
+    "id": 168,
+    "start": "00:22:35.500",
+    "end": "00:22:37.759",
+    "speaker": "Jared Zayas",
+    "original": "Isaac, you're laughing at me, bro.",
+    "corrected": "Isaac, you're laughing at me, bro.",
+    "highly_professional": "Isaac, you're laughing at me, bro."
+  },
+  {
+    "id": 169,
+    "start": "00:22:37.760",
+    "end": "00:22:40.360",
+    "speaker": "Zoom user",
+    "original": "Bro, you do MMA, bro, I'm good.",
+    "corrected": "Bro, you do MMA, bro, I'm good.",
+    "highly_professional": "Bro, you do MMA, bro, I'm good."
+  },
+  {
+    "id": 170,
+    "start": "00:22:42.230",
+    "end": "00:22:51.250",
+    "speaker": "Jared Zayas",
+    "original": "Alright, so that concludes our project, and our demo. Thank you for your attention. That sounds fucking dumb.",
+    "corrected": "Alright, so that concludes our project, and our demo. Thank you for your attention. That sounds fucking dumb.",
+    "highly_professional": "That concludes our project demonstration. Thank you for your attention."
+  },
+  {
+    "id": 171,
+    "start": "00:22:51.860",
+    "end": "00:22:53.280",
+    "speaker": "Zoom user",
+    "original": "No, it doesn't, no dozen.",
+    "corrected": "No, it does not, no dozen.",
+    "highly_professional": "No, it does not, no dozen."
+  },
+  {
+    "id": 172,
+    "start": "00:22:53.280",
+    "end": "00:22:54.850",
+    "speaker": "Jared Zayas",
+    "original": "That's gonna be short and sweet, but…",
+    "corrected": "That's going to be short and sweet, but…",
+    "highly_professional": "That's going to be short and sweet, but…"
+  },
+  {
+    "id": 173,
+    "start": "00:22:54.850",
+    "end": "00:22:56.110",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "And it's binding me.",
+    "corrected": "And it's binding me.",
+    "highly_professional": "And it's binding me."
+  },
+  {
+    "id": 174,
+    "start": "00:22:56.110",
+    "end": "00:22:57.940",
+    "speaker": "Jared Zayas",
+    "original": "Thanks for Jason, this is Madela.",
+    "corrected": "Thanks for Jason, this is Madela.",
+    "highly_professional": "Thanks for Jason, this is Madela."
+  },
+  {
+    "id": 175,
+    "start": "00:22:57.940",
+    "end": "00:23:00.530",
+    "speaker": "Jhuiwensley Belizaire",
+    "original": "Sounds good. Yeah, you're still confident with it.",
+    "corrected": "Sounds good. yes, you're still confident with it.",
+    "highly_professional": "Sounds good. yes, you're still confident with it."
+  },
+  {
+    "id": 176,
+    "start": "00:23:00.530",
+    "end": "00:23:06.660",
+    "speaker": "Jared Zayas",
+    "original": "our presentation and our demo of our project. Thank you for your attention.",
+    "corrected": "Our presentation and our demo of our project. Thank you for your attention.",
+    "highly_professional": "That concludes our presentation and demonstration of our project. Thank you for your attention."
+  },
+  {
+    "id": 177,
+    "start": "00:23:06.910",
+    "end": "00:23:08.020",
+    "speaker": "Jared Zayas",
+    "original": "That's everything.",
+    "corrected": "That's everything.",
+    "highly_professional": "That's everything."
+  },
+  {
+    "id": 178,
+    "start": "00:23:08.430",
+    "end": "00:23:09.370",
+    "speaker": "Zoom user",
+    "original": "Alright.",
+    "corrected": "Alright.",
+    "highly_professional": "Alright."
+  },
+  {
+    "id": 179,
+    "start": "00:23:09.800",
+    "end": "00:23:10.600",
+    "speaker": "Jared Zayas",
+    "original": "Say what?",
+    "corrected": "Say what?",
+    "highly_professional": "Say what?"
+  },
+  {
+    "id": 180,
+    "start": "00:23:10.850",
+    "end": "00:23:11.710",
+    "speaker": "Jared Zayas",
+    "original": "That's it.",
+    "corrected": "That's it.",
+    "highly_professional": "That's it."
+  },
+  {
+    "id": 181,
+    "start": "00:23:12.180",
+    "end": "00:23:14.399",
+    "speaker": "Jared Zayas",
+    "original": "Oh, okay, yeah, okay, that's it.",
+    "corrected": "Oh, okay, yes, okay, that's it.",
+    "highly_professional": "Oh, okay, yes, okay, that's it."
+  },
+  {
+    "id": 182,
+    "start": "00:23:19.020",
+    "end": "00:23:20.490",
+    "speaker": "Zoom user",
+    "original": "And that concludes our presentation.",
+    "corrected": "And that concludes our presentation.",
+    "highly_professional": "That concludes our presentation. Thank you."
+  },
+  {
+    "id": 183,
+    "start": "00:23:20.490",
+    "end": "00:23:21.250",
+    "speaker": "Jared Zayas",
+    "original": "profit, and…",
+    "corrected": "Profit, and…",
+    "highly_professional": "Profit, and…"
+  }
+]

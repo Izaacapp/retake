@@ -1,0 +1,167 @@
+[
+  {
+    "id": 158,
+    "start": "00:21:57.640",
+    "end": "00:22:02.150",
+    "speaker": "Jared Zayas",
+    "original": "How should I end it? Oh, wait, you might have to turn it on.",
+    "corrected": "How should I end it? Oh, wait, you might have to turn it on.",
+    "professional": "How should I end it? Oh, wait, you might have to turn it on.",
+    "highly_professional": "How should I end it? Oh, wait, you might have to turn it on.",
+    "duration": "00:22:02.150"
+  },
+  {
+    "id": 160,
+    "start": "00:22:05.840",
+    "end": "00:22:07.760",
+    "speaker": "Jared Zayas",
+    "original": "You should probably leave from your phone, too.",
+    "corrected": "You should probably leave from your phone, too.",
+    "professional": "You should probably leave from your phone, too.",
+    "highly_professional": "You should probably leave from your phone, too.",
+    "duration": "00:22:07.760"
+  },
+  {
+    "id": 162,
+    "start": "00:22:15.170",
+    "end": "00:22:21.210",
+    "speaker": "Jared Zayas",
+    "original": "So… God, I don't even know how to end this.",
+    "corrected": "So… God, I do not even know how to end this.",
+    "professional": "So… God, I do not even know how to end this.",
+    "highly_professional": "So… God, I do not even know how to end this.",
+    "duration": "00:22:21.210"
+  },
+  {
+    "id": 163,
+    "start": "00:22:21.790",
+    "end": "00:22:26.650",
+    "speaker": "Jared Zayas",
+    "original": "So that concludes… Fucking…",
+    "corrected": "So that concludes… Fucking…",
+    "professional": "So that concludes… Fucking…",
+    "highly_professional": "That concludes… Fucking…",
+    "duration": "00:22:26.650"
+  },
+  {
+    "id": 166,
+    "start": "00:22:29.040",
+    "end": "00:22:32.110",
+    "speaker": "Jared Zayas",
+    "original": "It's like I'm performing in front of a live audience right now.",
+    "corrected": "It's I'm performing in front of a live audience right now.",
+    "professional": "It's I'm performing in front of a live audience right now.",
+    "highly_professional": "It's I'm performing in front of a live audience right now.",
+    "duration": "00:22:32.110"
+  },
+  {
+    "id": 168,
+    "start": "00:22:35.500",
+    "end": "00:22:37.759",
+    "speaker": "Jared Zayas",
+    "original": "Isaac, you're laughing at me, bro.",
+    "corrected": "Isaac, you're laughing at me, bro.",
+    "professional": "Isaac, you're laughing at me, bro.",
+    "highly_professional": "Isaac, you are laughing at me, bro.",
+    "duration": "00:22:37.759"
+  },
+  {
+    "id": 170,
+    "start": "00:22:42.230",
+    "end": "00:22:51.250",
+    "speaker": "Jared Zayas",
+    "original": "Alright, so that concludes our project, and our demo. Thank you for your attention. That sounds fucking dumb.",
+    "corrected": "Alright, so that concludes our project, and our demo. Thank you for your attention. That sounds fucking dumb.",
+    "professional": "Alright, so that concludes our project, and our demo. Thank you for your attention. That sounds fucking dumb.",
+    "highly_professional": "Alright, so that concludes our project, and our demo. Thank you for your attention. That sounds fucking dumb.",
+    "duration": "00:22:51.250"
+  },
+  {
+    "id": 172,
+    "start": "00:22:53.280",
+    "end": "00:22:54.850",
+    "speaker": "Jared Zayas",
+    "original": "That's gonna be short and sweet, but…",
+    "corrected": "That's going to be short and sweet, but…",
+    "professional": "That's going to be short and sweet, but…",
+    "highly_professional": "That's going to be short and sweet, but…",
+    "duration": "00:22:54.850"
+  },
+  {
+    "id": 174,
+    "start": "00:22:56.110",
+    "end": "00:22:57.940",
+    "speaker": "Jared Zayas",
+    "original": "Thanks for Jason, this is Madela.",
+    "corrected": "Thanks for Jason, this is Madela.",
+    "professional": "Thanks for Jason, this is Madela.",
+    "highly_professional": "Thanks for Jason, this is Madela.",
+    "duration": "00:22:57.940"
+  },
+  {
+    "id": 176,
+    "start": "00:23:00.530",
+    "end": "00:23:06.660",
+    "speaker": "Jared Zayas",
+    "original": "our presentation and our demo of our project. Thank you for your attention.",
+    "corrected": "Our presentation and our demo of our project. Thank you for your attention.",
+    "professional": "Our presentation and our demo of our project. Thank you for your attention.",
+    "highly_professional": "Our presentation and our demo of our project. Thank you for your attention.",
+    "duration": "00:23:06.660"
+  },
+  {
+    "id": 177,
+    "start": "00:23:06.910",
+    "end": "00:23:08.020",
+    "speaker": "Jared Zayas",
+    "original": "That's everything.",
+    "corrected": "That's everything.",
+    "professional": "That's everything.",
+    "highly_professional": "That's everything.",
+    "duration": "00:23:08.020"
+  },
+  {
+    "id": 179,
+    "start": "00:23:09.800",
+    "end": "00:23:10.600",
+    "speaker": "Jared Zayas",
+    "original": "Say what?",
+    "corrected": "Say what?",
+    "professional": "Say what?",
+    "highly_professional": "Say what?",
+    "duration": "00:23:10.600"
+  },
+  {
+    "id": 180,
+    "start": "00:23:10.850",
+    "end": "00:23:11.710",
+    "speaker": "Jared Zayas",
+    "original": "That's it.",
+    "corrected": "That's it.",
+    "professional": "That's it.",
+    "highly_professional": "That's it.",
+    "duration": "00:23:11.710"
+  },
+  {
+    "id": 181,
+    "start": "00:23:12.180",
+    "end": "00:23:14.399",
+    "speaker": "Jared Zayas",
+    "original": "Oh, okay, yeah, okay, that's it.",
+    "corrected": "Oh, okay, yes, okay, that's it.",
+    "professional": "Oh, okay, yes, okay, that's it.",
+    "highly_professional": "Oh, okay, yes, okay, that's it.",
+    "duration": "00:23:14.399"
+  },
+  {
+    "id": 183,
+    "start": "00:23:20.490",
+    "end": "00:23:21.250",
+    "speaker": "Jared Zayas",
+    "original": "profit, and…",
+    "corrected": "Profit, and…",
+    "professional": "Profit, and…",
+    "highly_professional": "Profit, and…",
+    "duration": "00:23:21.250"
+  }
+]

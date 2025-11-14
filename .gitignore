@@ -5,39 +5,37 @@ __pycache__/
 *.so
 .Python
 .venv/
-venv/
-ENV/
 env/
-.env
+venv/
 
-# Output files
-output/
-*.mp4
-*.m4a
-*.wav
-*.vtt
-*.txt
-!requirements.txt
-!TALKING_POINTS.md
-!STATUS.md
+# Fish Speech (keep only embeddings)
+fish-speech/.venv/
+fish-speech/temp/*.wav
+fish-speech/checkpoints/
+
+# Large files (use Git LFS or exclude)
+data/source/*.mp4
+data/source/*.m4a
+output/audio/*.wav
+output/video/*.mp4
+output/tts_generated/*.wav
+
+# Keep structure
+!data/audio/voice_samples/
+!models/*.npy
+
+# OS
+.DS_Store
+*.swp
+*.swo
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
 
-# OS
-.DS_Store
-Thumbs.db
-
-# Project specific
-fish-speech/
-data/source/*.mp4
-data/source/*.m4a
-data/source/*.wav
-
-# Keep structure
-!data/.gitkeep
-!output/.gitkeep
+# Large audio/video files
+*.wav
+*.mp4
+*.mp3
+*.avi
+*.mov

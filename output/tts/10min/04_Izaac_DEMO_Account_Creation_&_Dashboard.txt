@@ -1,0 +1,1 @@
+This is the first screen users see when entering our platform. The account creation process generates secure credentials that users save locally, along with a key file for platform access. After logging in, users arrive at the main dashboard where they can access all of our platform's key features.

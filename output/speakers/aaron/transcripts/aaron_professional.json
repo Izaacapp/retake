@@ -1,0 +1,794 @@
+[
+  {
+    "id": 14,
+    "start": "00:02:05.430",
+    "end": "00:02:09.080",
+    "speaker": "Devon Villalona",
+    "original": "Right now, I shall be demonstrating the desktop features with Electron.",
+    "corrected": "Right now, I shall be demonstrating the desktop features with Electron.",
+    "professional": "Right now, I'll be demonstrating the desktop features built with Electron."
+  },
+  {
+    "id": 15,
+    "start": "00:02:10.039",
+    "end": "00:02:11.670",
+    "speaker": "Devon Villalona",
+    "original": "I will now demonstrate.",
+    "corrected": "I will now demonstrate.",
+    "professional": "Let me show you the demonstration."
+  },
+  {
+    "id": 16,
+    "start": "00:02:12.160",
+    "end": "00:02:13.689",
+    "speaker": "Devon Villalona",
+    "original": "The login with it?",
+    "corrected": "The login with it?",
+    "professional": "I'll start with the login functionality."
+  },
+  {
+    "id": 17,
+    "start": "00:02:17.330",
+    "end": "00:02:19.429",
+    "speaker": "Devon Villalona",
+    "original": "With our… within the application…",
+    "corrected": "With our… within the application…",
+    "professional": "With our… within the application…"
+  },
+  {
+    "id": 18,
+    "start": "00:02:21.350",
+    "end": "00:02:28.959",
+    "speaker": "Devon Villalona",
+    "original": "Alright, we shall see… we shall now see the breach report. We are using an API called I've Been Pwned to…",
+    "corrected": "Alright, we shall see… we shall now see the breach report. We are using an API called I've Been Pwned to…",
+    "professional": "Alright, we'll now see the breach report. We're using an API called Have I Been Pwned to check for security breaches."
+  },
+  {
+    "id": 19,
+    "start": "00:02:30.270",
+    "end": "00:02:33.870",
+    "speaker": "Devon Villalona",
+    "original": "search up breach reports. Right now, we'll just do my email for now.",
+    "corrected": "Search up breach reports. Right now, we will just do my email for now.",
+    "professional": "Let me search for breach reports using my email as an example."
+  },
+  {
+    "id": 20,
+    "start": "00:02:35.700",
+    "end": "00:02:37.460",
+    "speaker": "Devon Villalona",
+    "original": "Go ahead and hurry that off.",
+    "corrected": "Go ahead and hurry that off.",
+    "professional": "Let me proceed with that."
+  },
+  {
+    "id": 21,
+    "start": "00:02:39.310",
+    "end": "00:02:41.250",
+    "speaker": "Devon Villalona",
+    "original": "As you can see,",
+    "corrected": "As you can see,",
+    "professional": "As you can see,"
+  },
+  {
+    "id": 22,
+    "start": "00:02:41.410",
+    "end": "00:02:54.380",
+    "speaker": "Devon Villalona",
+    "original": "The breach report shows many different compromises in the millions of accounts that have been compromises, and even mine, with article links and everything, to show the user that there are many, breaches within the email.",
+    "corrected": "The breach report shows many different compromises in the millions of accounts that have been compromises, and even mine, with article links and everything, to show the user that there are many, breaches within the email.",
+    "professional": "The breach report shows many different compromises - millions of accounts that have been breached, including mine. We provide article links and detailed information to show users the extent of breaches associated with their email."
+  },
+  {
+    "id": 23,
+    "start": "00:02:57.080",
+    "end": "00:02:59.380",
+    "speaker": "Devon Villalona",
+    "original": "And then I can return a dashboard right here.",
+    "corrected": "And then I can return a dashboard right here.",
+    "professional": "And then I can return to the dashboard right here."
+  },
+  {
+    "id": 24,
+    "start": "00:02:59.660",
+    "end": "00:03:01.460",
+    "speaker": "Devon Villalona",
+    "original": "And we'll talk about the Ether Mail.",
+    "corrected": "And we will talk about the Aether Mail.",
+    "professional": "Now we'll discuss the Aether Mail features."
+  },
+  {
+    "id": 71,
+    "start": "00:13:20.790",
+    "end": "00:13:22.409",
+    "speaker": "Devon Villalona",
+    "original": "That would be fair internal.",
+    "corrected": "That would be fair internal.",
+    "professional": "That would be fair internal."
+  },
+  {
+    "id": 72,
+    "start": "00:13:25.480",
+    "end": "00:13:26.550",
+    "speaker": "Devon Villalona",
+    "original": "I guess…",
+    "corrected": "I guess…",
+    "professional": "I guess…"
+  },
+  {
+    "id": 73,
+    "start": "00:13:28.100",
+    "end": "00:13:32.169",
+    "speaker": "Devon Villalona",
+    "original": "Oh, he's gonna make the… he has to make a cut anyways. The Jules… Jules, are you done?",
+    "corrected": "Oh, he's going to make the… he has to make a cut anyways. The Jules… Jules, are you done?",
+    "professional": "Oh, he's going to make the… he has to make a cut anyways. The Jules… Jules, are you done?"
+  },
+  {
+    "id": 74,
+    "start": "00:13:34.790",
+    "end": "00:13:35.300",
+    "speaker": "Devon Villalona",
+    "original": "There is…",
+    "corrected": "There is…",
+    "professional": "There is…"
+  },
+  {
+    "id": 76,
+    "start": "00:13:39.580",
+    "end": "00:13:46.450",
+    "speaker": "Devon Villalona",
+    "original": "Back to the Electron app on desktop, I shall be showing you guys the password vault and how you access it.",
+    "corrected": "Back to the Electron app on desktop, I shall be showing you guys the password vault and how you access it.",
+    "professional": "Back in the Electron desktop app, I'll show you the password vault and how to access it."
+  },
+  {
+    "id": 77,
+    "start": "00:13:46.770",
+    "end": "00:14:01.270",
+    "speaker": "Devon Villalona",
+    "original": "There's two ways to do it. On the screen, you can see there's a biometric fingerprint reader for Apple, or you can use your master user password that is offered when you register for our application. So let's go ahead and get inside the vault.",
+    "corrected": "There's two ways to do it. On the screen, you can see there's a biometric fingerprint reader for Apple, or you can use your master user password that is offered when you register for our application. So let's go ahead and get inside the vault.",
+    "professional": "There are two ways to access it. On screen, you can see there's a biometric fingerprint reader for Apple devices, or you can use your master user password that's provided when you register for our application. Let's go ahead and access the vault."
+  },
+  {
+    "id": 78,
+    "start": "00:14:01.320",
+    "end": "00:14:23.239",
+    "speaker": "Devon Villalona",
+    "original": "Here, you can see, where you can import all the different types of, emails and password into the vault in different formats. As you can see, here's the import, we have a manual one, there's one for last, past CSV, all in four different formats, but supported by 45 different, password,",
+    "corrected": "Here, you can see, where you can import all the different types of, emails and password into the vault in different formats. As you can see, here's the import, we have a manual one, there's one for last, past CSV, all in four different formats, but supported by 45 different, password,",
+    "professional": "Here you can see where you can import different types of emails and passwords into the vault in various formats. We have manual import, LastPass CSV format, and support for over 45 different password manager formats and companies."
+  },
+  {
+    "id": 79,
+    "start": "00:14:23.760",
+    "end": "00:14:26.699",
+    "speaker": "Devon Villalona",
+    "original": "Formats, in companies.",
+    "corrected": "Formats, in companies.",
+    "professional": "Formats, in companies."
+  },
+  {
+    "id": 80,
+    "start": "00:14:27.020",
+    "end": "00:14:31.549",
+    "speaker": "Devon Villalona",
+    "original": "So we're gonna go ahead and, show you an example here.",
+    "corrected": "So we're going to go ahead and, show you an example here.",
+    "professional": "Let me show you an example."
+  },
+  {
+    "id": 81,
+    "start": "00:14:32.310",
+    "end": "00:14:33.530",
+    "speaker": "Devon Villalona",
+    "original": "LastPass.",
+    "corrected": "LastPass.",
+    "professional": "LastPass import."
+  },
+  {
+    "id": 82,
+    "start": "00:14:33.740",
+    "end": "00:14:35.599",
+    "speaker": "Devon Villalona",
+    "original": "There we go, 6 imports.",
+    "corrected": "There we go, 6 imports.",
+    "professional": "There we go - 6 items imported."
+  },
+  {
+    "id": 83,
+    "start": "00:14:36.150",
+    "end": "00:14:50.159",
+    "speaker": "Devon Villalona",
+    "original": "So, obviously, it imported in the vault, and as I import it into the vault, it's going to sync with mobile. Everything in the entire electron application is in sync with mobile, with,",
+    "corrected": "So, obviously, it imported in the vault, and as I import it into the vault, it's going to sync with mobile. Everything in the entire electron application is in sync with mobile, with,",
+    "professional": "As you can see, it imported into the vault. Everything I import into the vault automatically syncs with mobile. Everything in the entire Electron application is synchronized with mobile and has the same features."
+  },
+  {
+    "id": 84,
+    "start": "00:14:50.210",
+    "end": "00:14:59.440",
+    "speaker": "Devon Villalona",
+    "original": "the same features. So, obviously, if user were to go to the dashboard right now and go back in, obviously it locks itself.",
+    "corrected": "The same features. So, obviously, if user were to go to the dashboard right now and go back in, obviously it locks itself.",
+    "professional": "Obviously, if the user were to go to the dashboard right now and return to the vault, it automatically locks itself for security."
+  },
+  {
+    "id": 85,
+    "start": "00:14:59.950",
+    "end": "00:15:01.269",
+    "speaker": "Devon Villalona",
+    "original": "And it's there.",
+    "corrected": "And it's there.",
+    "professional": "And the data is still there."
+  },
+  {
+    "id": 86,
+    "start": "00:15:01.640",
+    "end": "00:15:06.980",
+    "speaker": "Devon Villalona",
+    "original": "And obviously, if you go here to lock it, it's still there. So let's go ahead and talk about…",
+    "corrected": "And obviously, if you go here to lock it, it's still there. So let's go ahead and talk about…",
+    "professional": "If you lock it manually, it remains secure. Let's talk about the CVE Security Alerts feature."
+  },
+  {
+    "id": 87,
+    "start": "00:15:07.120",
+    "end": "00:15:22.089",
+    "speaker": "Devon Villalona",
+    "original": "the CV Security Alerts. So, CV Security Alerts is an API we're using with, conjunction with a breach report. This is for, like, if you want to, search up your breach reports, from, our, Have Been Pwned database.",
+    "corrected": "The CV Security Alerts. So, CV Security Alerts is an API we're using with, conjunction with a breach report. This is for,, if you want to, search up your breach reports, from, our, Have Been Pwned database.",
+    "professional": "CVE Security Alerts is an API we're using in conjunction with the breach report. This allows you to search for breach reports from our Have I Been Pwned database to get more detailed information. For example, if you were reported in a breach with Walmart."
+  },
+  {
+    "id": 88,
+    "start": "00:15:22.100",
+    "end": "00:15:28.349",
+    "speaker": "Devon Villalona",
+    "original": "to get more of a detailed report. Let's say if, like, you were reported on a breach with Walmart.",
+    "corrected": "To get more of a detailed report. Let's say if,, you were reported on a breach with Walmart.",
+    "professional": "To get more of a detailed report. Let's say if,, you were reported on a breach with Walmart."
+  },
+  {
+    "id": 89,
+    "start": "00:15:29.350",
+    "end": "00:15:30.180",
+    "speaker": "Devon Villalona",
+    "original": "What the hell?",
+    "corrected": "What the hell?",
+    "professional": "What the hell?"
+  },
+  {
+    "id": 90,
+    "start": "00:15:33.250",
+    "end": "00:15:35.169",
+    "speaker": "Devon Villalona",
+    "original": "That's weird, it just worked before.",
+    "corrected": "That's weird, it just worked before.",
+    "professional": "That's weird, it just worked before."
+  },
+  {
+    "id": 91,
+    "start": "00:15:36.600",
+    "end": "00:15:46.320",
+    "speaker": "Devon Villalona",
+    "original": "There it is. Alright, so as you can see, Walmart, it shows you the, more information on the report and what happened, the severity of it.",
+    "corrected": "There it is. Alright, so as you can see, Walmart, it shows you the, more information on the report and what happened, the severity of it.",
+    "professional": "Here it is. As you can see, for Walmart it shows you more detailed information about the report, what happened, and the severity level."
+  },
+  {
+    "id": 92,
+    "start": "00:15:46.850",
+    "end": "00:15:55.240",
+    "speaker": "Devon Villalona",
+    "original": "And… Now we shall be showing you our mobile, sync and implementations and features.",
+    "corrected": "And… Now we shall be showing you our mobile, sync and implementations and features.",
+    "professional": "Now I'll show you our mobile sync and implementation features."
+  },
+  {
+    "id": 93,
+    "start": "00:15:56.480",
+    "end": "00:15:57.470",
+    "speaker": "Devon Villalona",
+    "original": "could.",
+    "corrected": "Could.",
+    "professional": "Could."
+  },
+  {
+    "id": 94,
+    "start": "00:15:58.580",
+    "end": "00:16:09.919",
+    "speaker": "Devon Villalona",
+    "original": "And then that's it, but he does have to do editing. I gotta… now I gotta do the mobile thing. Yeah. Well, you want me to do it on the… the… just… you wanna do it? Or do… am I gonna do a voiceover?",
+    "corrected": "And then that's it, but he does have to do editing. I have to… now I have to do the mobile thing. yes. Well, you want me to do it on the… the… just… you want to do it? Or do… am I going to do a voiceover?",
+    "professional": "And then that's it, but he does have to do editing. I have to… now I have to do the mobile thing. yes. Well, you want me to do it on the… the… just… you want to do it? Or do… am I going to do a voiceover?"
+  },
+  {
+    "id": 95,
+    "start": "00:16:11.820",
+    "end": "00:16:19.029",
+    "speaker": "Devon Villalona",
+    "original": "You're gonna, you're gonna do it, like, you're gonna put it in after, right? Yeah. Okay, cool. The screen recording probably would do it, right? You haven't joined David.",
+    "corrected": "You're going to, you're going to do it,, you're going to put it in after, right? yes. Okay, cool. The screen recording probably would do it, right? You haven't joined David.",
+    "professional": "You're going to, you're going to do it,, you're going to put it in after, right? yes. Okay, cool. The screen recording probably would do it, right? You haven't joined David."
+  },
+  {
+    "id": 96,
+    "start": "00:16:19.210",
+    "end": "00:16:25.520",
+    "speaker": "Devon Villalona",
+    "original": "No, no, he wants me to screen… you want to be screen recorded, right? Right. Or you want me to do the Zoom recording?",
+    "corrected": "No, no, he wants me to screen… you want to be screen recorded, right? Right. Or you want me to do the Zoom recording?",
+    "professional": "No, no, he wants me to screen… you want to be screen recorded, right? Right. Or you want me to do the Zoom recording?"
+  },
+  {
+    "id": 97,
+    "start": "00:16:25.670",
+    "end": "00:16:29.770",
+    "speaker": "Devon Villalona",
+    "original": "I could do one either.",
+    "corrected": "I could do one either.",
+    "professional": "I could do one either."
+  },
+  {
+    "id": 98,
+    "start": "00:16:31.020",
+    "end": "00:16:33.419",
+    "speaker": "Devon Villalona",
+    "original": "On… on the Zoom? Yeah, alright.",
+    "corrected": "On… on the Zoom? yes, alright.",
+    "professional": "On… on the Zoom? yes, alright."
+  },
+  {
+    "id": 99,
+    "start": "00:16:35.010",
+    "end": "00:16:37.030",
+    "speaker": "Devon Villalona",
+    "original": "Alright, I'm gonna join back.",
+    "corrected": "Alright, I'm going to join back.",
+    "professional": "Alright, I am going to join back."
+  },
+  {
+    "id": 100,
+    "start": "00:16:37.770",
+    "end": "00:16:40.600",
+    "speaker": "Devon Villalona",
+    "original": "It's probably easier for the reporting route, I do.",
+    "corrected": "It's probably easier for the reporting route, I do.",
+    "professional": "It's probably easier for the reporting route, I do."
+  },
+  {
+    "id": 102,
+    "start": "00:16:43.400",
+    "end": "00:16:48.950",
+    "speaker": "Devon Villalona",
+    "original": "Yeah, it's fine. Got it. So, major caught taking out. Yeah, he's gonna have to do that.",
+    "corrected": "Yes, it's fine. Got it. So, major caught taking out. yes, he's going to have to do that.",
+    "professional": "Yes, it's fine. Got it. So, major caught taking out. yes, he's going to have to do that."
+  },
+  {
+    "id": 111,
+    "start": "00:17:23.410",
+    "end": "00:17:27.759",
+    "speaker": "Devon Villalona",
+    "original": "There's a limit, though, it can't be past, like, it's gotta be, like, the most, like, 11 minutes.",
+    "corrected": "There's a limit, though, it cannot be past,, it's have to be,, the most,, 11 minutes.",
+    "professional": "There's a limit, though, it cannot be past,, it's have to be,, the most,, 11 minutes."
+  },
+  {
+    "id": 113,
+    "start": "00:17:32.870",
+    "end": "00:17:39.989",
+    "speaker": "Devon Villalona",
+    "original": "No, everything… there's no loading screens in our video, right? Oh, yeah, we were running on a loading screen, too, so if you cut that out, like…",
+    "corrected": "No, everything… there's no loading screens in our video, right? Oh, yes, we were running on a loading screen, too, so if you cut that out, …",
+    "professional": "No, everything… there's no loading screens in our video, right? Oh, yes, we were running on a loading screen, too, so if you cut that out, …"
+  },
+  {
+    "id": 115,
+    "start": "00:17:43.380",
+    "end": "00:17:44.550",
+    "speaker": "Devon Villalona",
+    "original": "Yeah.",
+    "corrected": "Yes.",
+    "professional": "Yes."
+  },
+  {
+    "id": 116,
+    "start": "00:17:45.210",
+    "end": "00:17:54.480",
+    "speaker": "Devon Villalona",
+    "original": "Alright, I'm gonna join a mobile just to give him more ammo. If he needs to cut more shit, he at least he has the mobile, okay guys? Alright, are we still recording on the Zoom? Yeah. Alright, cool. I'm gonna join a mobile.",
+    "corrected": "Alright, I'm going to join a mobile just to give him more ammo. If he needs to cut more shit, he at least he has the mobile, okay guys? Alright, are we still recording on the Zoom? yes. Alright, cool. I'm going to join a mobile.",
+    "professional": "Alright, I am going to join a mobile just to give him more ammo. If he needs to cut more shit, he at least he has the mobile, okay guys? Alright, are we still recording on the Zoom? yes. Alright, cool. I am going to join a mobile."
+  },
+  {
+    "id": 117,
+    "start": "00:17:55.950",
+    "end": "00:18:01.929",
+    "speaker": "Devon Villalona",
+    "original": "Let me, get the link. Where's the link? Right here? In this form.",
+    "corrected": "Let me, get the link. Where's the link? Right here? In this form.",
+    "professional": "Let me, get the link. Where's the link? Right here? In this form."
+  },
+  {
+    "id": 118,
+    "start": "00:18:07.030",
+    "end": "00:18:14.420",
+    "speaker": "Devon Villalona",
+    "original": "You can't use the same account you're logged into? Yeah, yeah, no, it's the… I look crazy.",
+    "corrected": "You cannot use the same account you're logged into? yes, yes, no, it's the… I look crazy.",
+    "professional": "You cannot use the same account you're logged into? yes, yes, no, it's the… I look crazy."
+  },
+  {
+    "id": 119,
+    "start": "00:18:15.670",
+    "end": "00:18:19.020",
+    "speaker": "Devon Villalona",
+    "original": "I'm like, fucking God, dude, damn. That shit's a lot as hell.",
+    "corrected": "I'm, fucking God, dude, damn. That shit's a lot as hell.",
+    "professional": "I am, fucking God, dude, damn. That shit's a lot as hell."
+  },
+  {
+    "id": 120,
+    "start": "00:18:19.300",
+    "end": "00:18:21.220",
+    "speaker": "Devon Villalona",
+    "original": "Oh, we should not click on that.",
+    "corrected": "Oh, we should not click on that.",
+    "professional": "Oh, we should not click on that."
+  },
+  {
+    "id": 121,
+    "start": "00:18:21.870",
+    "end": "00:18:26.560",
+    "speaker": "Devon Villalona",
+    "original": "Now's the timer going out. It's, like, way too much. Alright.",
+    "corrected": "Now's the timer going out. It's,, way too much. Alright.",
+    "professional": "Now's the timer going out. It's,, way too much. Alright."
+  },
+  {
+    "id": 122,
+    "start": "00:18:35.070",
+    "end": "00:18:38.610",
+    "speaker": "Devon Villalona",
+    "original": "Alright. Can everyone hear me in the call? I muted and deafened it.",
+    "corrected": "Alright. Can everyone hear me in the call? I muted and deafened it.",
+    "professional": "Alright. Can everyone hear me in the call? I muted and deafened it."
+  },
+  {
+    "id": 123,
+    "start": "00:18:39.400",
+    "end": "00:18:41.839",
+    "speaker": "Devon Villalona",
+    "original": "I don't know.",
+    "corrected": "I do not know.",
+    "professional": "I do not know."
+  },
+  {
+    "id": 124,
+    "start": "00:18:42.380",
+    "end": "00:18:47.609",
+    "speaker": "Devon Villalona",
+    "original": "And you can put it up, I deafened everything. Alright, cool. Alright.",
+    "corrected": "And you can put it up, I deafened everything. Alright, cool. Alright.",
+    "professional": "And you can put it up, I deafened everything. Alright, cool. Alright."
+  },
+  {
+    "id": 125,
+    "start": "00:18:47.870",
+    "end": "00:18:50.040",
+    "speaker": "Devon Villalona",
+    "original": "Go ahead and unmute it here.",
+    "corrected": "Go ahead and unmute it here.",
+    "professional": "Go ahead and unmute it here."
+  },
+  {
+    "id": 126,
+    "start": "00:18:50.700",
+    "end": "00:18:55.350",
+    "speaker": "Devon Villalona",
+    "original": "Alright, still recording. Awesome. I'm gonna go ahead and share the mobile now.",
+    "corrected": "Alright, still recording. Awesome. I'm going to go ahead and share the mobile now.",
+    "professional": "Alright, still recording. I'm going to share the mobile screen now."
+  },
+  {
+    "id": 127,
+    "start": "00:18:58.390",
+    "end": "00:19:00.410",
+    "speaker": "Devon Villalona",
+    "original": "Where the fuck is the shirt? There it is?",
+    "corrected": "Where the fuck is the shirt? There it is?",
+    "professional": "Where the fuck is the shirt? There it is?"
+  },
+  {
+    "id": 128,
+    "start": "00:19:01.310",
+    "end": "00:19:02.430",
+    "speaker": "Devon Villalona",
+    "original": "Screen.",
+    "corrected": "Screen.",
+    "professional": "Screen."
+  },
+  {
+    "id": 129,
+    "start": "00:19:04.010",
+    "end": "00:19:05.709",
+    "speaker": "Devon Villalona",
+    "original": "Almost so I can go, bro.",
+    "corrected": "Almost so I can go, bro.",
+    "professional": "Almost so I can go, bro."
+  },
+  {
+    "id": 130,
+    "start": "00:19:08.320",
+    "end": "00:19:09.740",
+    "speaker": "Devon Villalona",
+    "original": "Share at the bottom.",
+    "corrected": "Share at the bottom.",
+    "professional": "Share at the bottom."
+  },
+  {
+    "id": 131,
+    "start": "00:19:13.990",
+    "end": "00:19:15.039",
+    "speaker": "Devon Villalona",
+    "original": "Is it showing?",
+    "corrected": "Is it showing?",
+    "professional": "Is it showing?"
+  },
+  {
+    "id": 132,
+    "start": "00:19:15.260",
+    "end": "00:19:16.959",
+    "speaker": "Devon Villalona",
+    "original": "A lot of snow.",
+    "corrected": "A lot of snow.",
+    "professional": "A lot of snow."
+  },
+  {
+    "id": 133,
+    "start": "00:19:19.800",
+    "end": "00:19:22.750",
+    "speaker": "Devon Villalona",
+    "original": "the only person… last person I can see who…",
+    "corrected": "The only person… last person I can see who…",
+    "professional": "The only person… last person I can see who…"
+  },
+  {
+    "id": 134,
+    "start": "00:19:26.050",
+    "end": "00:19:26.770",
+    "speaker": "Devon Villalona",
+    "original": "Oh.",
+    "corrected": "Oh.",
+    "professional": "Oh."
+  },
+  {
+    "id": 135,
+    "start": "00:19:30.450",
+    "end": "00:19:33.600",
+    "speaker": "Devon Villalona",
+    "original": "That doesn't even give me an optional shit, it's stupid broke-ass shit.",
+    "corrected": "That does not even give me an optional shit, it's stupid broke-ass shit.",
+    "professional": "That does not even give me an optional shit, it's stupid broke-ass shit."
+  },
+  {
+    "id": 136,
+    "start": "00:19:34.160",
+    "end": "00:19:36.310",
+    "speaker": "Devon Villalona",
+    "original": "Where's the Zoom? It's right here.",
+    "corrected": "Where's the Zoom? It's right here.",
+    "professional": "Where's the Zoom? It's right here."
+  },
+  {
+    "id": 137,
+    "start": "00:19:36.630",
+    "end": "00:19:46.549",
+    "speaker": "Devon Villalona",
+    "original": "Oh, share right here. Yeah, no. Up here. Yeah, I know, bro, look at the options, check it out. Zoom, sorry, broccoli, and…",
+    "corrected": "Oh, share right here. yes, no. Up here. yes, I know, bro, look at the options, check it out. Zoom, sorry, broccoli, and…",
+    "professional": "Oh, share right here. yes, no. Up here. yes, I know, bro, look at the options, check it out. Zoom, sorry, broccoli, and…"
+  },
+  {
+    "id": 138,
+    "start": "00:19:46.890",
+    "end": "00:19:51.750",
+    "speaker": "Devon Villalona",
+    "original": "Including everything, receiving, enabled, to do not…",
+    "corrected": "Including everything, receiving, enabled, to do not…",
+    "professional": "Including everything, receiving, enabled, to do not…"
+  },
+  {
+    "id": 139,
+    "start": "00:19:54.230",
+    "end": "00:20:00.299",
+    "speaker": "Devon Villalona",
+    "original": "Okay. Does it… do you see it now? Yeah. Do you see the password? Yes. Okay, cool. Alright.",
+    "corrected": "Okay. Does it… do you see it now? yes. Do you see the password? Yes. Okay, cool. Alright.",
+    "professional": "Okay. Does it… do you see it now? yes. Do you see the password? Yes. Okay, cool. Alright."
+  },
+  {
+    "id": 140,
+    "start": "00:20:01.870",
+    "end": "00:20:05.280",
+    "speaker": "Devon Villalona",
+    "original": "Here's our, passwords, cut.",
+    "corrected": "Here's our, passwords, cut.",
+    "professional": "Here's our mobile implementation using Flutter. We're going to log in, and you'll see that we have Face ID for biometric unlock and all the same features."
+  },
+  {
+    "id": 141,
+    "start": "00:20:05.460",
+    "end": "00:20:14.729",
+    "speaker": "Devon Villalona",
+    "original": "Here's our, our mobile implementation using Flutter. We're gonna go ahead and log in, and you'll see that we have a Face ID for biometric unlock, and see all their features.",
+    "corrected": "Here's our, our mobile implementation using Flutter. We're going to go ahead and log in, and you'll see that we have a Face ID for biometric unlock, and see all their features.",
+    "professional": "Here's our password vault."
+  },
+  {
+    "id": 142,
+    "start": "00:20:15.840",
+    "end": "00:20:18.959",
+    "speaker": "Devon Villalona",
+    "original": "So we go in there, right? We're gonna check breach report.",
+    "corrected": "So we go in there, right? We're going to check breach report.",
+    "professional": "Let's go in and check the breach report."
+  },
+  {
+    "id": 143,
+    "start": "00:20:23.210",
+    "end": "00:20:25.689",
+    "speaker": "Devon Villalona",
+    "original": "shared email, right? Yeah.",
+    "corrected": "Shared email, right? yes.",
+    "professional": "Shared email, right? yes."
+  },
+  {
+    "id": 144,
+    "start": "00:20:26.180",
+    "end": "00:20:27.829",
+    "speaker": "Devon Villalona",
+    "original": "We'll use Jared's email.",
+    "corrected": "we will use Jared's email.",
+    "professional": "we will use Jared's email."
+  },
+  {
+    "id": 145,
+    "start": "00:20:31.750",
+    "end": "00:20:35.080",
+    "speaker": "Devon Villalona",
+    "original": "We're gonna show Jared's email here right here.",
+    "corrected": "We're going to show Jared's email here right here.",
+    "professional": "We're going to show the breach report using Jared's email here."
+  },
+  {
+    "id": 146,
+    "start": "00:20:49.060",
+    "end": "00:20:55.409",
+    "speaker": "Devon Villalona",
+    "original": "As you can see, Jared is severely exposed to our, to everything, actually.",
+    "corrected": "As you can see, Jared is severely exposed to our, to everything,.",
+    "professional": "As you can see, Jared is severely exposed to numerous breaches across multiple platforms."
+  },
+  {
+    "id": 147,
+    "start": "00:20:57.870",
+    "end": "00:21:10.020",
+    "speaker": "Devon Villalona",
+    "original": "And, we'll go ahead and check the password vault. As always, the password vault is, using our, Face ID instead of fingerprint, and as you can see, it's in sync with the passwords we just, imported.",
+    "corrected": "And, we will go ahead and check the password vault. As always, the password vault is, using our, Face ID instead of fingerprint, and as you can see, it's in sync with the passwords we just, imported.",
+    "professional": "Now we'll check the password vault. As always, the password vault uses Face ID instead of fingerprint, and as you can see, it's synchronized with the passwords we just imported on desktop."
+  },
+  {
+    "id": 148,
+    "start": "00:21:12.140",
+    "end": "00:21:14.479",
+    "speaker": "Devon Villalona",
+    "original": "And of course, CVE works here, too.",
+    "corrected": "And of course, CVE works here, too.",
+    "professional": "And of course, CVE search works here too."
+  },
+  {
+    "id": 149,
+    "start": "00:21:19.580",
+    "end": "00:21:20.820",
+    "speaker": "Devon Villalona",
+    "original": "There you go.",
+    "corrected": "There you go.",
+    "professional": "There you go."
+  },
+  {
+    "id": 150,
+    "start": "00:21:21.600",
+    "end": "00:21:24.710",
+    "speaker": "Devon Villalona",
+    "original": "And this will be the mobile implementation for,",
+    "corrected": "And this will be the mobile implementation for,",
+    "professional": "This is the mobile implementation that stays in sync with our desktop Electron app."
+  },
+  {
+    "id": 151,
+    "start": "00:21:25.210",
+    "end": "00:21:28.220",
+    "speaker": "Devon Villalona",
+    "original": "That is in sync with our desktop app, Electron.",
+    "corrected": "That is in sync with our desktop app, Electron.",
+    "professional": "That is synchronized with our desktop application."
+  },
+  {
+    "id": 152,
+    "start": "00:21:29.070",
+    "end": "00:21:29.856",
+    "speaker": "Devon Villalona",
+    "original": "Go ahead.",
+    "corrected": "Go ahead.",
+    "professional": "Go ahead."
+  },
+  {
+    "id": 153,
+    "start": "00:21:30.910",
+    "end": "00:21:32.749",
+    "speaker": "Devon Villalona",
+    "original": "Can I throw in units?",
+    "corrected": "Can I throw in units?",
+    "professional": "Can I throw in units?"
+  },
+  {
+    "id": 154,
+    "start": "00:21:33.960",
+    "end": "00:21:36.089",
+    "speaker": "Devon Villalona",
+    "original": "And then the outro, if you want one.",
+    "corrected": "And then the outro, if you want one.",
+    "professional": "And then the outro, if you want one."
+  },
+  {
+    "id": 155,
+    "start": "00:21:36.840",
+    "end": "00:21:37.550",
+    "speaker": "Devon Villalona",
+    "original": "I mean…",
+    "corrected": "…",
+    "professional": "…"
+  },
+  {
+    "id": 156,
+    "start": "00:21:37.740",
+    "end": "00:21:53.860",
+    "speaker": "Devon Villalona",
+    "original": "What do you think? You think he's freaking down to 11? Unless you wanna… you wanna do your take on it now? So you just have ammo or some shit, because you gotta talk? No, we're definitely over, we just need someone to do the ending, like… Oh, Jared, perfect, Jared, Jared does ending.",
+    "corrected": "What do you think? You think he's freaking down to 11? Unless you want to… you want to do your take on it now? So you just have ammo or some shit, because you have to talk? No, we're definitely over, we just need someone to do the ending, … Oh, Jared, perfect, Jared, Jared does ending.",
+    "professional": "What do you think? You think he's freaking down to 11? Unless you want to… you want to do your take on it now? So you just have ammo or some shit, because you have to talk? No, we are definitely over, we just need someone to do the ending, … Oh, Jared, perfect, Jared, Jared does ending."
+  },
+  {
+    "id": 157,
+    "start": "00:21:54.030",
+    "end": "00:21:56.220",
+    "speaker": "Devon Villalona",
+    "original": "Real quick. He's the last one.",
+    "corrected": "Real quick. He's the last one.",
+    "professional": "Real quick. He's the last one."
+  },
+  {
+    "id": 159,
+    "start": "00:22:02.150",
+    "end": "00:22:03.949",
+    "speaker": "Devon Villalona",
+    "original": "Go ahead and exit, I'm sorry.",
+    "corrected": "Go ahead and exit, I'm sorry.",
+    "professional": "Go ahead and exit, I am sorry."
+  },
+  {
+    "id": 161,
+    "start": "00:22:07.760",
+    "end": "00:22:08.629",
+    "speaker": "Devon Villalona",
+    "original": "Yeah, I am.",
+    "corrected": "Yes, I am.",
+    "professional": "Yes, I am."
+  }
+]

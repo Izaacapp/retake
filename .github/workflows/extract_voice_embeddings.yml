@@ -1,0 +1,59 @@
+name: Extract Voice Embeddings
+
+on:
+  workflow_dispatch:  # Manual trigger
+  push:
+    paths:
+      - 'data/audio/voice_samples/**'
+
+jobs:
+  extract-embeddings:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+      
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg sox
+      
+      - name: Setup Fish Speech
+        run: |
+          cd fish-speech
+          python -m venv .venv
+          source .venv/bin/activate
+          pip install -e .
+          
+      - name: Download Fish Speech models
+        run: |
+          cd fish-speech
+          source .venv/bin/activate
+          python tools/download_models.py --model fish-speech-1.5
+      
+      - name: Extract voice embeddings
+        run: |
+          chmod +x scripts/extract_all_voice_embeddings.sh
+          ./scripts/extract_all_voice_embeddings.sh
+      
+      - name: Upload embeddings
+        uses: actions/upload-artifact@v4
+        with:
+          name: voice-embeddings
+          path: models/*.npy
+          
+      - name: Commit embeddings to repo
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add models/*.npy
+          git commit -m "chore: add voice embeddings for all speakers" || echo "No changes"
+          git push

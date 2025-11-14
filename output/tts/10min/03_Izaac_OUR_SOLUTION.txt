@@ -1,0 +1,1 @@
+Our solution is a two-part platform designed to automate security remediation. The first component is Aether Mail, an aggregated and private email service. The second is a secure password vault that works in tandem with Aether Mail to completely automate the password rotation process. Let me demonstrate how this works in practice.

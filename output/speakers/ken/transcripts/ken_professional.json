@@ -1,0 +1,74 @@
+[
+  {
+    "id": 13,
+    "start": "00:02:03.720",
+    "end": "00:02:05.290",
+    "speaker": "Kenith Philip",
+    "original": "Sure, good. Okay.",
+    "corrected": "Sure, good. Okay.",
+    "professional": "Sure, good. Okay."
+  },
+  {
+    "id": 47,
+    "start": "00:07:27.980",
+    "end": "00:07:30.530",
+    "speaker": "Kenith Philip",
+    "original": "Okay. So, having a…",
+    "corrected": "Okay. So, having a…",
+    "professional": "Okay. Building complex applications comes with significant challenges."
+  },
+  {
+    "id": 48,
+    "start": "00:07:31.040",
+    "end": "00:07:47.170",
+    "speaker": "Kenith Philip",
+    "original": "Applications are complex, also comes with a lot of challenges. One of them is testing. Testing it on a mainstream website or application is obviously going to get us banned real quick. So, which is why we came up with a dummy website, a testing website here, so I will be showing you",
+    "corrected": "Applications are complex, also comes with a lot of challenges. One of them is testing. Testing it on a mainstream website or application is obviously going to get us banned real quick. So, which is why we came up with a dummy website, a testing website here, so I will be showing you",
+    "professional": "One of the biggest challenges is testing. Testing our automation on mainstream websites or applications would get us banned very quickly. That's why we created a dummy testing website. Let me show you how we have it set up."
+  },
+  {
+    "id": 49,
+    "start": "00:07:47.450",
+    "end": "00:07:52.529",
+    "speaker": "Kenith Philip",
+    "original": "how we have that set up. So, I have an account set up right here.",
+    "corrected": "How we have that set up. So, I have an account set up right here.",
+    "professional": "I have a test account already configured here."
+  },
+  {
+    "id": 50,
+    "start": "00:07:52.920",
+    "end": "00:07:55.099",
+    "speaker": "Kenith Philip",
+    "original": "which I'll be logging into.",
+    "corrected": "Which I'll be logging into.",
+    "professional": "I'll log into it now."
+  },
+  {
+    "id": 51,
+    "start": "00:08:01.990",
+    "end": "00:08:15.949",
+    "speaker": "Kenith Philip",
+    "original": "So as you can see, once I log in, it's a real simple website, which basically shows your username and your email, and some very basic information. Another feature of EtherMail that I'd like to show you",
+    "corrected": "So as you can see, once I log in, it's a real simple website, which shows your username and your email, and some very basic information. Another feature of Aether Mail that I'd to show you",
+    "professional": "As you can see, once I log in, it's a simple website that displays your username, email, and some basic account information. Another feature of Aether Mail that I'd like to demonstrate is the password generator."
+  },
+  {
+    "id": 52,
+    "start": "00:08:16.020",
+    "end": "00:08:39.270",
+    "speaker": "Kenith Philip",
+    "original": "is the password generator, which basically lets users generate passwords, securely, and also gives them a choice on how they want to do it. They can either choose a random password, which mixes up letters, characters, and all that, or they could have a memorable one, which is easier to memorize. We also have a slider where you can choose the size of the password you want to set.",
+    "corrected": "Is the password generator, which lets users generate passwords, securely, and also gives them a choice on how they want to do it. They can either choose a random password, which mixes up letters, characters, and all that, or they could have a memorable one, which is easier to memorize. We also have a slider where you can choose the size of the password you want to set.",
+    "professional": "The password generator allows users to generate secure passwords with complete control over the format. They can choose either a random password that mixes letters, numbers, and special characters, or they can select a memorable password that's easier to remember. We also provide a slider where you can adjust the length of the password."
+  },
+  {
+    "id": 53,
+    "start": "00:08:39.510",
+    "end": "00:08:56.480",
+    "speaker": "Kenith Philip",
+    "original": "And yeah, so this could be used… the password rotation, which we'll be talking next, automatically does it, but we also give the user the choice to manually override it and choose a password of their own, if they wish to do so. I'll be handing it over back to Isaac.",
+    "corrected": "And yes, so this could be used… the password rotation, which we will be talking next, automatically does it, but we also give the user the choice to manually override it and choose a password of their own, if they wish to do so. I'll be handing it over back to Isaac.",
+    "professional": "The password rotation feature - which we'll discuss next - handles this automatically. However, we also give users the option to manually override it and choose their own password if they prefer. I'll hand it back to Isaac now."
+  }
+]

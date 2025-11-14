@@ -1,0 +1,470 @@
+[
+  {
+    "id": 0,
+    "start": "00:00:02.640",
+    "end": "00:00:16.710",
+    "speaker": "Zoom user",
+    "original": "Hello, everyone. We're gonna start off with who we are. We are Deeply Profound. Deeply Profound is a research security group found with a singular mission. It's to solve a critical pervasive problem in cybersecurity today.",
+    "corrected": "Hello, everyone. We're going to start off with who we are. We are Deeply Profound. Deeply Profound is a research security group found with a singular mission. It's to solve a critical pervasive problem in cybersecurity today.",
+    "professional": "Hello everyone. Let me start by introducing who we are. We are Deeply Profound, a research security group founded with a singular mission: to solve a critical and pervasive problem in cybersecurity today."
+  },
+  {
+    "id": 1,
+    "start": "00:00:17.100",
+    "end": "00:00:25.980",
+    "speaker": "Zoom user",
+    "original": "We begin by asking ourselves, how do we remedy security breaches across multiple services and credentials that are compromised?",
+    "corrected": "We begin by asking ourselves, how do we remedy security breaches across multiple services and credentials that are compromised?",
+    "professional": "We begin by asking ourselves a fundamental question: how do we effectively remedy security breaches when credentials are compromised across multiple services?"
+  },
+  {
+    "id": 2,
+    "start": "00:00:27.270",
+    "end": "00:00:33.120",
+    "speaker": "Zoom user",
+    "original": "The problem… so the main problem we're solving is the credential breach crisis.",
+    "corrected": "The problem… so the main problem we're solving is the credential breach crisis.",
+    "professional": "The core problem we're addressing is the credential breach crisis."
+  },
+  {
+    "id": 3,
+    "start": "00:00:33.220",
+    "end": "00:00:44.570",
+    "speaker": "Zoom user",
+    "original": "When your credentials are compromised in a data breach, you face a cascade of problems. Multiple services, multiple passwords, one breach exposes you across dozens of platforms.",
+    "corrected": "When your credentials are compromised in a data breach, you face a cascade of problems. Multiple services, multiple passwords, one breach exposes you across dozens of platforms.",
+    "professional": "When your credentials are compromised in a data breach, you face a cascade of problems. With multiple services and passwords, a single breach can expose you across dozens of platforms simultaneously."
+  },
+  {
+    "id": 4,
+    "start": "00:00:45.010",
+    "end": "00:00:51.909",
+    "speaker": "Zoom user",
+    "original": "Manual password rotation is obviously a headache. You must visit each site individually to reset passwords.",
+    "corrected": "Manual password rotation is obviously a headache. You must visit each site individually to reset passwords.",
+    "professional": "Manual password rotation is an obvious headache. You must visit each site individually to reset passwords, which is time-consuming and tedious."
+  },
+  {
+    "id": 5,
+    "start": "00:00:51.920",
+    "end": "00:01:05.899",
+    "speaker": "Zoom user",
+    "original": "Verification code chaos. Each service sends codes via email requiring constant inbox checking. No privacy. Email providers scan your messages, expose your sensitive verification codes.",
+    "corrected": "Verification code chaos. Each service sends codes via email requiring constant inbox checking. No privacy. Email providers scan your messages, expose your sensitive verification codes.",
+    "professional": "Then there's the verification code chaos. Each service sends codes via email, requiring constant inbox checking. There's no privacy either - email providers scan your messages and can expose your sensitive verification codes."
+  },
+  {
+    "id": 6,
+    "start": "00:01:06.090",
+    "end": "00:01:12.450",
+    "speaker": "Zoom user",
+    "original": "Cross-platform exposure, breach credentials on web platform, Compromise others.",
+    "corrected": "Cross-platform exposure, breach credentials on web platform, Compromise others.",
+    "professional": "Cross-platform exposure is another major issue. When credentials are breached on one platform, it compromises your accounts across multiple other services."
+  },
+  {
+    "id": 7,
+    "start": "00:01:12.570",
+    "end": "00:01:19.520",
+    "speaker": "Zoom user",
+    "original": "The reality is, most people don't rotate passwords after breaches because it's too difficult and it's too time-consuming.",
+    "corrected": "The reality is, most people do not rotate passwords after breaches because it's too difficult and it's too time-consuming.",
+    "professional": "The reality is that most people do not rotate passwords after breaches because it's too difficult and too time-consuming."
+  },
+  {
+    "id": 8,
+    "start": "00:01:19.840",
+    "end": "00:01:26.849",
+    "speaker": "Zoom user",
+    "original": "So, one of the solutions we came up with was, an aggregated email service, and that is EtherMail.",
+    "corrected": "So, one of the solutions we came up with was, an aggregated email service, and that is Aether Mail.",
+    "professional": "To solve this, we developed an aggregated email service called Aether Mail."
+  },
+  {
+    "id": 9,
+    "start": "00:01:28.180",
+    "end": "00:01:34.630",
+    "speaker": "Zoom user",
+    "original": "And, the other component of the platform is, the password, vault.",
+    "corrected": "And, the other component of the platform is, the password, vault.",
+    "professional": "The second component of our platform is the password vault."
+  },
+  {
+    "id": 10,
+    "start": "00:01:35.440",
+    "end": "00:01:36.450",
+    "speaker": "Zoom user",
+    "original": "And…",
+    "corrected": "And…",
+    "professional": "And…"
+  },
+  {
+    "id": 11,
+    "start": "00:01:39.140",
+    "end": "00:01:46.869",
+    "speaker": "Zoom user",
+    "original": "So we'll be transitioning over to the vault and showing the first key features of what we have so far.",
+    "corrected": "So we will be transitioning over to the vault and showing the first key features of what we have so far.",
+    "professional": "We'll now transition to the vault and demonstrate the key features we've developed so far."
+  },
+  {
+    "id": 25,
+    "start": "00:03:02.480",
+    "end": "00:03:11.959",
+    "speaker": "Zoom user",
+    "original": "So, this is the first thing the user would see when they, enter our platform, so…",
+    "corrected": "So, this is the first thing the user would see when they, enter our platform, so…",
+    "professional": "This is the first screen users see when entering our platform."
+  },
+  {
+    "id": 26,
+    "start": "00:03:12.070",
+    "end": "00:03:21.229",
+    "speaker": "Zoom user",
+    "original": "I'm gonna first show you how we create an account. User comes, obviously agrees to our terms, they'll generate an account.",
+    "corrected": "I'm going to first show you how we create an account. User comes, obviously agrees to our terms, they'll generate an account.",
+    "professional": "Let me demonstrate how to create an account. The user agrees to our terms and generates their account credentials."
+  },
+  {
+    "id": 27,
+    "start": "00:03:33.220",
+    "end": "00:03:40.859",
+    "speaker": "Zoom user",
+    "original": "So, these credentials that are generated, the user would essentially save these down, and download the key to, enter the platform.",
+    "corrected": "So, these credentials that are generated, the user would essentially save these down, and download the key to, enter the platform.",
+    "professional": "These generated credentials should be saved, and the user downloads the security key to access the platform."
+  },
+  {
+    "id": 28,
+    "start": "00:03:41.350",
+    "end": "00:03:43.300",
+    "speaker": "Zoom user",
+    "original": "So, now go to login.",
+    "corrected": "So, now go to login.",
+    "professional": "Now let's proceed to the login screen."
+  },
+  {
+    "id": 29,
+    "start": "00:03:43.590",
+    "end": "00:03:46.050",
+    "speaker": "Zoom user",
+    "original": "So, those same credentials that you just saw there.",
+    "corrected": "So, those same credentials that you just saw there.",
+    "professional": "Using those same credentials you just saw."
+  },
+  {
+    "id": 30,
+    "start": "00:04:10.720",
+    "end": "00:04:19.579",
+    "speaker": "Zoom user",
+    "original": "So… After user enters, this would be essentially, The dashboard? So…",
+    "corrected": "So… After user enters, this would be essentially, The dashboard? So…",
+    "professional": "After the user logs in, this is the main dashboard."
+  },
+  {
+    "id": 31,
+    "start": "00:04:20.250",
+    "end": "00:04:25.930",
+    "speaker": "Zoom user",
+    "original": "We have the big main key features of The mail service, of course.",
+    "corrected": "We have the big main key features of The mail service, of course.",
+    "professional": "Here you can see the key features of our mail service."
+  },
+  {
+    "id": 32,
+    "start": "00:04:26.570",
+    "end": "00:04:33.779",
+    "speaker": "Zoom user",
+    "original": "would be the external accounts. This is the first thing a user would have to do when they enter a platform, is to aggregate their email services.",
+    "corrected": "Would be the external accounts. This is the first thing a user would have to do when they enter a platform, is to aggregate their email services.",
+    "professional": "The first step when entering our platform is to aggregate your email services through external accounts."
+  },
+  {
+    "id": 33,
+    "start": "00:04:34.050",
+    "end": "00:04:41.730",
+    "speaker": "Zoom user",
+    "original": "So, we offer support across multiple different, email providers, so users could aggregate all of them to one location.",
+    "corrected": "So, we offer support across multiple different, email providers, so users could aggregate all of them to one location.",
+    "professional": "We offer support across multiple email providers, allowing users to aggregate all of them in one centralized location."
+  },
+  {
+    "id": 34,
+    "start": "00:04:42.170",
+    "end": "00:04:45.440",
+    "speaker": "Zoom user",
+    "original": "So I'll enter my Gmail right now.",
+    "corrected": "So I'll enter my Gmail right now.",
+    "professional": "I'll demonstrate by adding my Gmail account right now."
+  },
+  {
+    "id": 35,
+    "start": "00:05:21.340",
+    "end": "00:05:26.360",
+    "speaker": "Zoom user",
+    "original": "So, user… for most, services, they have to add.",
+    "corrected": "So, user… for most, services, they have to add.",
+    "professional": "For most email services, users need to generate an app password."
+  },
+  {
+    "id": 36,
+    "start": "00:05:26.440",
+    "end": "00:05:44.080",
+    "speaker": "Zoom user",
+    "original": "They unfortunately have to get an app password, and most, email providers, they go out their way to make this very obscure. Lucky for you guys, we've added the links that could take the user straight there, so they could generate their app password. Once you do that, user enters their credentials, this is me, for example.",
+    "corrected": "They unfortunately have to get an app password, and most, email providers, they go out their way to make this very obscure. Lucky for you guys, we've added the links that could take the user straight there, so they could generate their app password. Once you do that, user enters their credentials, this is me, for example.",
+    "professional": "Unfortunately, most email providers make this process quite obscure. To help, we've added direct links that take users straight to where they can generate their app password. Once you have that, you simply enter your credentials - as I'm doing here."
+  },
+  {
+    "id": 37,
+    "start": "00:05:44.080",
+    "end": "00:05:55.709",
+    "speaker": "Zoom user",
+    "original": "I'm doing this with the IMAP protocol. We also offer support for the Pope Protocol, which essentially means you could pull, all your logs out, said server, and…",
+    "corrected": "I'm doing this with the IMAP protocol. We also offer support for the Pope Protocol, which essentially means you could pull, all your logs out, said server, and…",
+    "professional": "I'm using the IMAP protocol for this demonstration. We also support the POP protocol, which allows you to pull all your logs from the email server and take complete control of your data."
+  },
+  {
+    "id": 38,
+    "start": "00:05:56.040",
+    "end": "00:06:02.810",
+    "speaker": "Zoom user",
+    "original": "take control of your data, but fast forward, we'll be using the IMAP protocol. I'll add the count right here.",
+    "corrected": "Take control of your data, but fast forward, we will be using the IMAP protocol. I'll add the count right here.",
+    "professional": "For now, we'll use the IMAP protocol. I'll add the account here."
+  },
+  {
+    "id": 39,
+    "start": "00:06:12.790",
+    "end": "00:06:15.650",
+    "speaker": "Zoom user",
+    "original": "So, this just verifies,",
+    "corrected": "So, this just verifies,",
+    "professional": "This verification confirms that the connection was successful."
+  },
+  {
+    "id": 40,
+    "start": "00:06:15.840",
+    "end": "00:06:28.109",
+    "speaker": "Zoom user",
+    "original": "That it went through. Did… even use the IMAP protocol, I had to use DevCot. DevCot is an email, requirement to send mails.",
+    "corrected": "That it went through. Did… even use the IMAP protocol, I had to use DevCot. DevCot is an email, requirement to send mails.",
+    "professional": "To use the IMAP protocol, I configured Dovecot, which is an email server requirement for sending mail."
+  },
+  {
+    "id": 41,
+    "start": "00:06:28.290",
+    "end": "00:06:34.269",
+    "speaker": "Zoom user",
+    "original": "And then I also had to use postfix, but this essentially verifies that it went through, so now I'm synced.",
+    "corrected": "And then I also had to use postfix, but this essentially verifies that it went through, so now I'm synced.",
+    "professional": "I also configured Postfix. This verification confirms that everything went through successfully, and now I'm fully synced."
+  },
+  {
+    "id": 42,
+    "start": "00:06:34.510",
+    "end": "00:06:42.860",
+    "speaker": "Zoom user",
+    "original": "So then I would go over to pass rotation. So now, my inbox is synced, of course. So now I'm fetching from my actual email.",
+    "corrected": "So then I would go over to pass rotation. So now, my inbox is synced, of course. So now I'm fetching from my actual email.",
+    "professional": "Now I'll navigate to password rotation. With my inbox synced, I'm now fetching emails directly from my actual email account."
+  },
+  {
+    "id": 43,
+    "start": "00:06:44.450",
+    "end": "00:06:46.219",
+    "speaker": "Zoom user",
+    "original": "That I just connected.",
+    "corrected": "That I just connected.",
+    "professional": "The one I just connected."
+  },
+  {
+    "id": 44,
+    "start": "00:07:00.270",
+    "end": "00:07:06.349",
+    "speaker": "Zoom user",
+    "original": "And then boom. So the verification code came in, so this essentially would be for a targeted website.",
+    "corrected": "And then boom. So the verification code came in, so this essentially would be for a targeted website.",
+    "professional": "And there it is - the verification code came in. This demonstrates how it would work for any targeted website."
+  },
+  {
+    "id": 45,
+    "start": "00:07:13.280",
+    "end": "00:07:17.049",
+    "speaker": "Zoom user",
+    "original": "And then, yeah, so now I'll be showing you the demo website.",
+    "corrected": "And then, yes, so now I'll be showing you the demo website.",
+    "professional": "Now I'll show you the demo website."
+  },
+  {
+    "id": 46,
+    "start": "00:07:24.940",
+    "end": "00:07:27.540",
+    "speaker": "Zoom user",
+    "original": "Or Ken will be showing you the demo website.",
+    "corrected": "Or Ken will be showing you the demo website.",
+    "professional": "Actually, Ken will be demonstrating the demo website for you."
+  },
+  {
+    "id": 54,
+    "start": "00:08:59.430",
+    "end": "00:09:07.169",
+    "speaker": "Zoom user",
+    "original": "So As you just went over the password generator, I'll be showing you how the email inbox looks like.",
+    "corrected": "So As you just went over the password generator, I'll be showing you how the email inbox looks.",
+    "professional": "Thanks Ken. Now that you've seen the password generator, let me show you how the email inbox interface works."
+  },
+  {
+    "id": 55,
+    "start": "00:10:33.480",
+    "end": "00:10:53.139",
+    "speaker": "Zoom user",
+    "original": "Alright, we'll be doing the severity scoring algorithm as this loads. Oh, actually, that's crazy. So, this is essentially what the user would see in the inbox. This is one, email, obviously, that I attached. You could attach multiple emails, and essentially, it'd be pulling in all your email from here.",
+    "corrected": "Alright, we will be doing the severity scoring algorithm as this loads. Oh,, that's crazy. So, this is essentially what the user would see in the inbox. This is one, email, obviously, that I attached. You could attach multiple emails, and essentially, it'd be pulling in all your email from here.",
+    "professional": "This is what users see in their inbox. This is one email account that I've connected - you can connect multiple email accounts, and the system will pull in all your emails from each one into this unified view."
+  },
+  {
+    "id": 56,
+    "start": "00:10:53.380",
+    "end": "00:11:00.059",
+    "speaker": "Zoom user",
+    "original": "We parse through this to get the verification codes, and the verification codes, essentially, how we're able to…",
+    "corrected": "We parse through this to get the verification codes, and the verification codes, essentially, how we're able to…",
+    "professional": "We parse through these emails to extract verification codes. These verification codes are essential for automating the entire password rotation process."
+  },
+  {
+    "id": 57,
+    "start": "00:11:00.810",
+    "end": "00:11:10.570",
+    "speaker": "Zoom user",
+    "original": "like, automate the whole process of the password rotation so the user doesn't have to go to each website one by one manually to, essentially",
+    "corrected": ", automate the whole process of the password rotation so the user does not have to go to each website one by one manually to, essentially",
+    "professional": "This automation means users don't have to visit each website manually, one by one."
+  },
+  {
+    "id": 58,
+    "start": "00:11:11.300",
+    "end": "00:11:16.300",
+    "speaker": "Zoom user",
+    "original": "Spent hours at end to do multiple breaches across multiple services.",
+    "corrected": "Spent hours at end to do multiple breaches across multiple services.",
+    "professional": "No more spending hours dealing with multiple breaches across multiple services."
+  },
+  {
+    "id": 59,
+    "start": "00:11:16.880",
+    "end": "00:11:19.939",
+    "speaker": "Zoom user",
+    "original": "And yeah, this is the meal platform.",
+    "corrected": "And yes, this is the meal platform.",
+    "professional": "And that's our mail platform."
+  },
+  {
+    "id": 75,
+    "start": "00:13:35.300",
+    "end": "00:13:37.430",
+    "speaker": "Zoom user",
+    "original": "Yeah, he's done, just keep on, just keep on.",
+    "corrected": "Yes, he's done, just keep on, just keep on.",
+    "professional": "Yes, he's done, just keep on, just keep on."
+  },
+  {
+    "id": 103,
+    "start": "00:16:49.250",
+    "end": "00:16:52.200",
+    "speaker": "Zoom user",
+    "original": "There's, like, 5 minutes he's cutting. It doesn't matter.",
+    "corrected": "There's,, 5 minutes he's cutting. It does not matter.",
+    "professional": "There's,, 5 minutes he's cutting. It does not matter."
+  },
+  {
+    "id": 107,
+    "start": "00:17:06.359",
+    "end": "00:17:11.459",
+    "speaker": "Zoom user",
+    "original": "Yeah, I mean, you could do that, but… That's low-key a red flag.",
+    "corrected": "Yes,, you could do that, but… That's low-key a red flag.",
+    "professional": "Yes,, you could do that, but… That's low-key a red flag."
+  },
+  {
+    "id": 109,
+    "start": "00:17:19.470",
+    "end": "00:17:19.839",
+    "speaker": "Zoom user",
+    "original": "Yes.",
+    "corrected": "Yes.",
+    "professional": "Yes."
+  },
+  {
+    "id": 114,
+    "start": "00:17:40.780",
+    "end": "00:17:43.380",
+    "speaker": "Zoom user",
+    "original": "It's literally cutting, like, 5 minutes out.",
+    "corrected": "It's literally cutting,, 5 minutes out.",
+    "professional": "It's literally cutting,, 5 minutes out."
+  },
+  {
+    "id": 164,
+    "start": "00:22:26.800",
+    "end": "00:22:28.280",
+    "speaker": "Zoom user",
+    "original": "Jesus Christ.",
+    "corrected": "Jesus Christ.",
+    "professional": "Jesus Christ."
+  },
+  {
+    "id": 165,
+    "start": "00:22:28.440",
+    "end": "00:22:29.040",
+    "speaker": "Zoom user",
+    "original": "Well, hold up.",
+    "corrected": "Well, hold up.",
+    "professional": "Well, hold up."
+  },
+  {
+    "id": 167,
+    "start": "00:22:32.110",
+    "end": "00:22:34.419",
+    "speaker": "Zoom user",
+    "original": "Yeah, you're perform… you're performing good.",
+    "corrected": "Yes, you're perform… you're performing good.",
+    "professional": "Yes, you're perform… you're performing good."
+  },
+  {
+    "id": 169,
+    "start": "00:22:37.760",
+    "end": "00:22:40.360",
+    "speaker": "Zoom user",
+    "original": "Bro, you do MMA, bro, I'm good.",
+    "corrected": "Bro, you do MMA, bro, I'm good.",
+    "professional": "Bro, you do MMA, bro, I am good."
+  },
+  {
+    "id": 171,
+    "start": "00:22:51.860",
+    "end": "00:22:53.280",
+    "speaker": "Zoom user",
+    "original": "No, it doesn't, no dozen.",
+    "corrected": "No, it does not, no dozen.",
+    "professional": "No, it does not, no dozen."
+  },
+  {
+    "id": 178,
+    "start": "00:23:08.430",
+    "end": "00:23:09.370",
+    "speaker": "Zoom user",
+    "original": "Alright.",
+    "corrected": "Alright.",
+    "professional": "Alright."
+  },
+  {
+    "id": 182,
+    "start": "00:23:19.020",
+    "end": "00:23:20.490",
+    "speaker": "Zoom user",
+    "original": "And that concludes our presentation.",
+    "corrected": "And that concludes our presentation.",
+    "professional": "And that concludes our presentation."
+  }
+]

@@ -1,0 +1,15 @@
+# Jules's Script - Deeply Profound 10-Minute Demo
+# Total Segments: 1
+# Total Time: 45 seconds
+
+================================================================================
+
+## Segment 1: SECURITY & PRIVACY
+Time: 00:06:15 - 00:07:00 (45s)
+
+Our platform is built with privacy and security as foundational principles. We employ end-to-end encryption and maintain a strict zero-knowledge architecture - meaning we never track or store your personal information. When you use our application, you're consenting to provide email credentials so we can access them on your behalf, but we've designed the system to ensure your data remains protected and private throughout the entire process.
+
+[Note: Jules explains security architecture]
+
+--------------------------------------------------------------------------------
+

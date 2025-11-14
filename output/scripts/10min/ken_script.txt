@@ -1,0 +1,15 @@
+# Ken's Script - Deeply Profound 10-Minute Demo
+# Total Segments: 1
+# Total Time: 60 seconds
+
+================================================================================
+
+## Segment 1: DEMO: Testing Environment
+Time: 00:04:30 - 00:05:30 (60s)
+
+Testing automation on mainstream platforms would result in immediate account suspension. That's why we developed a dedicated testing environment that replicates real-world password reset flows. Our platform includes a sophisticated password generator that creates strong, secure passwords while giving users full control over format and length. Users can choose between random passwords that mix letters, numbers, and special characters for maximum security, or memorable passphrases that are easier to remember. While our automated system handles password rotation, users can always manually override and select their own passwords if preferred.
+
+[Note: Ken demonstrates testing website and password generator]
+
+--------------------------------------------------------------------------------
+

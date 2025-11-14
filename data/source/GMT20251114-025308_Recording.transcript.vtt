@@ -1,0 +1,2326 @@
+WEBVTT
+
+1
+00:00:06.790 --> 00:00:17.209
+Zoom user: We're Go Trigger, also known as DP Profound. We're a research security group. I'm Isaac Planvec. I'm the lead architecture, and I'm also the project manager.
+
+2
+00:00:19.530 --> 00:00:23.969
+Devon Villalona: I'm Devin Ridolono. I'm the Cloud Infrastructure and API Developer.
+
+3
+00:00:27.200 --> 00:00:32.829
+Kenith Philip: Just pick one of those. I'm Ken, I'm the CICD.
+
+4
+00:00:32.990 --> 00:00:34.430
+Kenith Philip: Pipeline Architect.
+
+5
+00:00:36.120 --> 00:00:39.920
+Jared Zayas: I'm Jared Zeiss. I worked on the mobile…
+
+6
+00:00:40.090 --> 00:00:47.480
+Jared Zayas: Fuck the fuck, I really fucking need to… A mobile development?
+
+7
+00:00:50.640 --> 00:00:56.690
+Jhuiwensley Belizaire: Hi, I'm Jewel, and I worked on security and API architecture.
+
+8
+00:01:07.030 --> 00:01:14.129
+Jhuiwensley Belizaire: The Go Trigger, just to introduce the project, is a dual platform collaboration system.
+
+9
+00:01:14.230 --> 00:01:19.659
+Jhuiwensley Belizaire: Combining enterprise… Password management with automated security features.
+
+10
+00:01:20.160 --> 00:01:30.079
+Jhuiwensley Belizaire: Built with Go, Flutter, Electron, and featuring Apple keychain-inspired architecture for Unparalleled security.
+
+11
+00:01:33.690 --> 00:01:36.930
+Jhuiwensley Belizaire: So, we have a production-ready platform.
+
+12
+00:01:37.290 --> 00:01:43.420
+Jhuiwensley Belizaire: Deployed in our enterprise infrastructure with CICD automation, supporting desktop.
+
+13
+00:01:43.790 --> 00:01:55.749
+Jhuiwensley Belizaire: Using Electron and Angular, mobile, Flutter, iOS, and a comprehensive REST API built in with Go 1.24.
+
+14
+00:01:56.500 --> 00:02:01.460
+Jhuiwensley Belizaire: So, this senior capstone project demonstrates a full-stack development
+
+15
+00:02:01.750 --> 00:02:06.230
+Jhuiwensley Belizaire: DevOps Automation and Enterprise Security Project.
+
+16
+00:02:06.820 --> 00:02:10.609
+Jhuiwensley Belizaire: Enterprise, Enterprise Security Architecture Project.
+
+17
+00:02:13.040 --> 00:02:14.270
+Jhuiwensley Belizaire: And that'll be it.
+
+18
+00:02:19.410 --> 00:02:27.760
+Zoom user: Yeah, so, we're gonna go over some of the features of, the Code Trigger project, so…
+
+19
+00:02:29.810 --> 00:02:33.609
+Zoom user: I think the first features we definitely need to go over is probably the fault.
+
+20
+00:02:34.330 --> 00:02:36.429
+Zoom user: But before I do that, okay.
+
+21
+00:02:39.300 --> 00:02:40.510
+Jhuiwensley Belizaire: So…
+
+22
+00:02:40.510 --> 00:02:41.130
+Devon Villalona: Thanks.
+
+23
+00:02:44.520 --> 00:02:47.879
+Zoom user: Let me see Aaron's screen. Aaron's screen? Okay.
+
+24
+00:02:48.460 --> 00:02:49.430
+Zoom user: Good.
+
+25
+00:02:50.420 --> 00:02:53.229
+Devon Villalona: I'm gonna share, the desktop app.
+
+26
+00:02:53.280 --> 00:02:56.520
+Zoom user: Unless you don't have recording of the web.
+
+27
+00:02:57.830 --> 00:02:58.700
+Devon Villalona: I'm here.
+
+28
+00:02:59.480 --> 00:03:05.600
+Zoom user: No, I'm gonna do, I'm gonna do the web, I'm gonna do the, this after the full, because I feel like this ties into…
+
+29
+00:03:09.090 --> 00:03:11.239
+Devon Villalona: Alright, Dad, let me share this, Don.
+
+30
+00:03:14.170 --> 00:03:15.120
+Devon Villalona: Very cool.
+
+31
+00:03:18.070 --> 00:03:19.859
+Devon Villalona: How's it look on your guys' screen?
+
+32
+00:03:20.320 --> 00:03:21.050
+Devon Villalona: I agree.
+
+33
+00:03:25.020 --> 00:03:29.890
+Devon Villalona: Here's our application, Go Trigger in action in the Electron app.
+
+34
+00:03:30.000 --> 00:03:31.500
+Devon Villalona: It's,
+
+35
+00:03:31.690 --> 00:03:38.359
+Devon Villalona: Here, I'll walk you through how to create an account and what is required for a user to use our platform.
+
+36
+00:03:39.250 --> 00:03:41.750
+Devon Villalona: So, we'll go ahead and just make one up, we'll…
+
+37
+00:03:42.530 --> 00:03:49.410
+Devon Villalona: Test 2… no, test 4, so test 4 at… Mail.com.
+
+38
+00:04:05.100 --> 00:04:11.100
+Devon Villalona: User creates an account and is automatically given a master user password to copy or download.
+
+39
+00:04:11.320 --> 00:04:14.910
+Devon Villalona: So we'll go ahead and copy it, and save the recovery phrase.
+
+40
+00:04:17.220 --> 00:04:19.320
+Devon Villalona: And our application will be now open.
+
+41
+00:04:21.140 --> 00:04:25.290
+Zoom user: Okay, so this is where we're gonna segue into the breach report first.
+
+42
+00:04:25.290 --> 00:04:26.070
+Devon Villalona: Okay.
+
+43
+00:04:26.470 --> 00:04:30.109
+Devon Villalona: So this is… so then we'll talk about the breach report first, okay.
+
+44
+00:04:30.110 --> 00:04:45.250
+Zoom user: Yeah, because this will go back and forth with the features. When you go to the breach report, then it could come back to me of, like, how that would, essentially get remedied through the, the password rotation, etc, and it goes back and forth, because I feel like a lot of these features are gonna start crossing.
+
+45
+00:04:45.420 --> 00:04:46.100
+Devon Villalona: Yeah.
+
+46
+00:04:46.310 --> 00:04:48.119
+Devon Villalona: What's it called?
+
+47
+00:04:48.630 --> 00:04:50.120
+Devon Villalona: Have Impwn API, right?
+
+48
+00:04:50.330 --> 00:04:51.130
+Zoom user: Yo, yup.
+
+49
+00:04:53.060 --> 00:04:57.519
+Devon Villalona: Take two. Dashboard. That's for Jared, so he knows.
+
+50
+00:04:57.880 --> 00:04:59.409
+Devon Villalona: Cut. Action.
+
+51
+00:05:00.340 --> 00:05:10.320
+Devon Villalona: In our application, once the user finally gets into the dashboard, user has a lot of options. We'll first demonstrate the breach report.
+
+52
+00:05:11.030 --> 00:05:22.700
+Devon Villalona: The breach report uses the API from Have Been Pwned, and essentially, the user is able to put in any email address one desires to check if it's been compromised.
+
+53
+00:05:22.940 --> 00:05:25.140
+Devon Villalona: So let's… let's use mine.
+
+54
+00:05:31.410 --> 00:05:49.099
+Devon Villalona: As you can see, the breaches found 8 breaches, and it tells you in-depth on which company has been compromised, what happened, how many users were compromised, even an article link to said, report. And as you can see, I have a lot, Collection 1, Chegg, Mathway.
+
+55
+00:05:49.130 --> 00:05:53.319
+Devon Villalona: OMG Pop, Advanced Auto Parts, and the new one right here.
+
+56
+00:05:54.770 --> 00:05:57.230
+Devon Villalona: And users is allowed to check another email.
+
+57
+00:05:57.340 --> 00:05:58.480
+Devon Villalona: Also.
+
+58
+00:05:59.350 --> 00:06:08.289
+Devon Villalona: to get more in-depth and more knowledge on users' security risks, we have another API called CV Security Risk that you can check.
+
+59
+00:06:11.440 --> 00:06:21.280
+Devon Villalona: So as that does that, it loads an API from CVE Security Risk, And essentially, You either have a…
+
+60
+00:06:23.430 --> 00:06:25.730
+Devon Villalona: Well done.
+
+61
+00:06:26.750 --> 00:06:28.119
+Devon Villalona: 1, 2, 1…
+
+62
+00:06:28.120 --> 00:06:29.910
+Zoom user: You keep going through Brian's affair.
+
+63
+00:06:32.700 --> 00:06:41.309
+Devon Villalona: As we hit the CV security risk button, the API analyzes the security vulnerabilities, for my breach report.
+
+64
+00:06:42.280 --> 00:06:48.309
+Devon Villalona: And at the end, if nothing shows up, that means there was… there isn't any more, but…
+
+65
+00:06:48.790 --> 00:06:54.029
+Devon Villalona: But, of course, it's gonna be going a little slowly. Yeah, right now, I just slowed down, and now…
+
+66
+00:06:54.610 --> 00:06:58.069
+Devon Villalona: there is no CV security risk for my… for my email right here.
+
+67
+00:06:59.710 --> 00:07:04.000
+Devon Villalona: Okay, and then… We go to the dashboard.
+
+68
+00:07:05.270 --> 00:07:08.380
+Devon Villalona: And then, do I… do I keep going? Password vault, right?
+
+69
+00:07:08.630 --> 00:07:17.529
+Zoom user: So, we'll go to the vault. Actually, before we do the vault, let's go to mine, because I feel like they need to start seeing some of the other component of the…
+
+70
+00:07:18.040 --> 00:07:19.080
+Devon Villalona: getting worse.
+
+71
+00:07:19.080 --> 00:07:25.120
+Zoom user: Yeah, yeah. So, this is EtherMail, so this is where the user would come to,
+
+72
+00:07:25.460 --> 00:07:39.829
+Zoom user: remedy their password, breaches. So, like Aaron just showed you, we pull the breach report, and once we get that breach report, we know, targeted websites where, user has been compromised, and where they need to remedy their passwords.
+
+73
+00:07:40.050 --> 00:07:53.740
+Zoom user: So, user would come here. I already have an account created, of course, but I'll show you what the user would see. Essentially, as soon as they sign up, they would generate a key. This essentially would be their login register.
+
+74
+00:07:56.710 --> 00:08:03.469
+Zoom user: they'll download their key, etc, and then they'll log in with that. So I'll just go back and log in with my credentials real quick.
+
+75
+00:08:04.760 --> 00:08:09.240
+Zoom user: Password… use password… I don't know.
+
+76
+00:08:17.090 --> 00:08:24.519
+Zoom user: So, those credentials that are created, user would enter those things in, and load into the platform.
+
+77
+00:08:28.090 --> 00:08:34.840
+Zoom user: So, of course, there's a few options the user could absolutely do.
+
+78
+00:08:35.150 --> 00:08:45.319
+Zoom user: So the first thing they absolutely have to do is aggregate all their emails. So in order to do that, we offer support for,
+
+79
+00:08:45.600 --> 00:08:49.370
+Zoom user: All-known email providers that are very popular.
+
+80
+00:08:49.920 --> 00:08:51.260
+Zoom user: So user would…
+
+81
+00:08:52.950 --> 00:09:00.120
+Zoom user: select the option they want. If they're breached through multiple emails, they could add multiple email providers into this.
+
+82
+00:09:00.310 --> 00:09:06.009
+Zoom user: Pretty seamlessly, and then… We'd be able to…
+
+83
+00:09:06.600 --> 00:09:16.269
+Zoom user: do the password resets, etc. But for the user to even do that, they have to get the app password from any of their email providers they want to aggregate their email servers within.
+
+84
+00:09:16.570 --> 00:09:20.100
+Zoom user: So once that's happened, you enter your credentials.
+
+85
+00:09:20.370 --> 00:09:22.360
+Zoom user: I'll put mine in, for example.
+
+86
+00:10:13.920 --> 00:10:15.659
+Zoom user: User at their account.
+
+87
+00:10:25.920 --> 00:10:33.059
+Zoom user: So, boom, so… This is the show users successful. This is pretty much,
+
+88
+00:10:33.390 --> 00:10:39.160
+Zoom user: pulling through the IMAP protocol. The IMAP protocol essentially syncs all your,
+
+89
+00:10:39.480 --> 00:10:46.760
+Zoom user: Your mail across, multiple mail servers, so this essentially gives user control of their own mail logs.
+
+90
+00:10:46.960 --> 00:10:50.060
+Zoom user: And also, you… this is the only way…
+
+91
+00:10:51.050 --> 00:10:58.300
+Zoom user: to aggregate all email providers, and one to do a mass password rotation. So, past that.
+
+92
+00:10:58.450 --> 00:11:03.690
+Zoom user: We enter the password rotation, we enter a targeted website.
+
+93
+00:11:05.990 --> 00:11:13.450
+Zoom user: And this is where we transition to Ken. So, Ken, this is exactly the part where, when I get to this part, the password rotation.
+
+94
+00:11:13.750 --> 00:11:20.249
+Zoom user: That's where we're gonna pull up your, your screen, which would be the website, whatever. So…
+
+95
+00:11:20.530 --> 00:11:23.920
+Zoom user: This is where you would talk about it, and this is where, essentially.
+
+96
+00:11:24.030 --> 00:11:34.260
+Zoom user: When we take the real take, I'm gonna break down the password rotation a lot better for you, because as soon as it goes to there, you kind of should have the credentials already loaded up.
+
+97
+00:11:35.260 --> 00:11:46.360
+Zoom user: and log in, and from that point, you could go and talk about the password generator, and, like, the… finally, the number's loaded, oh my god, thank God. But,
+
+98
+00:11:46.750 --> 00:11:48.429
+Zoom user: Damn, that's crazy.
+
+99
+00:11:48.580 --> 00:11:57.419
+Zoom user: But, yeah, so… it parses through a user's emails or whatever, with the rejects I developed.
+
+100
+00:11:59.390 --> 00:12:06.420
+Zoom user: And then that's essentially how it's low-key credential stuffing, but that's how we get the verification code, etc.
+
+101
+00:12:06.520 --> 00:12:08.849
+Zoom user: But you should, you should already have,
+
+102
+00:12:09.770 --> 00:12:18.979
+Zoom user: Because when it switches back to you, Ken, you should already have it filled in, so it's a lot seamless, like, it's pretty seamless. Just so they can kind of see that.
+
+103
+00:12:19.100 --> 00:12:27.230
+Zoom user: Because then, after that, you go to the password generator, and you could talk about the other features, because they're kind of, like, obvious features, like alias.
+
+104
+00:12:27.410 --> 00:12:29.430
+Kenith Philip: You want me to talk about that, too?
+
+105
+00:12:29.430 --> 00:12:35.080
+Zoom user: The alias is essentially… We kind of had…
+
+106
+00:12:35.080 --> 00:12:38.710
+Kenith Philip: Basically, like, the fake email, yeah.
+
+107
+00:12:38.710 --> 00:12:39.200
+Zoom user: gig.
+
+108
+00:12:39.740 --> 00:12:44.390
+Kenith Philip: I got a couple of aliases, but we don't have it set up.
+
+109
+00:12:44.650 --> 00:12:50.390
+Zoom user: Well, but look at, like, this, like, the overall, the password rotation container, this is the,
+
+110
+00:12:51.960 --> 00:13:04.330
+Zoom user: that's essentially the alias, right? So the alias is created for the container, and the container's getting destroyed. So, we don't have to talk too much in depth, but that's kind of, like, branching into, like, kind of how that CIC pipeline works with the container.
+
+111
+00:13:06.130 --> 00:13:12.080
+Zoom user: Because, like, this whole thing was generated with the alias email, for them to aggregate all their email services, right?
+
+112
+00:13:12.460 --> 00:13:15.910
+Kenith Philip: It was not an alias, you know, it was a temporary email.
+
+113
+00:13:16.560 --> 00:13:18.290
+Zoom user: You're right, temporary email.
+
+114
+00:13:18.290 --> 00:13:22.319
+Kenith Philip: That's because alias is just a…
+
+115
+00:13:22.800 --> 00:13:26.390
+Kenith Philip: Just a fake label, just something that's real… something that's real.
+
+116
+00:13:26.850 --> 00:13:30.770
+Kenith Philip: But this is, like, temporary. This goes away.
+
+117
+00:13:36.470 --> 00:13:41.610
+Zoom user: Alright, so yeah, scratch that. So then, you talk about the passenger generator? Obviously.
+
+118
+00:13:43.140 --> 00:13:46.049
+Zoom user: Have the credentials ready, just when we do the transition.
+
+119
+00:13:46.320 --> 00:13:48.879
+Kenith Philip: Okay, hold on, I'm testing it real quick.
+
+120
+00:14:01.720 --> 00:14:05.419
+Kenith Philip: Or if you want to skip, we'll figure this out, and, you know.
+
+121
+00:14:05.810 --> 00:14:09.779
+Kenith Philip: talk about that, and then I can… because this is trial anyways.
+
+122
+00:14:15.370 --> 00:14:25.790
+Zoom user: Because this is where we're gonna have to figure out, because this obviously could go back to Aaron, but this could keep going between me and him pretty easily, but this is where we have to find where to put,
+
+123
+00:14:26.190 --> 00:14:28.030
+Zoom user: Jared to talk?
+
+124
+00:14:28.930 --> 00:14:31.710
+Zoom user: And then Jules, the talk, because…
+
+125
+00:14:32.080 --> 00:14:35.199
+Zoom user: Me and go future for future, because we know the whole thing.
+
+126
+00:14:36.200 --> 00:14:40.060
+Kenith Philip: I'll just have Jared, like, slide through my phone and record it.
+
+127
+00:14:40.990 --> 00:14:46.660
+Kenith Philip: the mobile phone, because it's already, like, here. You're like, oh yeah, you know, as you can see, you know…
+
+128
+00:14:47.460 --> 00:14:56.169
+Kenith Philip: you know, the imports and wood here, and all that stuff, you know what I mean? It's like, oh, it's synced, oh, I can do, I can even do my breach report here, oh, I can do this, it's like, oh, that's a little.
+
+129
+00:14:57.950 --> 00:15:05.160
+Zoom user: Well, see, that's actually a good point, because Jared could be the person that enters his credentials for his breach report, right?
+
+130
+00:15:06.010 --> 00:15:08.970
+Zoom user: Cause we have to find somewhere for him to fit.
+
+131
+00:15:11.560 --> 00:15:17.370
+Kenith Philip: Yeah, you could just literally just do the mobile, you know, demo, like, slide through, and like…
+
+132
+00:15:17.630 --> 00:15:18.690
+Kenith Philip: All that stuff.
+
+133
+00:15:18.690 --> 00:15:24.310
+Zoom user: Yeah, he probably has to practice with it, though, because he's never touched… Jared's never touched our software.
+
+134
+00:15:24.310 --> 00:15:27.320
+Kenith Philip: Jerry Camus? You want to check the software?
+
+135
+00:15:31.560 --> 00:15:32.350
+Kenith Philip: Sure.
+
+136
+00:15:32.520 --> 00:15:40.459
+Kenith Philip: Essentially, don't even worry about it. Need to sign you in, right?
+
+137
+00:15:56.370 --> 00:16:01.189
+Zoom user: What are you doing now? I'm just writing a script, because he copied my CDR.
+
+138
+00:16:03.680 --> 00:16:04.710
+Zoom user: Or married.
+
+139
+00:18:22.570 --> 00:18:26.040
+Devon Villalona: Okay, no, sure, sure. You haven't been talking about it a little bit.
+
+140
+00:18:28.010 --> 00:18:32.679
+Devon Villalona: Wait, there's an echo. Alright. Holy shit.
+
+141
+00:18:33.460 --> 00:18:36.010
+Devon Villalona: Cause, what's it called?
+
+142
+00:18:36.550 --> 00:18:42.979
+Devon Villalona: we got, because I, right now, just synced the imports for one of the things for my…
+
+143
+00:18:43.100 --> 00:18:45.140
+Devon Villalona: And I'm trying to figure out if I can…
+
+144
+00:18:46.290 --> 00:18:56.300
+Devon Villalona: I want to share it live on Zoom, and killing two birds with one stone, and it's, like, the easiest shit ever, but I don't see an option, because it's tethered right now, I would think it would do that.
+
+145
+00:18:57.360 --> 00:18:58.909
+Devon Villalona: It's too ghetto, you think?
+
+146
+00:18:59.120 --> 00:19:02.209
+Zoom user: No, I don't… I don't think theater at all.
+
+147
+00:19:04.680 --> 00:19:12.539
+Devon Villalona: The other way would be if I join on my phone, and you record it separately, and I show you that way, too. That's another way we can do… yeah, I'll just do that right now.
+
+148
+00:19:12.670 --> 00:19:20.759
+Devon Villalona: Here, let me join. No, I joined on my phone. I can join on Zoom on my phone, yeah. And then I'll have to record and talk at the same time.
+
+149
+00:19:20.760 --> 00:19:22.939
+Zoom user: Or, what you can't do, Eric…
+
+150
+00:19:22.940 --> 00:19:28.500
+Devon Villalona: I know, I could do that too, but he doesn't know if he can stitch that together. Like, he's the one who's doing the edits.
+
+151
+00:19:28.500 --> 00:19:30.130
+Zoom user: You know what we should do, Aaron?
+
+152
+00:19:30.130 --> 00:19:31.020
+Devon Villalona: What's up?
+
+153
+00:19:31.020 --> 00:19:34.429
+Zoom user: Why don't you just screen record off your phone? Do it?
+
+154
+00:19:34.430 --> 00:19:49.819
+Devon Villalona: Yeah, that's what I was saying, but the thing is, it's like, Jared doesn't know if he can, like, stitch that shit together or something, so, like, it's up to Jared, because I do that and make it separate. It's like, I could do the desktop and just do it separately and do my take, too, and we just go back and forth, and, like, I just, we just give them that.
+
+155
+00:19:50.230 --> 00:19:58.239
+Zoom user: Yeah, I feel like that's easy, like, the low key. Because that was my whole idea to do it on Zoom, it was just… it saves all that extra…
+
+156
+00:19:58.760 --> 00:20:01.950
+Zoom user: Extra shit we would have to figure out.
+
+157
+00:20:05.170 --> 00:20:07.160
+Devon Villalona: Oh, but the words, too, right?
+
+158
+00:20:08.460 --> 00:20:14.179
+Devon Villalona: You gotta, like, talk it through, like, the mobile, like, I gotta talk it? Oh, no, you have to do it, actually, fine.
+
+159
+00:20:14.180 --> 00:20:23.940
+Zoom user: Yeah, that's what I was trying to… Because Journey to talk about something new, and it's like, obviously, it's easy to do that with features that are working, like, not buggy.
+
+160
+00:20:28.480 --> 00:20:29.360
+Devon Villalona: Okay.
+
+161
+00:20:36.920 --> 00:20:44.490
+Devon Villalona: You could talk about a password reset. I was just talking about the dummy website for, like, for a minute, and then you can just talk about the reset… I mean, the generator.
+
+162
+00:20:44.650 --> 00:20:46.350
+Devon Villalona: Now that we've got the generator.
+
+163
+00:20:47.730 --> 00:20:54.119
+Devon Villalona: I'm trying to think… This generator is pretty simple, and there's nothing to mess up and replace it.
+
+164
+00:20:54.870 --> 00:20:55.659
+Devon Villalona: Got it.
+
+165
+00:20:59.740 --> 00:21:01.180
+Zoom user: Dude, speak!
+
+166
+00:21:03.510 --> 00:21:07.239
+Devon Villalona: Oh, unless I screen record it, and then you record your voice talking it through.
+
+167
+00:21:07.430 --> 00:21:09.589
+Devon Villalona: Yeah, I could do that too.
+
+168
+00:21:09.880 --> 00:21:16.459
+Devon Villalona: But I can… you know what I'm saying? I give… I send you the screen record of this, and then, like, you basically, like, word it.
+
+169
+00:21:16.880 --> 00:21:22.000
+Devon Villalona: And then, like, what's it called? Use that, I guess.
+
+170
+00:21:22.200 --> 00:21:24.920
+Devon Villalona: We'll try to get, like, 30 seconds to a minute of it.
+
+171
+00:21:25.440 --> 00:21:26.619
+Devon Villalona: Yeah, I could do that.
+
+172
+00:21:27.200 --> 00:21:28.840
+Devon Villalona: So, like, right here, right?
+
+173
+00:21:29.180 --> 00:21:37.509
+Devon Villalona: I'm a, you know… like, use my words for your voiceover, I guess, right? So, like, you'd be like, oh, this is our mobile implementation of,
+
+174
+00:21:38.080 --> 00:21:49.510
+Devon Villalona: the application, I mean, I'm sorry, of, Go Trigger, you know, this is it. You log in, user's able to use biometric Face ID on the mobile application.
+
+175
+00:21:50.070 --> 00:21:56.699
+Devon Villalona: Not by Matrix, Face ID, holy shit. It's by the same thing? Yeah.
+
+176
+00:21:57.030 --> 00:21:58.370
+Zoom user: And let me…
+
+177
+00:21:58.600 --> 00:22:05.030
+Devon Villalona: like, get a voice recording, capture audio, because I can always put audio, like, later on.
+
+178
+00:22:06.500 --> 00:22:07.350
+Devon Villalona: Record.
+
+179
+00:22:08.020 --> 00:22:09.469
+Devon Villalona: this. Yeah.
+
+180
+00:22:09.730 --> 00:22:13.420
+Devon Villalona: what you're saying that while also screening that… Yeah.
+
+181
+00:22:13.420 --> 00:22:15.260
+Zoom user: We'll be good soon, like, 30 minutes?
+
+182
+00:22:15.260 --> 00:22:25.750
+Devon Villalona: Like, I can put the recording and the voice audio with it. Let me do, like, a… can you do, like, a timer? No, do a timer, I'm gonna do a take and try to see how I sound.
+
+183
+00:22:26.290 --> 00:22:30.160
+Devon Villalona: Because I want this at least to be, like, at least close to a minute.
+
+184
+00:22:30.590 --> 00:22:31.570
+Devon Villalona: Alright.
+
+185
+00:22:36.770 --> 00:22:41.539
+Devon Villalona: Here's our password, holy fuck, cut that. I don't cut it, let me just hold off for a second.
+
+186
+00:22:42.050 --> 00:22:44.779
+Zoom user: Where's this re- where is this being recorded at?
+
+187
+00:22:45.390 --> 00:22:51.889
+Devon Villalona: screen… I'm going… I'm going off a take of a screen record, so, like, I'm practicing the mobile, implementation real quick.
+
+188
+00:22:51.890 --> 00:22:56.020
+Zoom user: No, no, no, it's been screen recording this whole time, that's… I'm just wondering where it's going.
+
+189
+00:22:56.020 --> 00:23:01.069
+Devon Villalona: Reporting from his phone. Oh, no, he's talking about, he's talking about the Zoom. Oh, the whole meeting. Oh, yeah, the whole meeting, yeah.
+
+190
+00:23:02.230 --> 00:23:05.469
+Zoom user: This isn't about to be what we're posting. Book.
+
+191
+00:23:05.470 --> 00:23:11.620
+Devon Villalona: I'm gonna post this whole raw footage. Raw no-cuts. This is not bad, you know, this is raw.
+
+192
+00:23:12.810 --> 00:23:31.759
+Devon Villalona: So here's our, mobile implementation that uses Flutter to connect to our desktop application, Electron. Here, a user can either create an account also here, but also log in via, master user password or Face ID. So let's go ahead and log in.
+
+193
+00:23:32.190 --> 00:23:33.799
+Devon Villalona: Sign in with Face ID.
+
+194
+00:23:34.070 --> 00:23:42.479
+Devon Villalona: I'm in. And here are all the tiles that are related to our application. They're all in sync, and I shall be showing you,
+
+195
+00:23:42.670 --> 00:23:44.389
+Devon Villalona: it's API points.
+
+196
+00:23:46.430 --> 00:23:48.079
+Devon Villalona: So, reach a form.
+
+197
+00:23:49.700 --> 00:23:54.780
+Devon Villalona: In the breach report, we'll go ahead and, check my email.
+
+198
+00:23:56.600 --> 00:24:01.209
+Devon Villalona: And see if it works on the mobile, of course, to show you that it is all in sync.
+
+199
+00:24:02.830 --> 00:24:09.959
+Devon Villalona: Mmm… As you can see, The breach details are here.
+
+200
+00:24:10.390 --> 00:24:15.529
+Devon Villalona: All verified by the API have been pwned, and even a new one of this year.
+
+201
+00:24:19.550 --> 00:24:38.239
+Devon Villalona: And now we'll check the password vault. The password vault, every time we… you go into the password vault, should either be a biometrics scanner, or a face ID, or a master user password. Since I've already, created this account, the face… the biometric ID is already established, so I… I'm able to use my face ID.
+
+202
+00:24:38.580 --> 00:24:48.220
+Devon Villalona: As you can see, our imports are already synced up from the desktop app that we did before, from lastpassword.csv.
+
+203
+00:24:49.840 --> 00:24:55.100
+Devon Villalona: And user has the option to also import, their CSV via mobile.
+
+204
+00:24:55.810 --> 00:24:58.519
+Devon Villalona: And delete all credentials via mobile.
+
+205
+00:24:59.140 --> 00:25:01.880
+Devon Villalona: And as you can see, I can delete it, go ahead, delete all.
+
+206
+00:25:02.710 --> 00:25:03.580
+Devon Villalona: Deleted.
+
+207
+00:25:05.670 --> 00:25:06.580
+Devon Villalona: Okay?
+
+208
+00:25:06.910 --> 00:25:14.140
+Devon Villalona: And we also have the API for the CV security alerts for the mobile, if user wishes to search specific, CVEs.
+
+209
+00:25:14.350 --> 00:25:17.080
+Devon Villalona: For, their breach report.
+
+210
+00:25:17.790 --> 00:25:19.410
+Devon Villalona: So we put in Walmart.
+
+211
+00:25:20.940 --> 00:25:26.830
+Devon Villalona: say if, like, Walmart was one of them. Walmart tells you more in detail, like, what happened, or the origin of it.
+
+212
+00:25:27.500 --> 00:25:30.479
+Devon Villalona: And it gives you a score, severity score.
+
+213
+00:25:33.210 --> 00:25:35.020
+Devon Villalona: And… what else were I missing?
+
+214
+00:25:35.020 --> 00:25:39.810
+Zoom user: We can… oh… Bescent… Excellent.
+
+215
+00:25:39.810 --> 00:25:40.660
+Devon Villalona: Absolutely.
+
+216
+00:25:40.950 --> 00:25:41.740
+Devon Villalona: Excellent.
+
+217
+00:25:41.740 --> 00:25:43.459
+Zoom user: Get your Discord.
+
+218
+00:25:43.700 --> 00:25:48.330
+Devon Villalona: I gotta, like, word it better. So here's what I'm gonna do. I'm gonna obviously do the take.
+
+219
+00:25:48.640 --> 00:25:49.669
+Devon Villalona: How much is it?
+
+220
+00:25:52.150 --> 00:25:58.770
+Devon Villalona: Two and a half minutes? Two and a half minutes? We can get it down. I'll not get it down, I can clean that up and be more sharp about it.
+
+221
+00:26:00.330 --> 00:26:02.590
+Devon Villalona: What's it called, what's it called, what's it called?
+
+222
+00:26:08.350 --> 00:26:09.230
+Devon Villalona: Yes.
+
+223
+00:26:10.540 --> 00:26:12.899
+Devon Villalona: And of course, I go here, and obviously, like.
+
+224
+00:26:13.040 --> 00:26:18.580
+Devon Villalona: Oh, wow, there's a lot of talk about shit. I even forgot, like, oh, I can even say, like, this right here.
+
+225
+00:26:19.870 --> 00:26:33.290
+Devon Villalona: It's like, as I delete from the app, it's already, like, I forgot, like, it deletes the imports in the app here, too, so, like, you see, like, I can go back here and be like, as you can see, oh, you know, it's in sync, or proof is in sync, blah blah blah, you know? And then, you know…
+
+226
+00:26:33.660 --> 00:26:36.580
+Devon Villalona: Get out of here, log out, go back in.
+
+227
+00:26:40.420 --> 00:26:43.990
+Devon Villalona: Okay… Awesome.
+
+228
+00:26:47.320 --> 00:26:49.309
+Devon Villalona: Awesome, awesome, awesome, awesome.
+
+229
+00:26:51.530 --> 00:26:56.139
+Devon Villalona: Okay, so now we just gotta… I gotta get better words to practice going back and forth.
+
+230
+00:26:57.540 --> 00:27:00.600
+Devon Villalona: And… what's it called? What's it called? What's it called?
+
+231
+00:27:01.240 --> 00:27:02.369
+Devon Villalona: What was I gonna say?
+
+232
+00:27:04.700 --> 00:27:06.399
+Devon Villalona: Yeah, back and forth.
+
+233
+00:27:06.620 --> 00:27:07.690
+Devon Villalona: Yeah, yeah, yeah.
+
+234
+00:27:09.140 --> 00:27:11.629
+Devon Villalona: And then… what is it called?
+
+235
+00:27:12.500 --> 00:27:16.860
+Devon Villalona: Settings, breach report, password vault… Oh, gotta mention cat…
+
+236
+00:27:17.130 --> 00:27:20.389
+Devon Villalona: Where is cachet? Holy fuck, that's pretty fucking important, holy fuck.
+
+237
+00:27:21.000 --> 00:27:34.309
+Zoom user: Yes, yes and no. We need to think about it, it's just only, like, 6 minutes. That's why, that's why I was like, we just gotta focus straight on features, because all that extra jargon we were doing in the CDR, this doesn't matter for that.
+
+238
+00:27:34.640 --> 00:27:35.330
+Devon Villalona: Yeah.
+
+239
+00:27:35.570 --> 00:27:40.950
+Devon Villalona: It's been 100 minutes. It turns out there's not a 40-minute. It's definitely been more than an hour.
+
+240
+00:27:41.060 --> 00:27:49.849
+Devon Villalona: So, we can… when we start it, we gotta… what is the guidelines? Why did you choose a particular project, topic? Oh, we even answer these questions, huh?
+
+241
+00:27:49.970 --> 00:27:50.480
+Devon Villalona: The way…
+
+242
+00:27:52.350 --> 00:27:59.719
+Devon Villalona: The intro, the first question. Oh, yeah, yeah, yeah, he did, I'm sorry. What'd you think of this project? What problems are we solving? That kind of thing.
+
+243
+00:28:00.670 --> 00:28:11.609
+Devon Villalona: I like… I like that. This guy has… before we talk about our solution, we need to fully understand the problem we're facing. Data breaches are… this is honestly a really good script, actually. We should probably bring this fucking script.
+
+244
+00:28:11.990 --> 00:28:28.989
+Devon Villalona: Yeah, this is a pretty good, like, look at this. After we do, like, the questions and, like, introduction of the teams, we… it literally is perfect. It's like, before we talk about our solution, we need to fully understand the problem that we're facing. You know, honestly, you should fucking say it, actually. That's a good fucking intro… that's all you have to say. It's…
+
+245
+00:28:30.390 --> 00:28:33.649
+Zoom user: Why is Jared getting all the freebies, bro? Jared's doing all the talking, bro.
+
+246
+00:28:33.650 --> 00:28:40.749
+Devon Villalona: But he can literally have, like, a minute and 30 seconds of this introduction. We go straight to features and, like, you know, rapid fire it.
+
+247
+00:28:41.040 --> 00:28:42.720
+Zoom user: Jared built the whole project!
+
+248
+00:28:44.330 --> 00:28:47.779
+Devon Villalona: But he's a good speaker, unless you want someone else to do it, or you to do it. I mean, I don't doing it.
+
+249
+00:28:47.780 --> 00:28:48.640
+Zoom user: Okay.
+
+250
+00:28:50.860 --> 00:28:53.050
+Zoom user: He honestly should do it.
+
+251
+00:28:53.050 --> 00:28:58.999
+Devon Villalona: Yeah, because, like, look, it's a whole fucking… yeah, this is a good script, and he literally just reads it, that's at least a minute or two.
+
+252
+00:28:59.000 --> 00:29:01.350
+Zoom user: Remember you thought you were leaving at 6PM, Jared?
+
+253
+00:29:07.120 --> 00:29:12.090
+Devon Villalona: Oh, we can also break this shit up, too, like, this is pretty… damn, how long does this shit go, bro?
+
+254
+00:29:13.580 --> 00:29:14.400
+Zoom user: Whoa…
+
+255
+00:29:16.320 --> 00:29:19.400
+Devon Villalona: Yo, this is a crazy introduction, low-key.
+
+256
+00:29:19.400 --> 00:29:20.850
+Zoom user: What are you, what are you looking at?
+
+257
+00:29:20.850 --> 00:29:28.820
+Devon Villalona: It's the outline, I formatted it, because that shit was fucking hideous to look at when he first gave it to me. I was like, what is this shit?
+
+258
+00:29:28.820 --> 00:29:30.690
+Zoom user: Here, you're combining your strip…
+
+259
+00:29:30.690 --> 00:29:32.230
+Devon Villalona: I could share, I could share, right?
+
+260
+00:29:32.760 --> 00:29:38.829
+Zoom user: Remind your script and my script, because mine talks about one half, he talks about the other half. And we need… we need…
+
+261
+00:29:39.140 --> 00:29:40.710
+Zoom user: Check your Discord.
+
+262
+00:29:45.360 --> 00:29:47.099
+Devon Villalona: Discord? Where's it at?
+
+263
+00:29:47.100 --> 00:29:48.210
+Zoom user: I just said to…
+
+264
+00:29:48.720 --> 00:29:53.219
+Devon Villalona: Isaac, let me ask you again. Do you want me to talk about a dummy vex that I…
+
+265
+00:29:53.440 --> 00:30:00.669
+Devon Villalona: You already mute this? You wanna mute? I'm not, I'm not talking, I'm using my mic. So,
+
+266
+00:30:01.110 --> 00:30:05.209
+Devon Villalona: What was it, dump me website? Password generator? What else? Is that it?
+
+267
+00:30:09.680 --> 00:30:13.400
+Devon Villalona: No, I mean… I'd rather keep the least, but, you know.
+
+268
+00:30:13.400 --> 00:30:18.470
+Zoom user: I mean, maybe you could talk about the PGP key, the privacy, how we're not embedded in systems.
+
+269
+00:30:22.560 --> 00:30:28.189
+Devon Villalona: Maybe… I feel like it's going a little too deep, like, it's supposed to be, like, server… I mean, surface level.
+
+270
+00:30:28.640 --> 00:30:29.740
+Zoom user: Meh…
+
+271
+00:30:30.130 --> 00:30:34.850
+Zoom user: Because then, honestly, if we do that, it just goes back to Aaron, then, and we just finish the features, that's it.
+
+272
+00:30:34.850 --> 00:30:37.560
+Devon Villalona: Yeah, I feel like we'll… we bellow over time by then.
+
+273
+00:30:38.320 --> 00:30:42.620
+Devon Villalona: Half a generator, observation, and… Along with that.
+
+274
+00:30:42.620 --> 00:30:46.899
+Zoom user: Yeah, we look at, like, 30 minutes, because Jared probably has, like, an hour to submit this.
+
+275
+00:30:47.650 --> 00:30:48.870
+Devon Villalona: Yeah, I…
+
+276
+00:30:49.140 --> 00:31:00.550
+Devon Villalona: Like, the window's getting smaller. Yeah, 100%. No, it's gonna be, like, an hour, bro. You're probably gonna be, like, 15 minutes of an interview.
+
+277
+00:31:01.290 --> 00:31:15.690
+Devon Villalona: Don't we just have to do an embedded link? What? The YouTube link? Couldn't we, like… it's just a link, yeah. But you gotta edit it, upload it to YouTube? But the link still is the same, right? Or no, does it change?
+
+278
+00:31:16.200 --> 00:31:24.559
+Devon Villalona: You get what I'm saying? Oh, like, change the video after? No, like, so, like, so, like, if we were to establish, like, a rough draft, or not, you know what I mean, we do some YouTube, and then…
+
+279
+00:31:24.700 --> 00:31:25.540
+Devon Villalona: like…
+
+280
+00:31:25.660 --> 00:31:36.660
+Devon Villalona: re-upload it, does the link change? No, the link stays the same, right? Or does? It does change, fuck. When you upload another video, it'll be a new video? You can't replace it. Yeah, you're right.
+
+281
+00:31:39.100 --> 00:31:43.439
+Devon Villalona: Deployment pipeline… I believe in…
+
+282
+00:31:58.180 --> 00:31:59.070
+Devon Villalona: Okay.
+
+283
+00:31:59.360 --> 00:32:01.579
+Devon Villalona: Oh, I see the script now from what you're doing.
+
+284
+00:32:05.100 --> 00:32:10.699
+Zoom user: Yeah, because that script means you can combine with yours, because mine's talking about the ether mail. I need the.
+
+285
+00:32:12.580 --> 00:32:14.279
+Devon Villalona: The one I'm using is,
+
+286
+00:32:14.800 --> 00:32:17.670
+Devon Villalona: Jared's one, the one I have for the CDR.
+
+287
+00:32:17.910 --> 00:32:19.089
+Zoom user: Yeah, his little…
+
+288
+00:32:19.090 --> 00:32:19.919
+Devon Villalona: Can I use that?
+
+289
+00:32:20.100 --> 00:32:25.089
+Zoom user: His is… his is a little, it's… it's a little outdated.
+
+290
+00:32:25.220 --> 00:32:27.190
+Devon Villalona: Alright, I'm gonna have to make one then, real quick.
+
+291
+00:32:27.190 --> 00:32:36.559
+Zoom user: Because you can just combine ours to the .text, because mine is pretty well-written, it just needs yours to be as well-written, it can just be one script, and we could just break it up.
+
+292
+00:32:37.110 --> 00:32:40.209
+Devon Villalona: I'll do it right now. Let me… let me make one for the desktop.
+
+293
+00:32:46.320 --> 00:32:50.030
+Devon Villalona: I don't even know, like, that's what's weird, it's like, I don't even think it closes, does it?
+
+294
+00:32:50.510 --> 00:33:02.560
+Devon Villalona: Like, I'm so con… let me look at… let me just do this first, before I say it. Gerber said something bad to me, I mean, what was he doing that? Well, if you don't do it, it's like… he said if you don't do it, you're cooked, buddy. Yeah, he said something like that, but, you know, he always says that, it's usually fun.
+
+295
+00:33:03.580 --> 00:33:04.949
+Devon Villalona: Hi, today.
+
+296
+00:33:05.360 --> 00:33:07.620
+Devon Villalona: I'm not saying weather.
+
+297
+00:33:08.850 --> 00:33:20.690
+Devon Villalona: I think it should be fine. New window, let me do this, new terminal window, terminal… Different deadline, it's not a timing, right? That's the thing. They're not reading it, they're complaining so quick, or anything?
+
+298
+00:33:21.940 --> 00:33:23.350
+Devon Villalona: Yeah.
+
+299
+00:33:23.350 --> 00:33:25.300
+Zoom user: Yeah, but they'll definitely snitch.
+
+300
+00:33:26.030 --> 00:33:26.660
+Devon Villalona: What?
+
+301
+00:33:27.070 --> 00:33:29.209
+Zoom user: They'll say that we turned it in late.
+
+302
+00:33:32.000 --> 00:33:32.870
+Devon Villalona: We can't.
+
+303
+00:33:33.960 --> 00:33:37.880
+Zoom user: No, I'm saying, I feel like if we turn in late, they'd probably say something.
+
+304
+00:33:43.810 --> 00:33:49.150
+Zoom user: Dude, like, that go trigger… They thought they were clever.
+
+305
+00:33:55.050 --> 00:33:59.810
+Zoom user: Damn, Curry goes independent? And he said fuck Under Armour. Respect?
+
+306
+00:34:10.570 --> 00:34:15.010
+Zoom user: Yeah, cause this next take we do it, it's gonna be the take we submit, because I'm looking ready.
+
+307
+00:34:18.679 --> 00:34:25.589
+Devon Villalona: Alright, well, they're working on it, let me see… so, all the… all I'm gonna say is this list, or tell me… this is a test website we created.
+
+308
+00:34:25.739 --> 00:34:31.059
+Devon Villalona: to test path of rotation,
+
+309
+00:34:31.629 --> 00:34:36.819
+Devon Villalona: password rotation's working. I'm going to sign in to see what happens when you get in.
+
+310
+00:34:40.060 --> 00:34:41.360
+Zoom user: Mmm…
+
+311
+00:34:43.380 --> 00:34:51.370
+Devon Villalona: And as you can see, login was successful. This gives us a simple UI that tells us what the username is, what the email is, and how long.
+
+312
+00:34:51.959 --> 00:34:52.549
+Zoom user: burned.
+
+313
+00:34:53.409 --> 00:35:01.780
+Devon Villalona: And then, go back here, another feature we have is a password generator that lets users create a password that
+
+314
+00:35:02.790 --> 00:35:04.440
+Devon Villalona: left and securely.
+
+315
+00:35:04.560 --> 00:35:05.919
+Devon Villalona: Care the account, I mean…
+
+316
+00:35:07.920 --> 00:35:19.219
+Devon Villalona: And you have choices between using a random sequence of characters, using memorable words, or just numbers. We also have a dial here, your size.
+
+317
+00:35:19.900 --> 00:35:24.730
+Devon Villalona: Over to… Something happening, I think. It's you, right? I mean, always, always…
+
+318
+00:35:25.080 --> 00:35:31.360
+Devon Villalona: What? No, I'm just, like, run through, I'm running through what I would say.
+
+319
+00:35:32.260 --> 00:35:33.330
+Devon Villalona: Second minute.
+
+320
+00:35:34.690 --> 00:35:35.410
+Devon Villalona: Weird.
+
+321
+00:35:35.540 --> 00:35:36.670
+Devon Villalona: I didn't count here.
+
+322
+00:35:37.090 --> 00:35:38.240
+Devon Villalona: It was weird, bro.
+
+323
+00:35:43.260 --> 00:35:44.539
+Zoom user: I'm a little baby.
+
+324
+00:35:48.320 --> 00:35:49.020
+Zoom user: Fuck.
+
+325
+00:36:03.430 --> 00:36:05.020
+Zoom user: Listen meant D-Rag.
+
+326
+00:36:09.060 --> 00:36:10.609
+Zoom user: Until we go live.
+
+327
+00:36:29.510 --> 00:36:30.400
+Jhuiwensley Belizaire: What?
+
+328
+00:36:32.160 --> 00:36:34.130
+Zoom user: Had it on video slot.
+
+329
+00:36:40.230 --> 00:36:43.949
+Jhuiwensley Belizaire: You guys wanna run a… a real take?
+
+330
+00:36:43.950 --> 00:36:44.710
+Zoom user: Yeah, and it's gonna be…
+
+331
+00:36:45.100 --> 00:36:50.620
+Zoom user: Where'd you… where'd you one take? He's doing the last thing, because this is gonna be the real take, and we're just gonna submit it.
+
+332
+00:36:51.960 --> 00:36:54.370
+Jhuiwensley Belizaire: Yeah, because even if it's, like.
+
+333
+00:36:54.940 --> 00:36:57.880
+Jhuiwensley Belizaire: Mid. At least we submit so many.
+
+334
+00:36:58.380 --> 00:37:05.339
+Jhuiwensley Belizaire: And we'll show what we… what we're… we'll guide them, like you said, to what works. We're not gonna show them the buggy stuff.
+
+335
+00:37:10.430 --> 00:37:13.680
+Zoom user: Yeah, we were just making sure Jared had something to talk about.
+
+336
+00:37:14.510 --> 00:37:24.440
+Zoom user: And, ken, too, because… We're not talking about all the extra crap.
+
+337
+00:37:30.340 --> 00:37:35.459
+Devon Villalona: I was gonna say, wouldn't it be easy for Jar to just do the intro for a script, or…
+
+338
+00:37:37.200 --> 00:37:43.420
+Jhuiwensley Belizaire: Yeah. I don't really… I don't really care to talk, so if you could… Jared, you could have all my.
+
+339
+00:37:43.420 --> 00:37:51.499
+Devon Villalona: No, I don't think, like… it doesn't say, like, we all, like, do an introduction, but it doesn't say, like… like, all of us have to… Yeah.
+
+340
+00:37:51.500 --> 00:37:55.720
+Jhuiwensley Belizaire: Yeah, it doesn't, so… But I mean, like, it's like…
+
+341
+00:37:55.720 --> 00:37:57.610
+Devon Villalona: Yeah, yeah, of course, of course.
+
+342
+00:37:59.490 --> 00:38:00.370
+Devon Villalona: I don't know, just…
+
+343
+00:38:00.370 --> 00:38:02.090
+Zoom user: So we're giving all to Jared.
+
+344
+00:38:02.360 --> 00:38:04.720
+Devon Villalona: Chad would love that.
+
+345
+00:38:05.820 --> 00:38:10.360
+Devon Villalona: Yeah, so it would just be easier if I talked through the whole thing.
+
+346
+00:38:10.530 --> 00:38:13.970
+Zoom user: Yeah. They were like, of course the Asian talked the whole time.
+
+347
+00:38:15.730 --> 00:38:20.689
+Devon Villalona: Well, yeah, I could just do the intro for whatever script that I wrote up, if that works.
+
+348
+00:38:23.240 --> 00:38:29.249
+Zoom user: Well, no, no, no, no, give him the new script. His old script is from our CER. That's not talking about the features.
+
+349
+00:38:29.250 --> 00:38:31.569
+Devon Villalona: Yeah, that… well, that's the shit Aaron gave me to…
+
+350
+00:38:31.770 --> 00:38:33.819
+Zoom user: Yeah, no, no, no, it's fine, it's fine.
+
+351
+00:38:34.460 --> 00:38:39.970
+Devon Villalona: I just gave him… I gave him an updated script so he could bind it with my… with mine, so… I'm gonna do it now.
+
+352
+00:38:40.220 --> 00:38:42.460
+Devon Villalona: Oh, you gonna forward it? Yeah, hold on.
+
+353
+00:38:43.630 --> 00:38:44.340
+Devon Villalona: Yeah.
+
+354
+00:38:49.230 --> 00:38:52.099
+Devon Villalona: This shit's buggy, I don't know why it looks like that, but it's doing it.
+
+355
+00:38:52.400 --> 00:38:57.739
+Devon Villalona: Here's the presentation script… Here it is.
+
+356
+00:38:57.840 --> 00:39:04.350
+Devon Villalona: Is the Enterprise Pass for Cross Pass Platform Manager inspired by… Don't even worry about it, I'm gonna take that out. Apples.
+
+357
+00:39:04.630 --> 00:39:08.519
+Devon Villalona: Oh, it says inspired by it, I didn't even mean to say that, it's crazy. Should it?
+
+358
+00:39:09.000 --> 00:39:13.099
+Devon Villalona: Should I even put that? Inspired by Apple's keychain architecture, right? Take that shit out.
+
+359
+00:39:13.100 --> 00:39:13.990
+Zoom user: No.
+
+360
+00:39:14.180 --> 00:39:15.469
+Devon Villalona: Wing this office.
+
+361
+00:39:15.720 --> 00:39:17.579
+Devon Villalona: Brother, this is my project, bro.
+
+362
+00:39:18.310 --> 00:39:22.800
+Devon Villalona: I just did it. There's an enterprise-grade cross-platform password-managed word.
+
+363
+00:39:23.090 --> 00:39:24.580
+Devon Villalona: Take out this one.
+
+364
+00:39:27.410 --> 00:39:31.880
+Devon Villalona: That's right. Inspired by an security model. No, I'm gonna say, this.
+
+365
+00:39:35.720 --> 00:39:48.570
+Devon Villalona: Holy fucking Christ, this shit sucks, man. Trying to be fucking manager IMC. Is enterprise-grade classified for manager, with a security model, to say that. Oh, and security modeling as well, you know.
+
+366
+00:39:49.120 --> 00:39:53.509
+Devon Villalona: And… what the fuck is going on? Oh, it's still doing it?
+
+367
+00:39:54.280 --> 00:39:56.469
+Devon Villalona: Jesus Christ, whatever, bro.
+
+368
+00:39:57.970 --> 00:40:00.720
+Devon Villalona: That's a fat-ass script, bro. Is it done?
+
+369
+00:40:01.390 --> 00:40:03.199
+Devon Villalona: Finally is done. Huge.
+
+370
+00:40:03.200 --> 00:40:06.360
+Zoom user: Send it to me, because I feel like it did a lot of extra crap.
+
+371
+00:40:06.360 --> 00:40:09.749
+Devon Villalona: It probably did. It's only… well, no, this is for the desktop.
+
+372
+00:40:09.940 --> 00:40:15.789
+Zoom user: I'm, like, doing a… not a script, an update, because I haven't done the update for, like.
+
+373
+00:40:15.820 --> 00:40:20.120
+Devon Villalona: The new thing for the mobile and, what's it called?
+
+374
+00:40:20.550 --> 00:40:25.079
+Devon Villalona: And the, the desktop. So it's, like, putting, like.
+
+375
+00:40:25.350 --> 00:40:27.789
+Devon Villalona: The right features, because it's saying, like, yeah, this is a…
+
+376
+00:40:28.210 --> 00:40:40.479
+Devon Villalona: password manager, security model, and it features end-to-end encryption, multi-device sync, yup, and support for importing 45 Plus Password Manager. You see, that's, like… Are we still talking about Apple's keychain sync here?
+
+377
+00:40:40.600 --> 00:40:41.969
+Devon Villalona: No, we're not talking.
+
+378
+00:40:41.970 --> 00:40:44.740
+Zoom user: Because we're doing the encryption, but we're not…
+
+379
+00:40:44.740 --> 00:40:48.670
+Devon Villalona: Yeah, yeah, everything… I already took that Apple keychain shit out, don't even worry about it.
+
+380
+00:40:50.450 --> 00:40:56.920
+Devon Villalona: Alright, cool, I'm gonna just send this to you then. This looks pretty good, and then let me see… yup, browsing, yup, wow, it's actually pretty good.
+
+381
+00:40:57.100 --> 00:41:00.809
+Devon Villalona: Yeah, this is gonna be good with your script, actually. This is legit what everything's done.
+
+382
+00:41:01.740 --> 00:41:04.749
+Devon Villalona: Alright, let me get it for you. I'mma send it back.
+
+383
+00:41:13.570 --> 00:41:15.369
+Devon Villalona: It probably did do a lot, bud.
+
+384
+00:41:16.190 --> 00:41:19.500
+Devon Villalona: I'll give you, where's that? Password sync?
+
+385
+00:41:21.250 --> 00:41:21.980
+Devon Villalona: Here it is.
+
+386
+00:41:35.550 --> 00:41:38.929
+Devon Villalona: Oh, no, that's the old one, let me do this one. Let me save, I didn't save that.
+
+387
+00:41:44.570 --> 00:41:46.980
+Zoom user: I just hope it's still record…
+
+388
+00:41:47.110 --> 00:41:51.110
+Zoom user: The thing about this video recording is… let me stop it real quick.
+
+389
+00:42:00.670 --> 00:42:01.860
+Devon Villalona: Alright, I'm gonna send it to you.
+
+390
+00:42:05.080 --> 00:42:07.719
+Devon Villalona: I don't even need to fucking charge this shit again. Fucked.
+
+391
+00:42:10.050 --> 00:42:20.159
+Devon Villalona: Alright, send you the updated, of what the desktop app is doing currently, and the mobile. The talking points, you combine it together.
+
+392
+00:42:23.240 --> 00:42:24.349
+Devon Villalona: Which we're going.
+
+393
+00:42:27.570 --> 00:42:28.700
+Devon Villalona: About an hour and a half.
+
+394
+00:42:30.100 --> 00:42:37.459
+Devon Villalona: Only 7 minutes, what the fuck am I tripping for? I'm acting like it's a CDR, bro, what do I… I just get to the point, you know? Fuck.
+
+395
+00:42:38.300 --> 00:42:40.180
+Devon Villalona: Bro, I'm gonna need a fucking charger, bro.
+
+396
+00:42:40.310 --> 00:42:50.759
+Devon Villalona: Where are you at right now? 60? There's 60? Oh, dude, I'm at 10. Yeah, yeah, let me work. Yeah, I'm gonna need that, bro. I've been working on the code, buddy!
+
+397
+00:42:51.060 --> 00:42:59.240
+Devon Villalona: Dude, it's fucking Zoom. Mine would have lasted all day. I didn't charge last night, that's why. I was working on my bed on the website and researching.
+
+398
+00:43:17.420 --> 00:43:22.729
+Devon Villalona: What the fuck is it? What? Are you using it? What, your charger?
+
+399
+00:43:23.460 --> 00:43:24.210
+Devon Villalona: Nice.
+
+400
+00:43:27.050 --> 00:43:27.900
+Devon Villalona: You got it.
+
+401
+00:43:28.910 --> 00:43:30.700
+Devon Villalona: You couldn't hear a baby in front of me.
+
+402
+00:43:33.750 --> 00:43:36.069
+Devon Villalona: And what we tried to do last night.
+
+403
+00:43:38.630 --> 00:43:46.059
+Devon Villalona: You gave it to me, and I remember you unplugging it, but putting it back in your backpack. Probably took it home, wasn't there.
+
+404
+00:43:47.780 --> 00:43:53.170
+Devon Villalona: I mean, I technically could just use USB-C, right? Yeah. It should be slower.
+
+405
+00:43:57.570 --> 00:44:01.640
+Devon Villalona: Oh, I'm fucking stupid behind the couch. I'm like, there's no way, because I remember taking a nap.
+
+406
+00:44:03.190 --> 00:44:12.150
+Devon Villalona: I remember I came here, and Tony John, like, we're doing this, we're like, You know, during the…
+
+407
+00:44:17.110 --> 00:44:18.159
+Devon Villalona: Can I go ahead.
+
+408
+00:44:19.920 --> 00:44:24.809
+Devon Villalona: Fuck it is, dude. Alright, let's move over.
+
+409
+00:44:31.160 --> 00:44:32.010
+Devon Villalona: Phone.
+
+410
+00:44:33.500 --> 00:44:34.460
+Devon Villalona: Alright.
+
+411
+00:44:40.470 --> 00:44:42.460
+Devon Villalona: Awesome. Power's here.
+
+412
+00:44:44.910 --> 00:44:48.030
+Zoom user: Okay, so I could do the introduction.
+
+413
+00:44:48.500 --> 00:44:54.180
+Zoom user: I'll introduce myself, introduce the group, or introduce the platform, etc.
+
+414
+00:44:55.500 --> 00:45:04.700
+Zoom user: after we all do the introductions, we talk about ourselves, whatever, we're gonna go straight to, the preach report, and Jerry could do the preach report.
+
+415
+00:45:05.610 --> 00:45:13.140
+Zoom user: entries, credentials, And then, from there, it could go back to Aaron with,
+
+416
+00:45:14.430 --> 00:45:16.760
+Zoom user: What is it? What was it,
+
+417
+00:45:18.070 --> 00:45:21.020
+Zoom user: What'd you do after the breach report last time, Aaron?
+
+418
+00:45:21.020 --> 00:45:22.919
+Devon Villalona: As I did the breach report.
+
+419
+00:45:24.190 --> 00:45:27.509
+Devon Villalona: What's it called? After I did the breach report, we went to the mail sink.
+
+420
+00:45:27.870 --> 00:45:33.880
+Zoom user: Okay, so, okay, so, yeah So we'll… so we'll go back to the M-Sync. I'll talk about,
+
+421
+00:45:34.120 --> 00:45:37.950
+Zoom user: The external account again, and pass rotation, and then…
+
+422
+00:45:38.480 --> 00:45:46.690
+Zoom user: that's where Ken will come in, talk about the password generator, and his website, etc, how we're tech…
+
+423
+00:45:47.230 --> 00:45:53.089
+Zoom user: how we allegedly tested against it or whatever, because we're not going to show that during the demo. And then,
+
+424
+00:45:53.300 --> 00:45:57.579
+Zoom user: After that, it'll go back to, Aaron.
+
+425
+00:45:58.210 --> 00:46:00.760
+Zoom user: And then you could test them,
+
+426
+00:46:01.040 --> 00:46:05.800
+Zoom user: your phone, whatever, by the time we test on your phone, that's, like, 5 minutes, I believe.
+
+427
+00:46:06.720 --> 00:46:13.489
+Zoom user: And, then we could talk about the other additional features if we need extra time, we just gotta keep eyes on the clock,
+
+428
+00:46:15.040 --> 00:46:20.609
+Zoom user: About, like, the severity scoring algorithm, and then converting the,
+
+429
+00:46:23.420 --> 00:46:27.670
+Zoom user: the password file, etc, to the vault.
+
+430
+00:46:28.070 --> 00:46:45.919
+Zoom user: Or whatever, because the whole thing from where we bridge is when we… I do all the resets, whatever, etc, it gets sent to Aaron, allegedly, and Aaron will put that in the vault, and it gets converted in the vault. So, they're two systems, but yet there's a point that they, talk to each other.
+
+431
+00:46:46.150 --> 00:46:52.249
+Zoom user: So, that'd be, like, the end feature, I guess, to conversion. So, that's something we kind of have to…
+
+432
+00:46:54.240 --> 00:46:58.690
+Devon Villalona: We're not demoing it, right? We're just gonna state that it works.
+
+433
+00:46:58.690 --> 00:47:08.309
+Zoom user: Yes. Yes. Well, for the rotation, yes, because I broke it last second, and I'm too tired to fix it right now.
+
+434
+00:47:11.030 --> 00:47:12.980
+Zoom user: So, yeah, so…
+
+435
+00:47:13.470 --> 00:47:24.639
+Zoom user: I go over the rotation, etc, external. Once you get the patch generator, whatever, you go to your website, whatever, say we tested against it, or whatever, and this is, like, live polling or whatever.
+
+436
+00:47:26.320 --> 00:47:31.389
+Devon Villalona: No, you're gonna be talking about that. I'm gonna save the, generator thing, then I'm gonna hand it off to you.
+
+437
+00:47:31.740 --> 00:47:34.890
+Zoom user: You're not handing me nothing off. You're doing it all.
+
+438
+00:47:34.890 --> 00:47:37.070
+Devon Villalona: Bruh, no, man, I can do it.
+
+439
+00:47:37.930 --> 00:47:39.889
+Devon Villalona: I don't have a dollar for it, bro.
+
+440
+00:47:40.120 --> 00:47:42.339
+Zoom user: Oh, it's his confidence, my guy.
+
+441
+00:47:43.380 --> 00:47:45.340
+Devon Villalona: Chicago?
+
+442
+00:47:45.630 --> 00:47:52.440
+Zoom user: Alright, but yeah. Oh, that's, that's who I low-key forgot about, Jules…
+
+443
+00:47:52.640 --> 00:47:57.280
+Zoom user: Loki, Jules could just talk about the legal aspect of my app.
+
+444
+00:47:59.230 --> 00:48:00.719
+Zoom user: Like, right here?
+
+445
+00:48:00.960 --> 00:48:02.850
+Devon Villalona: That's a definite, it's all legal.
+
+446
+00:48:08.150 --> 00:48:09.850
+Zoom user: That's literally what you could talk about.
+
+447
+00:48:10.050 --> 00:48:11.759
+Zoom user: The word of Joseph.
+
+448
+00:48:12.350 --> 00:48:13.300
+Devon Villalona: Rules?
+
+449
+00:48:13.680 --> 00:48:17.030
+Devon Villalona: Maybe for y'all, everybody else. Yeah, I'm Oh, my God.
+
+450
+00:48:17.490 --> 00:48:18.659
+Zoom user: Jules, if so…
+
+451
+00:48:19.200 --> 00:48:29.870
+Zoom user: If you could go to this website real quick, the only part you're gonna talk about, it's gonna be about the contact and terms, and… just, like, the legality aspect of the whole thing.
+
+452
+00:48:35.430 --> 00:48:37.480
+Devon Villalona: The breach report.
+
+453
+00:48:38.550 --> 00:48:40.279
+Devon Villalona: Or, I mean, how am I doing that?
+
+454
+00:48:40.410 --> 00:48:47.849
+Devon Villalona: You'll be putting in your email as a thing. Wait, oh yeah, it's not running on your computer, it's running on his computer. Yeah, it's running on my computer.
+
+455
+00:48:48.400 --> 00:48:50.890
+Devon Villalona: So, I guess, by Devon's screen.
+
+456
+00:48:51.050 --> 00:48:52.350
+Devon Villalona: Organically.
+
+457
+00:48:52.730 --> 00:48:54.599
+Devon Villalona: Yeah, that's the only thing that makes sense.
+
+458
+00:48:55.120 --> 00:48:55.990
+Devon Villalona: Right?
+
+459
+00:48:56.470 --> 00:49:03.320
+Devon Villalona: Isaac, you're hearing this, right? For him to do it, for Jared to do it, the breach report?
+
+460
+00:49:03.580 --> 00:49:09.289
+Devon Villalona: You can also use Aaron's computer, because that's the only one with the app running.
+
+461
+00:49:11.390 --> 00:49:13.700
+Zoom user: I mean, they could just switch seats really quick.
+
+462
+00:49:13.700 --> 00:49:15.120
+Devon Villalona: Gotta say, yeah, it's fine.
+
+463
+00:49:15.510 --> 00:49:17.780
+Zoom user: Cause, like, at that point, it just…
+
+464
+00:49:18.280 --> 00:49:21.710
+Zoom user: Yeah, I mean, I think that works, honestly.
+
+465
+00:49:22.710 --> 00:49:24.560
+Devon Villalona: So yeah, you're coming over, Jared.
+
+466
+00:49:24.560 --> 00:49:28.269
+Zoom user: Unless, what other, what other part can he fit in?
+
+467
+00:49:28.660 --> 00:49:32.589
+Devon Villalona: I was gonna say either do an intro, like, I guess the intro, like.
+
+468
+00:49:32.590 --> 00:49:33.930
+Zoom user: I'm gonna do the intro.
+
+469
+00:49:33.930 --> 00:49:35.289
+Devon Villalona: You gonna do that? Okay, bad.
+
+470
+00:49:35.560 --> 00:49:37.360
+Devon Villalona: Let me think.
+
+471
+00:49:37.360 --> 00:49:38.159
+Zoom user: Jules is doing…
+
+472
+00:49:38.160 --> 00:49:40.670
+Devon Villalona: Legit is the perfect one, honestly.
+
+473
+00:49:41.220 --> 00:49:42.000
+Zoom user: Yeah, go ahead.
+
+474
+00:49:42.000 --> 00:49:42.900
+Devon Villalona: Like, he literally…
+
+475
+00:49:42.980 --> 00:49:44.440
+Jhuiwensley Belizaire: I'm on the contacts and stuff.
+
+476
+00:49:44.510 --> 00:49:49.310
+Zoom user: Yeah, you could just do that part, the little legal aspect. But.
+
+477
+00:49:50.000 --> 00:49:55.609
+Devon Villalona: If he does the mobile, all he'd have to do is what? Just, record his voice over the video? Could you do that?
+
+478
+00:49:56.060 --> 00:49:58.470
+Zoom user: Oh, very good.
+
+479
+00:49:58.470 --> 00:50:03.220
+Devon Villalona: And he could just type it in, you know? I can make a video for you, or whatever. Hour 15.
+
+480
+00:50:04.760 --> 00:50:08.780
+Devon Villalona: See, oh, the final committees for Gerber filing came out, let's go… the forms.
+
+481
+00:50:10.430 --> 00:50:11.680
+Devon Villalona: Let me see, let me see.
+
+482
+00:50:12.010 --> 00:50:21.899
+Devon Villalona: This is for our section, here it is, GGGG. Yep, go trigger right there now. This is our class. Let's click on it, see what it looks like. It's just the, you know, the thing we did for the CDR.
+
+483
+00:50:23.100 --> 00:50:33.450
+Devon Villalona: For sure. Evaluator, problem understanding the group, problem-solving approach, design, implementation, functional performance of the prototype. So this is filled out by our committee? Committee, yeah.
+
+484
+00:50:33.630 --> 00:50:36.200
+Devon Villalona: Rate 1 and 10. Nice, okay.
+
+485
+00:50:36.820 --> 00:50:37.780
+Devon Villalona: I'm killing.
+
+486
+00:50:38.950 --> 00:50:39.610
+Devon Villalona: Nope.
+
+487
+00:50:39.970 --> 00:50:42.460
+Devon Villalona: This one has been here.
+
+488
+00:50:45.700 --> 00:50:58.669
+Devon Villalona: All right, gentlemen. Yes, we should, we should… Yeah, yeah, yeah, I was gonna say, yeah. Okay, so, yeah, I think I could, I could do the mobile, like, screen record, talk it over, and he can just, like, stitch his voice over, right? You could do that, Jared, for the mobile?
+
+489
+00:50:58.820 --> 00:51:15.180
+Devon Villalona: For that… for that, because, like, that's… the mobile's gonna be the last thing, and then I will do a voiceover and be like, oh, you can see here this in sync, oh, I'm gonna search up this, and he could just do his own voiceover and just, like, put it for the mobile, and that would be the last thing. Not the last thing to do, but that could be a section. I can do that right after we record and do this part.
+
+490
+00:51:16.380 --> 00:51:17.200
+Devon Villalona: You know?
+
+491
+00:51:17.350 --> 00:51:18.140
+Zoom user: Okay, let me just make sure.
+
+492
+00:51:18.140 --> 00:51:30.620
+Devon Villalona: He's probably gonna have to do it here, because if he lives, like, 20 minutes away, doesn't that, like, add more time? Because what else is he gonna do it? What do you mean? Like, he was gonna do it on his computer at home. Yeah, yeah, yeah.
+
+493
+00:51:30.970 --> 00:51:34.890
+Devon Villalona: Think it's gonna all work out in time? I think so. 10.45.
+
+494
+00:51:36.870 --> 00:51:38.979
+Devon Villalona: 1 hour and 15 minutes for everything.
+
+495
+00:51:47.680 --> 00:51:49.750
+Devon Villalona: We should probably skip out on editing.
+
+496
+00:51:51.140 --> 00:51:55.020
+Devon Villalona: No, we can make it. I think so, I hope so.
+
+497
+00:51:56.410 --> 00:51:58.969
+Zoom user: I just don't know, I just wanna make sure this is recording.
+
+498
+00:52:00.320 --> 00:52:02.319
+Devon Villalona: Was that what you're checking right now? Did it work?
+
+499
+00:52:02.320 --> 00:52:03.090
+Zoom user: Yeah…
+
+500
+00:52:11.570 --> 00:52:12.900
+Devon Villalona: Did you think you do it?
+
+501
+00:52:13.340 --> 00:52:16.609
+Devon Villalona: Like, dude, I'm gonna do my best.
+
+502
+00:52:17.570 --> 00:52:24.030
+Zoom user: And it says unable to send the request because the host is recording a cloud recording. Okay, well, allegedly it's still recording. Okay.
+
+503
+00:52:26.240 --> 00:52:30.140
+Devon Villalona: Yeah, I can see somebody recording. Yeah, that's good.
+
+504
+00:52:30.580 --> 00:52:37.150
+Devon Villalona: Everybody's… everybody gets access, though. I've accepted everybody's request. I'm a very benevolent person. Everybody gets access to everything.
+
+505
+00:52:38.010 --> 00:52:39.070
+Zoom user: Damn!
+
+506
+00:52:41.680 --> 00:52:47.790
+Zoom user: Hey, dude, everything's been sitting now, we gotta, we gotta start, we gotta start. We're doing this in one shot, one shot and one shot only.
+
+507
+00:52:49.200 --> 00:52:53.149
+Devon Villalona: No coach? No, nothing. If anybody stutters, we just move on.
+
+508
+00:52:53.520 --> 00:52:56.570
+Zoom user: No, no one's stuttering, bro, you ain't gotta stutter.
+
+509
+00:52:56.570 --> 00:53:03.300
+Devon Villalona: For my tile for the CVE, risk tile, do you want me to do that after you come back to me at the password vault?
+
+510
+00:53:03.880 --> 00:53:06.600
+Zoom user: So, after… I'll do a quick.
+
+511
+00:53:06.600 --> 00:53:11.560
+Devon Villalona: breach report, and then back to you, and then you come back to me, and I do the Pass Revolt imports.
+
+512
+00:53:11.780 --> 00:53:17.210
+Devon Villalona: And then… I'm saying, like, the CV security risk, do you want that impaired with the breach report?
+
+513
+00:53:17.210 --> 00:53:39.149
+Zoom user: No, no, no, save them for the end, because once you do the, breach report, it comes to me, I do external and rotation, he talks about, generator, and then Jules would talk about the localities or whatever, and then that could transition to you guys, and you guys could just finish it off, with the CV scoring algorithm and the, mobile, and that's it. I think we'll have enough time.
+
+514
+00:53:39.390 --> 00:53:40.230
+Devon Villalona: Awesome.
+
+515
+00:53:42.460 --> 00:53:50.509
+Devon Villalona: It would be easier for you to do the mobile, like, add the mobile here, so that he doesn't have to do the whole thing? What do you mean, add the mobile here? Like…
+
+516
+00:53:51.040 --> 00:54:02.399
+Devon Villalona: join with the phone, do the Zoom meeting, and then just screen share? Yeah, I could do that, fuck it, I can do that, yeah. But, like, the thing is, it's like, he has to, like, put his voice over it. Yeah.
+
+517
+00:54:05.260 --> 00:54:06.140
+Devon Villalona: Okay.
+
+518
+00:54:07.710 --> 00:54:08.640
+Devon Villalona: Honestly.
+
+519
+00:54:08.640 --> 00:54:13.619
+Zoom user: Maybe that could work. Aaron could just literally show the phone, and Jared's just doing the fucking narration.
+
+520
+00:54:14.180 --> 00:54:17.859
+Devon Villalona: Yeah, and when you do the detection, use my email.
+
+521
+00:54:18.240 --> 00:54:21.320
+Devon Villalona: Yeah.
+
+522
+00:54:22.510 --> 00:54:32.529
+Devon Villalona: Yeah. Give them a female? Just, can you give them it to me, like, I don't know, just fucking… I'm gonna remember that. The text or some shit?
+
+523
+00:54:32.660 --> 00:54:37.520
+Devon Villalona: No, like, what is it called? Zeiss what? It's my last name and my first name.
+
+524
+00:54:39.890 --> 00:54:40.289
+Zoom user: Bear with me.
+
+525
+00:54:40.290 --> 00:54:42.860
+Devon Villalona: Zayas?
+
+526
+00:54:48.630 --> 00:54:52.469
+Devon Villalona: It's on Zoom? How about you screen share, so you can't move out of Zoom.
+
+527
+00:54:55.580 --> 00:55:01.340
+Devon Villalona: Gotta app now. Oh, we can do it on the phone? I'll… I'll… I'll contribute on my phone.
+
+528
+00:55:01.950 --> 00:55:04.460
+Devon Villalona: Oh, yeah, just write it down so he remembers or something.
+
+529
+00:55:05.680 --> 00:55:07.459
+Devon Villalona: Or just sending me a Discord.
+
+530
+00:55:08.310 --> 00:55:09.280
+Zoom user: ephemeral.
+
+531
+00:55:11.040 --> 00:55:17.039
+Devon Villalona: Either way, we're gonna have to do a cut to the mobile anyways, because it's… I gotta pull it up and shit, like, it's a cut.
+
+532
+00:55:18.390 --> 00:55:20.540
+Zoom user: Honestly, you could just… bro, you could just…
+
+533
+00:55:26.600 --> 00:55:28.880
+Zoom user: Damn, this camera sucks with that.
+
+534
+00:55:32.200 --> 00:55:36.190
+Zoom user: Ephemeral We practice.
+
+535
+00:55:37.460 --> 00:55:38.410
+Devon Villalona: You son, thank you.
+
+536
+00:55:40.480 --> 00:55:41.230
+Zoom user: What's up, girl?
+
+537
+00:55:41.230 --> 00:55:43.200
+Devon Villalona: You're… Wow.
+
+538
+00:55:46.150 --> 00:55:47.990
+Devon Villalona: Awesome,
+
+539
+00:55:49.010 --> 00:55:53.110
+Devon Villalona: What else do we gotta do? I think I'm ready to go and get this show on the road and do this take.
+
+540
+00:55:53.110 --> 00:55:55.670
+Zoom user: Yeah, let's… let's… let's bang this hoe out.
+
+541
+00:55:56.220 --> 00:56:01.830
+Jhuiwensley Belizaire: You want me to read… I… I don't think I need to read this whole Terms of Service thing right here.
+
+542
+00:56:01.830 --> 00:56:06.249
+Zoom user: No, no, no, just do, like, the legalities, like, just a general over… like, an overview.
+
+543
+00:56:06.620 --> 00:56:09.469
+Jhuiwensley Belizaire: Okay, just like the… just like the other thing.
+
+544
+00:56:09.920 --> 00:56:10.470
+Zoom user: Yeah.
+
+545
+00:56:10.470 --> 00:56:14.050
+Jhuiwensley Belizaire: Cause I'm just… I'm just gonna do it from the dome, then. Just like the other…
+
+546
+00:56:17.860 --> 00:56:19.030
+Jhuiwensley Belizaire: Alright, let me know.
+
+547
+00:56:19.210 --> 00:56:20.719
+Jhuiwensley Belizaire: I'm ready when you guys are.
+
+548
+00:56:20.880 --> 00:56:22.680
+Zoom user: Yeah, no, I'm really impressed.
+
+549
+00:56:28.370 --> 00:56:32.239
+Jhuiwensley Belizaire: Do you want to restart this reporting, then?
+
+550
+00:56:32.780 --> 00:56:36.230
+Zoom user: No, this recording isn't going the whole entire time, he could just snip it, honestly.
+
+551
+00:56:36.690 --> 00:56:37.420
+Jhuiwensley Belizaire: Okay.
+
+552
+00:56:37.950 --> 00:56:42.809
+Jared Zayas: But I mean, like, if you're gonna send it to me, it would probably just be easier to be a smaller file, because if you send me.
+
+553
+00:56:42.810 --> 00:56:43.940
+Zoom user: Oh, you don't want 10 gigabits?
+
+554
+00:56:43.940 --> 00:56:45.360
+Jared Zayas: 2 hours long.
+
+555
+00:56:45.360 --> 00:56:46.520
+Zoom user: You want 10 gigs?
+
+556
+00:56:47.770 --> 00:56:51.130
+Jared Zayas: It's gonna, like… my computer might shit itself.
+
+557
+00:56:52.210 --> 00:56:56.400
+Zoom user: Yeah, I don't know, stop that, if someone wants to… if he wants to share.
+
+558
+00:56:56.400 --> 00:56:59.440
+Jhuiwensley Belizaire: We gonna edit it tonight and send it all tonight.
+
+559
+00:56:59.990 --> 00:57:03.629
+Jared Zayas: Dog, I don't even… I don't know if I'm gonna get it on time, but…
+
+560
+00:57:04.140 --> 00:57:05.560
+Jared Zayas: Oh my gosh, you're hurting, man.
+
+561
+00:57:05.560 --> 00:57:08.220
+Zoom user: One thing about Jared, bro, Jared is clutch.
+
+562
+00:57:08.590 --> 00:57:10.850
+Jhuiwensley Belizaire: It's already 11, bro.
+
+563
+00:57:11.370 --> 00:57:12.849
+Jhuiwensley Belizaire: Yeah, that's what I'm saying.
+
+564
+00:57:12.850 --> 00:57:14.409
+Zoom user: Jordan breathes… he breathes close.
+
+565
+00:57:14.410 --> 00:57:16.119
+Jhuiwensley Belizaire: Y'all gotta let Dan go, bro.
+
+566
+00:57:16.120 --> 00:57:17.150
+Jared Zayas: This baby.
+
+567
+00:57:17.150 --> 00:57:18.580
+Jhuiwensley Belizaire: Go cut this thing up.
+
+568
+00:57:19.300 --> 00:57:21.359
+Jared Zayas: Jared plus Elias.
+
+569
+00:57:21.360 --> 00:57:23.499
+Zoom user: Bro, bro was born to be clutch.
+
+570
+00:57:26.170 --> 00:57:27.659
+Jhuiwensley Belizaire: Boom. Let's roll.
+
+571
+00:57:28.100 --> 00:57:28.710
+Jhuiwensley Belizaire: You guys are.
+
+572
+00:57:28.710 --> 00:57:29.330
+Zoom user: Are we…
+
+573
+00:57:29.330 --> 00:57:29.649
+Jhuiwensley Belizaire: No, dude.
+
+574
+00:57:29.650 --> 00:57:35.279
+Zoom user: Let's see if you can charge me a new recording, though, because he is right, that is, like, fucking 10 gigabytes.
+
+575
+00:57:35.280 --> 00:57:35.820
+Jared Zayas: True.
+
+576
+00:57:36.000 --> 00:57:36.460
+Jhuiwensley Belizaire: if…
+
+577
+00:57:37.990 --> 00:57:39.710
+Zoom user: It's done a fucking man.
+
+578
+00:57:39.970 --> 00:57:40.570
+Devon Villalona: Stop right.
+
+579
+00:57:40.570 --> 00:57:41.340
+Jhuiwensley Belizaire: thing.
+
+580
+00:57:41.870 --> 00:57:43.680
+Zoom user: Yeah, Ken, can you stop the recording?
+
+581
+00:57:46.270 --> 00:57:47.329
+Jhuiwensley Belizaire: It's a good thing.
+

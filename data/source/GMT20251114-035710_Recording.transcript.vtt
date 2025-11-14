@@ -1,0 +1,738 @@
+WEBVTT
+
+1
+00:00:02.640 --> 00:00:16.710
+Zoom user: Hello, everyone. We're gonna start off with who we are. We are Deeply Profound. Deeply Profound is a research security group found with a singular mission. It's to solve a critical pervasive problem in cybersecurity today.
+
+2
+00:00:17.100 --> 00:00:25.980
+Zoom user: We begin by asking ourselves, how do we remedy security breaches across multiple services and credentials that are compromised?
+
+3
+00:00:27.270 --> 00:00:33.120
+Zoom user: The problem… so the main problem we're solving is the credential breach crisis.
+
+4
+00:00:33.220 --> 00:00:44.570
+Zoom user: When your credentials are compromised in a data breach, you face a cascade of problems. Multiple services, multiple passwords, one breach exposes you across dozens of platforms.
+
+5
+00:00:45.010 --> 00:00:51.909
+Zoom user: Manual password rotation is obviously a headache. You must visit each site individually to reset passwords.
+
+6
+00:00:51.920 --> 00:01:05.899
+Zoom user: Verification code chaos. Each service sends codes via email requiring constant inbox checking. No privacy. Email providers scan your messages, expose your sensitive verification codes.
+
+7
+00:01:06.090 --> 00:01:12.450
+Zoom user: Cross-platform exposure, breach credentials on web platform, Compromise others.
+
+8
+00:01:12.570 --> 00:01:19.520
+Zoom user: The reality is, most people don't rotate passwords after breaches because it's too difficult and it's too time-consuming.
+
+9
+00:01:19.840 --> 00:01:26.849
+Zoom user: So, one of the solutions we came up with was, an aggregated email service, and that is EtherMail.
+
+10
+00:01:28.180 --> 00:01:34.630
+Zoom user: And, the other component of the platform is, the password, vault.
+
+11
+00:01:35.440 --> 00:01:36.450
+Zoom user: And…
+
+12
+00:01:39.140 --> 00:01:46.869
+Zoom user: So we'll be transitioning over to the vault and showing the first key features of what we have so far.
+
+13
+00:02:02.730 --> 00:02:03.720
+Jhuiwensley Belizaire: You're muted.
+
+14
+00:02:03.720 --> 00:02:05.290
+Kenith Philip: Sure, good. Okay.
+
+15
+00:02:05.430 --> 00:02:09.080
+Devon Villalona: Right now, I shall be demonstrating the desktop features with Electron.
+
+16
+00:02:10.039 --> 00:02:11.670
+Devon Villalona: I will now demonstrate.
+
+17
+00:02:12.160 --> 00:02:13.689
+Devon Villalona: The login with it?
+
+18
+00:02:17.330 --> 00:02:19.429
+Devon Villalona: With our… within the application…
+
+19
+00:02:21.350 --> 00:02:28.959
+Devon Villalona: Alright, we shall see… we shall now see the breach report. We are using an API called I've Been Pwned to…
+
+20
+00:02:30.270 --> 00:02:33.870
+Devon Villalona: search up breach reports. Right now, we'll just do my email for now.
+
+21
+00:02:35.700 --> 00:02:37.460
+Devon Villalona: Go ahead and hurry that off.
+
+22
+00:02:39.310 --> 00:02:41.250
+Devon Villalona: As you can see,
+
+23
+00:02:41.410 --> 00:02:54.380
+Devon Villalona: The breach report shows many different compromises in the millions of accounts that have been compromises, and even mine, with article links and everything, to show the user that there are many, breaches within the email.
+
+24
+00:02:57.080 --> 00:02:59.380
+Devon Villalona: And then I can return a dashboard right here.
+
+25
+00:02:59.660 --> 00:03:01.460
+Devon Villalona: And we'll talk about the Ether Mail.
+
+26
+00:03:02.480 --> 00:03:11.959
+Zoom user: So, this is the first thing the user would see when they, enter our platform, so…
+
+27
+00:03:12.070 --> 00:03:21.229
+Zoom user: I'm gonna first show you how we create an account. User comes, obviously agrees to our terms, they'll generate an account.
+
+28
+00:03:33.220 --> 00:03:40.859
+Zoom user: So, these credentials that are generated, the user would essentially save these down, and download the key to, enter the platform.
+
+29
+00:03:41.350 --> 00:03:43.300
+Zoom user: So, now go to login.
+
+30
+00:03:43.590 --> 00:03:46.050
+Zoom user: So, those same credentials that you just saw there.
+
+31
+00:04:10.720 --> 00:04:19.579
+Zoom user: So… After user enters, this would be essentially, The dashboard? So…
+
+32
+00:04:20.250 --> 00:04:25.930
+Zoom user: We have the big main key features of The mail service, of course.
+
+33
+00:04:26.570 --> 00:04:33.779
+Zoom user: would be the external accounts. This is the first thing a user would have to do when they enter a platform, is to aggregate their email services.
+
+34
+00:04:34.050 --> 00:04:41.730
+Zoom user: So, we offer support across multiple different, email providers, so users could aggregate all of them to one location.
+
+35
+00:04:42.170 --> 00:04:45.440
+Zoom user: So I'll enter my Gmail right now.
+
+36
+00:05:21.340 --> 00:05:26.360
+Zoom user: So, user… for most, services, they have to add.
+
+37
+00:05:26.440 --> 00:05:44.080
+Zoom user: They unfortunately have to get an app password, and most, email providers, they go out their way to make this very obscure. Lucky for you guys, we've added the links that could take the user straight there, so they could generate their app password. Once you do that, user enters their credentials, this is me, for example.
+
+38
+00:05:44.080 --> 00:05:55.709
+Zoom user: I'm doing this with the IMAP protocol. We also offer support for the Pope Protocol, which essentially means you could pull, all your logs out, said server, and…
+
+39
+00:05:56.040 --> 00:06:02.810
+Zoom user: take control of your data, but fast forward, we'll be using the IMAP protocol. I'll add the count right here.
+
+40
+00:06:12.790 --> 00:06:15.650
+Zoom user: So, this just verifies,
+
+41
+00:06:15.840 --> 00:06:28.109
+Zoom user: That it went through. Did… even use the IMAP protocol, I had to use DevCot. DevCot is an email, requirement to send mails.
+
+42
+00:06:28.290 --> 00:06:34.269
+Zoom user: And then I also had to use postfix, but this essentially verifies that it went through, so now I'm synced.
+
+43
+00:06:34.510 --> 00:06:42.860
+Zoom user: So then I would go over to pass rotation. So now, my inbox is synced, of course. So now I'm fetching from my actual email.
+
+44
+00:06:44.450 --> 00:06:46.219
+Zoom user: That I just connected.
+
+45
+00:07:00.270 --> 00:07:06.349
+Zoom user: And then boom. So the verification code came in, so this essentially would be for a targeted website.
+
+46
+00:07:13.280 --> 00:07:17.049
+Zoom user: And then, yeah, so now I'll be showing you the demo website.
+
+47
+00:07:24.940 --> 00:07:27.540
+Zoom user: Or Ken will be showing you the demo website.
+
+48
+00:07:27.980 --> 00:07:30.530
+Kenith Philip: Okay. So, having a…
+
+49
+00:07:31.040 --> 00:07:47.170
+Kenith Philip: Applications are complex, also comes with a lot of challenges. One of them is testing. Testing it on a mainstream website or application is obviously going to get us banned real quick. So, which is why we came up with a dummy website, a testing website here, so I will be showing you
+
+50
+00:07:47.450 --> 00:07:52.529
+Kenith Philip: how we have that set up. So, I have an account set up right here.
+
+51
+00:07:52.920 --> 00:07:55.099
+Kenith Philip: which I'll be logging into.
+
+52
+00:08:01.990 --> 00:08:15.949
+Kenith Philip: So as you can see, once I log in, it's a real simple website, which basically shows your username and your email, and some very basic information. Another feature of EtherMail that I'd like to show you
+
+53
+00:08:16.020 --> 00:08:39.270
+Kenith Philip: is the password generator, which basically lets users generate passwords, securely, and also gives them a choice on how they want to do it. They can either choose a random password, which mixes up letters, characters, and all that, or they could have a memorable one, which is easier to memorize. We also have a slider where you can choose the size of the password you want to set.
+
+54
+00:08:39.510 --> 00:08:56.480
+Kenith Philip: And yeah, so this could be used… the password rotation, which we'll be talking next, automatically does it, but we also give the user the choice to manually override it and choose a password of their own, if they wish to do so. I'll be handing it over back to Isaac.
+
+55
+00:08:59.430 --> 00:09:07.169
+Zoom user: So As you just went over the password generator, I'll be showing you how the email inbox looks like.
+
+56
+00:10:33.480 --> 00:10:53.139
+Zoom user: Alright, we'll be doing the severity scoring algorithm as this loads. Oh, actually, that's crazy. So, this is essentially what the user would see in the inbox. This is one, email, obviously, that I attached. You could attach multiple emails, and essentially, it'd be pulling in all your email from here.
+
+57
+00:10:53.380 --> 00:11:00.059
+Zoom user: We parse through this to get the verification codes, and the verification codes, essentially, how we're able to…
+
+58
+00:11:00.810 --> 00:11:10.570
+Zoom user: like, automate the whole process of the password rotation so the user doesn't have to go to each website one by one manually to, essentially
+
+59
+00:11:11.300 --> 00:11:16.300
+Zoom user: Spent hours at end to do multiple breaches across multiple services.
+
+60
+00:11:16.880 --> 00:11:19.939
+Zoom user: And yeah, this is the meal platform.
+
+61
+00:11:55.370 --> 00:11:59.300
+Jhuiwensley Belizaire: Hello, I'm Jewel. I work on, security and API.
+
+62
+00:11:59.640 --> 00:12:00.900
+Jhuiwensley Belizaire: Architecture.
+
+63
+00:12:01.490 --> 00:12:10.470
+Jhuiwensley Belizaire: And I just want to go over some… In terms of… use for our… Platform.
+
+64
+00:12:11.220 --> 00:12:14.890
+Jhuiwensley Belizaire: when you… Sign up to use our service.
+
+65
+00:12:15.810 --> 00:12:23.479
+Jhuiwensley Belizaire: We ask that you, sign the terms of use, and with that, For you to understand that.
+
+66
+00:12:23.580 --> 00:12:31.400
+Jhuiwensley Belizaire: You are consenting to use our application, and we do require that you provide us with… You're…
+
+67
+00:12:32.100 --> 00:12:35.780
+Jhuiwensley Belizaire: Credentials from your emails in order to access them.
+
+68
+00:12:35.910 --> 00:12:43.919
+Jhuiwensley Belizaire: Additionally, we have a very privacy-oriented setup, so we do not keep track of
+
+69
+00:12:44.150 --> 00:12:47.839
+Jhuiwensley Belizaire: Any of your information, and everything is end-to-end encrypted.
+
+70
+00:12:54.130 --> 00:13:02.930
+Jhuiwensley Belizaire: So you want to make sure… so we want to make sure that you are… getting security, from…
+
+71
+00:13:03.290 --> 00:13:04.670
+Jhuiwensley Belizaire: Top to bottom.
+
+72
+00:13:20.790 --> 00:13:22.409
+Devon Villalona: That would be fair internal.
+
+73
+00:13:25.480 --> 00:13:26.550
+Devon Villalona: I guess…
+
+74
+00:13:28.100 --> 00:13:32.169
+Devon Villalona: Oh, he's gonna make the… he has to make a cut anyways. The Jules… Jules, are you done?
+
+75
+00:13:34.790 --> 00:13:35.300
+Devon Villalona: There is…
+
+76
+00:13:35.300 --> 00:13:37.430
+Zoom user: Yeah, he's done, just keep on, just keep on.
+
+77
+00:13:39.580 --> 00:13:46.450
+Devon Villalona: Back to the Electron app on desktop, I shall be showing you guys the password vault and how you access it.
+
+78
+00:13:46.770 --> 00:14:01.270
+Devon Villalona: There's two ways to do it. On the screen, you can see there's a biometric fingerprint reader for Apple, or you can use your master user password that is offered when you register for our application. So let's go ahead and get inside the vault.
+
+79
+00:14:01.320 --> 00:14:23.239
+Devon Villalona: Here, you can see, where you can import all the different types of, emails and password into the vault in different formats. As you can see, here's the import, we have a manual one, there's one for last, past CSV, all in four different formats, but supported by 45 different, password,
+
+80
+00:14:23.760 --> 00:14:26.699
+Devon Villalona: Formats, in companies.
+
+81
+00:14:27.020 --> 00:14:31.549
+Devon Villalona: So we're gonna go ahead and, show you an example here.
+
+82
+00:14:32.310 --> 00:14:33.530
+Devon Villalona: LastPass.
+
+83
+00:14:33.740 --> 00:14:35.599
+Devon Villalona: There we go, 6 imports.
+
+84
+00:14:36.150 --> 00:14:50.159
+Devon Villalona: So, obviously, it imported in the vault, and as I import it into the vault, it's going to sync with mobile. Everything in the entire electron application is in sync with mobile, with,
+
+85
+00:14:50.210 --> 00:14:59.440
+Devon Villalona: the same features. So, obviously, if user were to go to the dashboard right now and go back in, obviously it locks itself.
+
+86
+00:14:59.950 --> 00:15:01.269
+Devon Villalona: And it's there.
+
+87
+00:15:01.640 --> 00:15:06.980
+Devon Villalona: And obviously, if you go here to lock it, it's still there. So let's go ahead and talk about…
+
+88
+00:15:07.120 --> 00:15:22.089
+Devon Villalona: the CV Security Alerts. So, CV Security Alerts is an API we're using with, conjunction with a breach report. This is for, like, if you want to, search up your breach reports, from, our, Have Been Pwned database.
+
+89
+00:15:22.100 --> 00:15:28.349
+Devon Villalona: to get more of a detailed report. Let's say if, like, you were reported on a breach with Walmart.
+
+90
+00:15:29.350 --> 00:15:30.180
+Devon Villalona: What the hell?
+
+91
+00:15:33.250 --> 00:15:35.169
+Devon Villalona: That's weird, it just worked before.
+
+92
+00:15:36.600 --> 00:15:46.320
+Devon Villalona: There it is. Alright, so as you can see, Walmart, it shows you the, more information on the report and what happened, the severity of it.
+
+93
+00:15:46.850 --> 00:15:55.240
+Devon Villalona: And… Now we shall be showing you our mobile, sync and implementations and features.
+
+94
+00:15:56.480 --> 00:15:57.470
+Devon Villalona: could.
+
+95
+00:15:58.580 --> 00:16:09.919
+Devon Villalona: And then that's it, but he does have to do editing. I gotta… now I gotta do the mobile thing. Yeah. Well, you want me to do it on the… the… just… you wanna do it? Or do… am I gonna do a voiceover?
+
+96
+00:16:11.820 --> 00:16:19.029
+Devon Villalona: You're gonna, you're gonna do it, like, you're gonna put it in after, right? Yeah. Okay, cool. The screen recording probably would do it, right? You haven't joined David.
+
+97
+00:16:19.210 --> 00:16:25.520
+Devon Villalona: No, no, he wants me to screen… you want to be screen recorded, right? Right. Or you want me to do the Zoom recording?
+
+98
+00:16:25.670 --> 00:16:29.770
+Devon Villalona: I could do one either.
+
+99
+00:16:31.020 --> 00:16:33.419
+Devon Villalona: On… on the Zoom? Yeah, alright.
+
+100
+00:16:35.010 --> 00:16:37.030
+Devon Villalona: Alright, I'm gonna join back.
+
+101
+00:16:37.770 --> 00:16:40.600
+Devon Villalona: It's probably easier for the reporting route, I do.
+
+102
+00:16:40.600 --> 00:16:43.039
+Jhuiwensley Belizaire: By the way, we're at, like, 15 minutes.
+
+103
+00:16:43.400 --> 00:16:48.950
+Devon Villalona: Yeah, it's fine. Got it. So, major caught taking out. Yeah, he's gonna have to do that.
+
+104
+00:16:49.250 --> 00:16:52.200
+Zoom user: There's, like, 5 minutes he's cutting. It doesn't matter.
+
+105
+00:16:55.470 --> 00:16:58.230
+Jhuiwensley Belizaire: Cut my whole session out.
+
+106
+00:16:59.710 --> 00:17:01.979
+Jhuiwensley Belizaire: Honestly, I don't think that's even needed.
+
+107
+00:17:02.620 --> 00:17:06.349
+Jhuiwensley Belizaire: You could take my whole section out, I don't… it's whatever.
+
+108
+00:17:06.359 --> 00:17:11.459
+Zoom user: Yeah, I mean, you could do that, but… That's low-key a red flag.
+
+109
+00:17:17.119 --> 00:17:18.400
+Jhuiwensley Belizaire: I mean, it's not like…
+
+110
+00:17:19.470 --> 00:17:19.839
+Zoom user: Yes.
+
+111
+00:17:19.849 --> 00:17:22.339
+Jhuiwensley Belizaire: So as long as we explain the project.
+
+112
+00:17:23.410 --> 00:17:27.759
+Devon Villalona: There's a limit, though, it can't be past, like, it's gotta be, like, the most, like, 11 minutes.
+
+113
+00:17:28.990 --> 00:17:32.110
+Jhuiwensley Belizaire: No, like, yeah, 11 minutes max.
+
+114
+00:17:32.870 --> 00:17:39.989
+Devon Villalona: No, everything… there's no loading screens in our video, right? Oh, yeah, we were running on a loading screen, too, so if you cut that out, like…
+
+115
+00:17:40.780 --> 00:17:43.380
+Zoom user: It's literally cutting, like, 5 minutes out.
+
+116
+00:17:43.380 --> 00:17:44.550
+Devon Villalona: Yeah.
+
+117
+00:17:45.210 --> 00:17:54.480
+Devon Villalona: Alright, I'm gonna join a mobile just to give him more ammo. If he needs to cut more shit, he at least he has the mobile, okay guys? Alright, are we still recording on the Zoom? Yeah. Alright, cool. I'm gonna join a mobile.
+
+118
+00:17:55.950 --> 00:18:01.929
+Devon Villalona: Let me, get the link. Where's the link? Right here? In this form.
+
+119
+00:18:07.030 --> 00:18:14.420
+Devon Villalona: You can't use the same account you're logged into? Yeah, yeah, no, it's the… I look crazy.
+
+120
+00:18:15.670 --> 00:18:19.020
+Devon Villalona: I'm like, fucking God, dude, damn. That shit's a lot as hell.
+
+121
+00:18:19.300 --> 00:18:21.220
+Devon Villalona: Oh, we should not click on that.
+
+122
+00:18:21.870 --> 00:18:26.560
+Devon Villalona: Now's the timer going out. It's, like, way too much. Alright.
+
+123
+00:18:35.070 --> 00:18:38.610
+Devon Villalona: Alright. Can everyone hear me in the call? I muted and deafened it.
+
+124
+00:18:39.400 --> 00:18:41.839
+Devon Villalona: I don't know.
+
+125
+00:18:42.380 --> 00:18:47.609
+Devon Villalona: And you can put it up, I deafened everything. Alright, cool. Alright.
+
+126
+00:18:47.870 --> 00:18:50.040
+Devon Villalona: Go ahead and unmute it here.
+
+127
+00:18:50.700 --> 00:18:55.350
+Devon Villalona: Alright, still recording. Awesome. I'm gonna go ahead and share the mobile now.
+
+128
+00:18:58.390 --> 00:19:00.410
+Devon Villalona: Where the fuck is the shirt? There it is?
+
+129
+00:19:01.310 --> 00:19:02.430
+Devon Villalona: Screen.
+
+130
+00:19:04.010 --> 00:19:05.709
+Devon Villalona: Almost so I can go, bro.
+
+131
+00:19:08.320 --> 00:19:09.740
+Devon Villalona: Share at the bottom.
+
+132
+00:19:13.990 --> 00:19:15.039
+Devon Villalona: Is it showing?
+
+133
+00:19:15.260 --> 00:19:16.959
+Devon Villalona: A lot of snow.
+
+134
+00:19:19.800 --> 00:19:22.750
+Devon Villalona: the only person… last person I can see who…
+
+135
+00:19:26.050 --> 00:19:26.770
+Devon Villalona: Oh.
+
+136
+00:19:30.450 --> 00:19:33.600
+Devon Villalona: That doesn't even give me an optional shit, it's stupid broke-ass shit.
+
+137
+00:19:34.160 --> 00:19:36.310
+Devon Villalona: Where's the Zoom? It's right here.
+
+138
+00:19:36.630 --> 00:19:46.549
+Devon Villalona: Oh, share right here. Yeah, no. Up here. Yeah, I know, bro, look at the options, check it out. Zoom, sorry, broccoli, and…
+
+139
+00:19:46.890 --> 00:19:51.750
+Devon Villalona: Including everything, receiving, enabled, to do not…
+
+140
+00:19:54.230 --> 00:20:00.299
+Devon Villalona: Okay. Does it… do you see it now? Yeah. Do you see the password? Yes. Okay, cool. Alright.
+
+141
+00:20:01.870 --> 00:20:05.280
+Devon Villalona: Here's our, passwords, cut.
+
+142
+00:20:05.460 --> 00:20:14.729
+Devon Villalona: Here's our, our mobile implementation using Flutter. We're gonna go ahead and log in, and you'll see that we have a Face ID for biometric unlock, and see all their features.
+
+143
+00:20:15.840 --> 00:20:18.959
+Devon Villalona: So we go in there, right? We're gonna check breach report.
+
+144
+00:20:23.210 --> 00:20:25.689
+Devon Villalona: shared email, right? Yeah.
+
+145
+00:20:26.180 --> 00:20:27.829
+Devon Villalona: We'll use Jared's email.
+
+146
+00:20:31.750 --> 00:20:35.080
+Devon Villalona: We're gonna show Jared's email here right here.
+
+147
+00:20:49.060 --> 00:20:55.409
+Devon Villalona: As you can see, Jared is severely exposed to our, to everything, actually.
+
+148
+00:20:57.870 --> 00:21:10.020
+Devon Villalona: And, we'll go ahead and check the password vault. As always, the password vault is, using our, Face ID instead of fingerprint, and as you can see, it's in sync with the passwords we just, imported.
+
+149
+00:21:12.140 --> 00:21:14.479
+Devon Villalona: And of course, CVE works here, too.
+
+150
+00:21:19.580 --> 00:21:20.820
+Devon Villalona: There you go.
+
+151
+00:21:21.600 --> 00:21:24.710
+Devon Villalona: And this will be the mobile implementation for,
+
+152
+00:21:25.210 --> 00:21:28.220
+Devon Villalona: That is in sync with our desktop app, Electron.
+
+153
+00:21:29.070 --> 00:21:29.856
+Devon Villalona: Go ahead.
+
+154
+00:21:30.910 --> 00:21:32.749
+Devon Villalona: Can I throw in units?
+
+155
+00:21:33.960 --> 00:21:36.089
+Devon Villalona: And then the outro, if you want one.
+
+156
+00:21:36.840 --> 00:21:37.550
+Devon Villalona: I mean…
+
+157
+00:21:37.740 --> 00:21:53.860
+Devon Villalona: What do you think? You think he's freaking down to 11? Unless you wanna… you wanna do your take on it now? So you just have ammo or some shit, because you gotta talk? No, we're definitely over, we just need someone to do the ending, like… Oh, Jared, perfect, Jared, Jared does ending.
+
+158
+00:21:54.030 --> 00:21:56.220
+Devon Villalona: Real quick. He's the last one.
+
+159
+00:21:57.640 --> 00:22:02.150
+Jared Zayas: How should I end it? Oh, wait, you might have to turn it on.
+
+160
+00:22:02.150 --> 00:22:03.949
+Devon Villalona: Go ahead and exit, I'm sorry.
+
+161
+00:22:05.840 --> 00:22:07.760
+Jared Zayas: You should probably leave from your phone, too.
+
+162
+00:22:07.760 --> 00:22:08.629
+Devon Villalona: Yeah, I am.
+
+163
+00:22:15.170 --> 00:22:21.210
+Jared Zayas: So… God, I don't even know how to end this.
+
+164
+00:22:21.790 --> 00:22:26.650
+Jared Zayas: So that concludes… Fucking…
+
+165
+00:22:26.800 --> 00:22:28.280
+Zoom user: Jesus Christ.
+
+166
+00:22:28.440 --> 00:22:29.040
+Zoom user: Well, hold up.
+
+167
+00:22:29.040 --> 00:22:32.110
+Jared Zayas: It's like I'm performing in front of a live audience right now.
+
+168
+00:22:32.110 --> 00:22:34.419
+Zoom user: Yeah, you're perform… you're performing good.
+
+169
+00:22:35.500 --> 00:22:37.759
+Jared Zayas: Isaac, you're laughing at me, bro.
+
+170
+00:22:37.760 --> 00:22:40.360
+Zoom user: Bro, you do MMA, bro, I'm good.
+
+171
+00:22:42.230 --> 00:22:51.250
+Jared Zayas: Alright, so that concludes our project, and our demo. Thank you for your attention. That sounds fucking dumb.
+
+172
+00:22:51.860 --> 00:22:53.280
+Zoom user: No, it doesn't, no dozen.
+
+173
+00:22:53.280 --> 00:22:54.850
+Jared Zayas: That's gonna be short and sweet, but…
+
+174
+00:22:54.850 --> 00:22:56.110
+Jhuiwensley Belizaire: And it's binding me.
+
+175
+00:22:56.110 --> 00:22:57.940
+Jared Zayas: Thanks for Jason, this is Madela.
+
+176
+00:22:57.940 --> 00:23:00.530
+Jhuiwensley Belizaire: Sounds good. Yeah, you're still confident with it.
+
+177
+00:23:00.530 --> 00:23:06.660
+Jared Zayas: our presentation and our demo of our project. Thank you for your attention.
+
+178
+00:23:06.910 --> 00:23:08.020
+Jared Zayas: That's everything.
+
+179
+00:23:08.430 --> 00:23:09.370
+Zoom user: Alright.
+
+180
+00:23:09.800 --> 00:23:10.600
+Jared Zayas: Say what?
+
+181
+00:23:10.850 --> 00:23:11.710
+Jared Zayas: That's it.
+
+182
+00:23:12.180 --> 00:23:14.399
+Jared Zayas: Oh, okay, yeah, okay, that's it.
+
+183
+00:23:19.020 --> 00:23:20.490
+Zoom user: And that concludes our presentation.
+
+184
+00:23:20.490 --> 00:23:21.250
+Jared Zayas: profit, and…
+
