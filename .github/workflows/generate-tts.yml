@@ -1,0 +1,64 @@
+name: Generate TTS with GPU
+
+on:
+  workflow_dispatch:
+    inputs:
+      speaker:
+        description: 'Speaker to generate (izaac/ken/all)'
+        required: true
+        default: 'all'
+      segments:
+        description: 'Number of segments (1-10, or "all")'
+        required: true
+        default: '1'
+
+jobs:
+  generate-tts:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -r requirements.txt
+      
+      - name: Setup Fish Speech
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          git clone https://github.com/fishaudio/fish-speech.git
+          cd fish-speech
+          pip install -e .[cpu]
+          python tools/download_models.py
+      
+      - name: Generate TTS
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          python scripts/batch_generate_tts.py \
+            --speaker ${{ github.event.inputs.speaker }} \
+            --segments ${{ github.event.inputs.segments }} \
+            --device cpu
+      
+      - name: Upload generated audio
+        uses: actions/upload-artifact@v4
+        with:
+          name: tts-audio-${{ github.event.inputs.speaker }}
+          path: output/tts_generated/*.wav
+          retention-days: 7
+      
+      - name: Create release with audio
+        if: github.event.inputs.segments == 'all'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: tts-${{ github.run_number }}
+          files: output/tts_generated/*.wav
