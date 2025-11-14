@@ -101,12 +101,13 @@ jobs:
         fi
     
     - name: Generate TTS audio
+      timeout-minutes: 10
       run: |
         cd output/tts/10min
         chmod +x generate_with_fish_speech.sh
         
-        # Run the generation script
-        bash generate_with_fish_speech.sh || true
+        # Run the generation script (first segment only for testing)
+        head -20 generate_with_fish_speech.sh | bash
         
         echo "✅ TTS generation complete"
         echo "Generated files:"
