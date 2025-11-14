@@ -20,12 +20,12 @@ jobs:
         lfs: true
     
     - name: Set up Python 3.12
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: '3.12'
     
     - name: Cache dependencies
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           ~/.cache/pip
@@ -86,7 +86,7 @@ jobs:
         cat fish-speech/api_server.log || echo "No logs found"
     
     - name: Upload generated audio
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: tts-audio-10min-${{ github.run_number }}
         path: |
