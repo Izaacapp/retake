@@ -97,16 +97,24 @@ clean:
 	find . -type f -name "*.pyc" -delete 2>/dev/null || true
 	@echo "✅ Build artifacts cleaned!"
 
+clean-models:
+	@echo "🧹 Cleaning Fish Speech models (3.4GB)..."
+	rm -rf fish-speech/checkpoints/
+	@echo "Cleaning Windows binaries (164MB)..."
+	rm -f fish-speech/ffmpeg.exe fish-speech/ffprobe.exe fish-speech/asr-label-win-x64.exe
+	@echo "✅ Models cleaned! (~3.6GB reclaimed)"
+
 clean-all: clean
 	@echo "🧹 Deep cleaning everything..."
 	rm -rf .venv/
 	rm -rf fish-speech/.venv/
 	rm -rf fish-speech/checkpoints/
+	rm -f fish-speech/ffmpeg.exe fish-speech/ffprobe.exe fish-speech/asr-label-win-x64.exe
 	@echo "Cleaning all generated TTS..."
 	rm -f output/tts/**/*.wav
 	@echo "Cleaning all Fish Speech references..."
 	rm -rf fish-speech/references/
-	@echo "✅ Everything cleaned! (~20GB reclaimed)"
+	@echo "✅ Everything cleaned! (~5GB reclaimed)"
 
 # Quick shortcuts
 all: status
