@@ -116,6 +116,25 @@ clean-all: clean
 	rm -rf fish-speech/references/
 	@echo "✅ Everything cleaned! (~5GB reclaimed)"
 
+clean-nuclear:
+	@echo "☢️  NUCLEAR CLEAN - Removing EVERYTHING except source code and TTS outputs"
+	@echo "This will delete:"
+	@echo "  - fish-speech/ (2GB+)"
+	@echo "  - data/ (900MB)"
+	@echo "  - .venv/ (500MB+)"
+	@echo "  - models/ voice embeddings"
+	@echo "  - All intermediate outputs"
+	@echo ""
+	@read -p "Continue? [y/N] " -n 1 -r; \
+	echo; \
+	if [[ $$REPLY =~ ^[Yy]$$ ]]; then \
+		rm -rf fish-speech/ data/ .venv/ models/ output/speakers/ output/original/ output/scripts/; \
+		echo "☢️  Nuked! Down to ~100MB (git + TTS outputs only)"; \
+		du -sh .; \
+	else \
+		echo "Cancelled."; \
+	fi
+
 # Quick shortcuts
 all: status
 	@echo "✅ Use 'make extract-embeddings' to generate voice models"
