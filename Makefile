@@ -72,22 +72,41 @@ test-video:
 	@echo "🧪 No video tests configured yet"
 
 clean:
-	@echo "🧹 Cleaning generated outputs..."
+	@echo "🧹 Cleaning build artifacts and generated outputs..."
+	@echo "Cleaning TTS outputs..."
+	rm -f output/tts/10min/*.wav
+	rm -f output/tts/10min/*.log
+	rm -f output/tts/10min/test_*.wav
 	@echo "Cleaning speaker audio segments..."
 	rm -f output/speakers/*/audio/*.wav
 	@echo "Cleaning speaker video segments..."
 	rm -f output/speakers/*/video/*.mp4
 	@echo "Cleaning concatenated voice samples..."
 	rm -f output/speakers/*/voice_samples/*_concat.wav
-	@echo "Cleaning temp files..."
+	@echo "Cleaning Fish Speech temp/cache..."
 	rm -f fish-speech/temp/*.wav fish-speech/temp/*.npy
-	@echo "✅ Output cleaned!"
+	rm -rf fish-speech/.cache/
+	@echo "Cleaning Fish Speech reference samples (keeping merged)..."
+	rm -rf fish-speech/references/*/samples/
+	rm -f fish-speech/references/*/sample_trimmed*.wav
+	@echo "Cleaning test outputs..."
+	rm -f test_*.wav
+	rm -f *.log
+	@echo "Cleaning Python cache..."
+	find . -type d -name "__pycache__" -exec rm -rf {} + 2>/dev/null || true
+	find . -type f -name "*.pyc" -delete 2>/dev/null || true
+	@echo "✅ Build artifacts cleaned!"
 
 clean-all: clean
-	@echo "🧹 Cleaning environments..."
+	@echo "🧹 Deep cleaning everything..."
 	rm -rf .venv/
 	rm -rf fish-speech/.venv/
-	@echo "✅ Everything cleaned!"
+	rm -rf fish-speech/checkpoints/
+	@echo "Cleaning all generated TTS..."
+	rm -f output/tts/**/*.wav
+	@echo "Cleaning all Fish Speech references..."
+	rm -rf fish-speech/references/
+	@echo "✅ Everything cleaned! (~20GB reclaimed)"
 
 # Quick shortcuts
 all: status
